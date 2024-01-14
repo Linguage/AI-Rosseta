@@ -71,148 +71,65 @@ Answerer: We had no random-access memory whatsoever until my senior year. We got
 
 ## Predicting the Future
 
-so it's separating when to go up there and could you have predicted the future 60 years later of
-computing from then 
-you know in fact the hardest question I was ever asked was
-what could I have predicted in other words the interviewer asked me she said
-you know what about computing has surprised you you know and immediately I ran I rattled off a couple dozen things
-and inches okay so what didn't surprise and I was I tried for five minutes to
-think of something that I thought I would have predicted and I and I and I couldn't but I let me say that this
-machine I didn't know well it there wasn't there wasn't much else in the
-world at that time the 650 was the first machine that was that there were more than a thousand of ever before that
-there were you know there was each machine there might be a half a dozen examples maybe my first mass-market
-mass-produced the first one yeah done in quantity and and IBM I didn't sell them
-they they rented them but but they they rented them to universities that at great you know I had a great deal and
-and so that's why a lot of students learned about computers at that time so
-you refer to people including yourself who gravitate toward a kind of
-computational thinking as geeks for at least I've heard you used that terminology it true that I think there's
-something that happened to me as I was growing up that made my brain structure
-in a certain way that resonates with with computers so there's the space of people it's 2% of the population you
-empirically estimate that's a prick it's been proven fairly constant over
-most of my career however it might be different now because kids have
-different experiences when they're young so what does the world look like to a
-geek what is what is this aspect of thinking that is unique to their makes
-it yeah that makes a geek this is cuter
-the important question in in the 50s IBM noticed that that there were geeks
-and non geeks and so they tried to hire geeks and they put out as worth papers saying you know if you play chess come
-to Madison Avenue and for an interview or something like this they were they were trying for some things so what it
-what what is it that I find easy and other people tend to find harder and and
-I think there's two main things one is this with is ability to jump jump levels
-of abstraction so you see something in the large and you see something in the
-small and and can you pass between those unconsciously so you know that in order
-to solve some big problem what you need to do is add one to a into a certain
-register or anything that gets you to another step and you can and we and below the yeah I mean I don't go down to
-the electron level but I knew what those milliseconds were what the drum was like on the 650 I knew how I was gonna factor
-her number or or find a root of an equation or something be alavés because of what was doing and and as I'm
-debugging I'm going through you know did I make a key punch err did I did I write
-the wrong instruction do I have the wrong wrong thing in a register and each level at each level it is different and
-so this idea of being able to see something at all at lots of levels and
-fluently go between them it seems to me to be more pronounced much more pronounced in in the people that
-with computers like I got so in my books I also don't stick after the high level
-but but i but i mix low level stuff with
-high level and this means that some people think you know that I that I
-should write better books and it's probably true but but other people say
-well but that's if you think like like that then that's the way to train yourself like to keep mixing the levels
-and and learn more and more how to jump between so that that's the one thing the other the other thing is that it's more
-of a talent it to be able to deal with
-non-uniformity where there's case one case two case three instead of instead
-of having one or two rules that govern everything so if so it doesn't bother me
-if I need like an algorithm has ten steps to it you know each step is does
-something else that doesn't bother me but a lot of a lot of pure mathematics is based on one or two rules which which
-are universal and and and so this means that people like me sometimes work with
-systems that are more complicated than necessary because it doesn't bother us that we don't that we didn't figure out
-the simple rule and you mentioned that while Jacobi boule Abel and all the
-mathematicians in 19th century may have had symptoms of geek the first hundred
-percent legit geek was touring Alan Torrie I I think he had yeah a lot more
-of this quality than anyone could from
-reading the kind of stuff he didn't so hot as touring what influence has
-touring had on you well well your way and so I didn't know that aspect of him
-until after I graduated some years I it has undergraduate we had a class that
-talked about computability theory and Turing machines and and that was all it
-sounded like a very specific kind of purely theoretical approach to stuff
-so when how old was I when I when I learned that he thought he had you know
-designed when she and that he wrote the you know you wrote a wonderful manual
-for for Manchester machines and and he invented all the subroutines and and and
-he was a real hacker that that he had his hands dirty I thought for many years that he had
-only done purely formal work as I started reading his own publications I
-could yeah you know I could feel this kinship and and of course he had a lot
-of peculiarities like he wrote numbers backwards because I mean left to right
-to the right to left because that's the that's it was easier for computers to process him that way what do you mean
-left to right he would write PI as you know nine five one four point three I
-mean okay right forget it for one point
-three on the blackboard I mean when he he we had trained himself to to do that
-because the computers he was working with I worked that way inside trained himself to think like a computer well
-there you go that's nuts geek thinking you've practiced some of the most
-literate programming
-elegant formalism in computer science and yet you're the creator of a concept
-like literate programming which seems to move closer to natural language type of
-description of programming yep yeah absolutely so how do you see those two as conflicting as the formalism of
-theory and the idea of literate programming so there we are in a non uniform system well I don't think one
-one-size-fits-all and I don't and I don't think all truth lies in one in one
-kind of expertise and so somehow in a way you'd say my what my life is a
-convex combination of English and mathematics and you're okay with that
-and not only that I think thriving I wish you know I want my kids to be that way I want cetera not used left-brain
-right-brain at the same time you got a lot more done that's that was part of the and I've heard that you didn't
-really read for pleasure until into your 30s literature true you know more about
-me than I do but I'll try to be consistent with what you're really ya know just believe me yeah just go with whatever story I tell
-you it'll be easier that way the conversation I've heard mentioned a
-literary influences
-Philip Roth's American pastoral which I love as a book I don't know if it was it
-was mentioned as something I think that was meaningful to you as well in either
-case what literary books had a lasting impact on you what okay good so I so I
-met Russ already well we both got doctors from Harvard on the same day so
-I so we were yeah we had lunch together and stuff like that and but he knew that
-you know computer books would never sell well well all right so you say you you
-you you're a teenager when you left Russia so I I have to say that Tolstoy
-was one of the big influences on me I especially like Anna Karenina not
-because of a particular area of the plot of the story where but because there's
-this character who you know did the philosophical discussions it's all it's
-a whole way of life is worked out there it's among the characters until in and
-so it that I thought was was especially beautiful on the other hand does they
-have ski I I didn't like at all because I I felt that he his genius was mostly
-because he kept forgetting what he what he had started out to do and he was just sloppy I didn't think that that it then
-that he polished his stuff at all and and I tend to admire somebody who who
-Todd's the i's and cross the t's so that the music of the prose this way you admire more and that I certainly do
-admire the music of the language which I couldn't appreciate in the Russian original but but I can and Victor Hugo
-Glenn's close friendships much his closer but but Tolstoy I like the same
-reason I like Herman Wouk as a as a novelist I that I think I like his book
-Marjorie Morningstar has a similar character in who who who developed his own personal philosophy and export and
-it called goes in in was consistent yeah
-right and it's worth worth pondering uh so zo like Nietzsche and like what you
-don't like Friedrich Nietzsche or age yeah no no you like this has like I keep
-seeing quotations for Nietzsche and and you never tempt me to read any further
-please full of contradictions we will certainly not appreciate him but Schiller you know I'm trying to get the
-cross what I appreciate in literature and part of it is the is is as you say
-the music of the language of the way it flows and take Raymond Chandler versus
-Dashiell Hammett Dashiell Hammett sentences are awful and Raymond Chandler's are beautiful they just flow
-so I I don't I don't read literature because it's supposed to be good for me
-or because somebody said it's great but but it I could find things that I like I
-mean you mentioned you address like James Bond so like I love Ian Fleming I
-think he's got a he had a really great gift for if he has a golf game or game
-of bridge or something and this comes into a story it'll it'll be the most exciting golf game or or you know the
-absolute best possible hands a bridge that that exists and and any he exploits
-it and tells it beautifully as well so in connecting some things here looking
-at literate programming and being able to it convey encode algorithms to a
-computer in a way that mimics how humans speak how what do you think about
-natural language in general and the messiness of our human world about trying to express yeah difficult things
-so the idea of literate programming is to is really to try to understand
-something better by seeing it from these two perspectives the formal and the informal if we try to understand a
-complicated thing if we can look at it in different ways and so this is in fact
-the key to technical writing a good technical writer try not to be obvious about it but says
-everything twice formally and informally or maybe three times but you try to give
-the reader a way to put the concept into
-his own brain or her own brain is that better for the writer or the reader or
-both well the writer just tries to understand the reader that's the goal of
-a writer is to have a good mental image of the reader and to say what the reader
-expects next and to to impress the reader with what has impressed the
-writer why something is interesting so when you have a computer program we try
-to instead of looking at it as something that we're just trying to give an instruction to the computer what we
-really want to be is giving giving insight to the person who's who's gonna
-be maintaining this program or to the programmer himself when he's debugging
-it as to why this stuff is being done and so all the techniques of exposition
-that a teacher uses or book writers make you better program or if your if your
-program is going to be not just a one-shot deal so how difficult is that
-Informal vs formal
+Questioner: So, it's separating when to go up there, and could you have predicted the future 60 years later of computing from then?
+
+Answerer: You know, in fact, the hardest question I was ever asked was, "What could I have predicted?" In other words, the interviewer asked me. She said, "You know what about computing has surprised you?" Immediately, I rattled off a couple dozen things. Then she asked, "Okay, so what didn't surprise?" I tried for five minutes to think of something that I thought I would have predicted, and I couldn't. But let me say that this machine, I didn't know. Well, there wasn't much else in the world at that time. The 650 was the first machine that there were more than a thousand of. Ever before that, there might be a half a dozen examples, maybe my first mass-market, mass-produced, the first one, yeah, done in quantity. IBM didn't sell them; they rented them. But they rented them to universities at a great deal, and that's why a lot of students learned about computers at that time.
+
+Questioner: You refer to people, including yourself, who gravitate toward a kind of computational thinking as geeks. For at least, I've heard you used that terminology. Is it true that you think there's something that happened to me as I was growing up that made my brain structure in a certain way that resonates with computers? So, there's the space of people, it's 2% of the population. You empirically estimate that's a prick; it's been proven fairly constant over most of my career. However, it might be different now because kids have different experiences when they're young. So, what does the world look like to a geek? What is this aspect of thinking that is unique to their makes it, yeah, that makes a geek? This is cuter.
+
+Answerer: The important question in the 50s IBM noticed that there were geeks and non-geeks. So, they tried to hire geeks and put out ads or papers saying, "If you play chess, come to Madison Avenue for an interview," or something like this. They were trying for something. What is it that I find easy, and other people tend to find harder? I think there are two main things. One is this ability to jump levels of abstraction. So, you see something in the large, and you see something in the small, and can you pass between those unconsciously? In order to solve some big problem, what you need to do is add one to a certain register or anything that gets you to another step, and you can go below the, yeah. I mean, I don't go down to the electron level, but I knew what those milliseconds were, what the drum was like on the 650, I knew how I was going to factor a number or find a root of an equation or something because of what was doing. As I'm debugging, I'm going through, did I make a key punch error, did I write the wrong instruction, do I have the wrong thing in a register, and each level is different. So, this idea of being able to see something at lots of levels and fluently go between them seems to be more pronounced, much more pronounced in the people that work with computers. I got so, in my books, I also don't stick after the high level, but I mix low-level stuff with high level, and this means that some people think, you know, that I should write better books, and it's probably true. But other people say, well, but that's if you think like that, then that's the way to train yourself, like to keep mixing the levels and learn more and more how to jump between. So, that's one thing. The other thing is that it's more of a talent to be able to deal with non-uniformity where there's case one, case two, case three, instead of having one or two rules that govern everything. So, it doesn't bother me if I need like an algorithm has ten steps to it; each step is does something else. That doesn't bother me. But a lot of pure mathematics is based on one or two rules which are universal. This means that people like me sometimes work with systems that are more complicated than necessary because it doesn't bother us that we didn't figure out the simple rule.
+
+Questioner: And you mentioned that while Jacobi, Boule, Abel, and all the mathematicians in the 19th century may have had symptoms of geek, the first 100% legit geek was Turing, Alan Turing. I think he had a lot more of this quality than anyone could from reading the kind of stuff he didn't show as hot as Turing. What influence has Turing had on you?
+
+Answerer: Well, your way, and so I didn't know that aspect of him until after I graduated, some years later, as an undergraduate, we had a class that talked about computability theory and Turing machines. That sounded like a very specific, purely theoretical approach to stuff. So, when, how old was I when I learned that he thought he had designed when she and that he wrote the, you know, he wrote a wonderful manual for Manchester machines, and he invented all the subroutines. He was a real hacker that he had his hands dirty. I thought for many years that he had only done purely formal work. As I started reading his own publications, I could feel this kinship. And of course, he had a lot of peculiarities. Like he wrote numbers backward because from left to right, to the right to left, because that's the easier for computers to process him that way. What do you mean left to right? He would write PI as, you know, 9 5 1 4.3. I mean, okay, right, forget it, for one point three on the blackboard, I mean when he, he had trained himself to do that because the computers he was working with worked that way inside, trained himself to think like a computer. Well, there you go, that's nuts, geek thinking.
+
+提问者： 所以，这是分离何时上升的一个方面，你当时能预测到60年后的计算机世界吗？
+
+回答者： 你知道，事实上，我被问过的最难的问题是，我能预测什么，换句话说，面试官问我，她说，你知道计算机的哪些方面让你感到惊讶。我立刻列举了几十个事物。然后她问，那么有什么不让你感到惊讶的呢？我试了五分钟，试图想出我认为我可能会预测到的事情，但我不能。但让我说一下，这台机器，我并不了解，因为那时世界上没有太多其他东西。650是第一台有超过一千台的机器，之前从来没有超过一千台的，每台机器可能只有半打例子，也许是我第一次量产的，IBM没有卖给他们，他们是租给大学的，而且租金很便宜，所以那个时候很多学生学到了计算机。
+
+提问者： 你提到那些倾向于一种计算思维的人，包括你自己，被称为“geeks”，至少我听过你用过这个术语。你认为那是真的吗？我认为有些事情发生在我成长过程中，使我的大脑结构以某种方式共鸣于计算机。这是一个人群，占人口的2%，你根据经验估计这是一个固定的比例，大部分我的职业生涯都是如此。然而，现在可能会有所不同，因为孩子们在年轻时有不同的经历。那么，对于一个geek来说，这个世界是什么样的？是什么独特的思维方式让他们成为geek？
+
+回答者： 这是一个重要的问题。在50年代，IBM注意到有geeks和非geeks，于是他们试图雇佣geeks，并发布了一些文件，表示如果你擅长下棋，就来Madison Avenue面试之类的。他们试图找寻一些东西。那么我所发现容易而其他人往往发现困难的是两件主要的事情。一是能够跳跃抽象的层次，你在大的方面看到一些东西，你在小的方面看到一些东西，你能够在它们之间毫不费力地切换。你知道为了解决一个大问题，你需要在某个寄存器中加一，或者做一些将你带到下一步的事情。我们在调试时经常经历这个过程，每个层次都不同。所以这种能够在许多层次上看到东西并且流畅地在它们之间切换的能力，我觉得在与计算机有关的人中更为突出，更为显著。在我的书中，我也不仅限于高层次的内容，我将低层次的东西与高层次的内容混合在一起，这意味着一些人认为我应该写得更好，这可能是真的，但其他人说，那是一种培养自己的方式，保持混合层次，学会更多地跳转，所以这是其中一件事。另一方面，更多的是一种才能，能够处理非均匀性，存在案例一、案例二、案例三，而不是有一两个规则支配一切。所以如果一个算法有十个步骤，每个步骤都做一些不同的事情，对我来说没问题，但很多纯数学是基于一两个普遍的规则，这意味着像我这样的人有时候会处理比必要更复杂的系统，因为我们不在乎我们没有找到简单规则，这并不影响我们。你提到雅可比、布尔、阿贝尔以及19世纪所有的数学家可能都有geek的症状，但第一个百分之百合法的geek是图灵，艾伦·图灵。我认为他拥有比任何人都更多的这种品质。
+
+提问者： 图灵对你有什么影响？
+
+回答者： 直到我毕业几年后，我才知道他的这一方面。在我本科时，我们有一门课讲授可计算性理论、图灵机等等，那时一切听起来都是一种非常特定的纯理论方法。所以我是多大的时候，我才了解到他认为他设计了机器，并且他写了一份出色的手册给曼彻斯特机器，他发明了所有的子程序。他是一个真正的黑客，他的手很脏。多年来，我一直以为他只做了纯粹的形式工作，当我开始阅读他的出版物时，我能感到这种亲切感。当然，他有很多奇怪之处，比如他倒写数字，因为从左到右或者从右到左对计算机来说更容易处理。从左到右，他会写PI为9 5 1 4.3。我是说好吧，算了吧，为了黑板上的1.3，他训练自己那样做，因为他使用的计算机也是这样处理的，他训练自己像一台计算机一样思考。嗯，这就是疯狂的geek思维。
+
+## literate programming
+
+Questioner: You've practiced some of the most elegant formalism in computer science, and yet you're the creator of a concept like literate programming, which seems to move closer to a natural language type of description of programming. How do you see those two as conflicting, the formalism of theory and the idea of literate programming?
+
+Answerer: So there we are in a non-uniform system. Well, I don't think one size fits all, and I don't think all truth lies in one kind of expertise. Somehow, in a way, you'd say my life is a convex combination of English and mathematics, and you're okay with that. And not only that, I think thriving. I wish, you know, I want my kids to be that way. I want to, not use left-brain right-brain at the same time. You get a lot more done; that was part of the...
+
+Questioner: And I've heard that you didn't really read for pleasure until into your 30s, literature. True, you know more about me than I do, but I'll try to be consistent with what you're really, ya know, just believe me. Yeah, just go with whatever story I tell you; it'll be easier that way. The conversation I've heard mentioned a literary influence, Philip Roth's American Pastoral, which I love as a book. I don't know if it was mentioned as something, I think that was meaningful to you as well. In either case, what literary books had a lasting impact on you?
+
+Answerer: Okay, good. So I met Roth already; we both got doctors from Harvard on the same day. So we had lunch together and stuff like that. But he knew that, you know, computer books would never sell. Well, all right, so you say you're a teenager when you left Russia. So I have to say that Tolstoy was one of the big influences on me. I especially like Anna Karenina, not because of a particular area of the plot or the story, but because there's this character who did the philosophical discussions. It's a whole way of life is worked out there among the characters until in and so that I thought was especially beautiful. On the other hand, Dostoevsky, I didn't like at all because I felt that his genius was mostly because he kept forgetting what he had started out to do, and he was just sloppy. I didn't think that he polished his stuff at all, and I tend to admire somebody who Todd's the i's and crosses the t's so that the music of the prose, this way you admire more. And that I certainly do admire the music of the language, which I couldn't appreciate in the Russian original, but I can. And Victor Hugo, Glenn's close friendships much his closer, but Tolstoy I like for the same reason I like Herman Wouk as a novelist. I think I like his book Marjorie Morningstar, has a similar character who developed his own personal philosophy and export, and it called goes in, is consistent. Yeah, right, and it's worth pondering. So, like Nietzsche and like what you don't like Friedrich Nietzsche or age? Yeah, no, no, you like this has like I keep seeing quotations from Nietzsche, and you never tempt me to read any further. Please, full of contradictions; we will certainly not appreciate him. But Schiller, you know, I'm trying to get the cross, what I appreciate in literature. And part of it is, as you say, the music of the language, the way it flows. Take Raymond Chandler versus Dashiell Hammett. Dashiell Hammett's sentences are awful, and Raymond Chandler's are beautiful; they just flow. So, I don't read literature because it's supposed to be good for me or because somebody said it's great. But I could find things that I like. I mean, you mentioned, you address, like James Bond. So, like, I love Ian Fleming; I think he's got a he had a really great gift for, if he has a golf game or a game of bridge or something, and this comes into a story, it'll be the most exciting golf game or the absolute best possible hands at bridge that exists. And he exploits it and tells it beautifully as well.
+
+Questioner: In connecting some things here, looking at literate programming and being able to convey, encode algorithms to a computer in a way that mimics how humans speak, what do you think about natural language in general and the messiness of our human world about trying to express difficult things?
+
+Answerer: So the idea of literate programming is to try to understand something better by seeing it from these two perspectives, the formal and the informal. If we try to understand a complicated thing, if we can look at it in different ways. So this is, in fact, the key to technical writing. A good technical writer tries not to be obvious about it but says everything twice, formally and informally, or maybe three times. But you try to give the reader a way to put the concept into his own brain or her own brain. Is that better for the writer or the reader or both?
+
+Questioner: Well, the writer just tries to understand the reader. That's the goal of a writer is to have a good mental image of the reader and to say what the reader expects next and to impress the reader with what has impressed the writer, why something is interesting. So when you have a computer program, we try to, instead of looking at it as something that we're just trying to give an instruction to the computer, what we really want to be is giving insight to the person who's going to be maintaining this program or to the programmer himself when he's debugging it, as to why this stuff is being done. So all the techniques of exposition that a teacher uses or book writers make you a better program or if your program is going to be not just a one-shot deal.
+
+提问者： 你在计算机科学中练习了一些最优雅的形式主义，但你也是文学编程这个概念的创造者，这似乎更接近于自然语言类型的编程描述。你如何看待这两者之间的冲突，理论的形式主义和文学编程的思想？
+
+回答者： 那么我们就处于一个非均匀的系统中。嗯，我认为并非一刀切，我也不认为所有的真理都在一种专业中。以某种方式来说，你可以说我的生活是英语和数学的凸组合，而你对此感到满意。不仅如此，我认为我在这样的环境中茁壮成长。我希望，你知道，我希望我的孩子也能这样，我希望同时运用左脑和右脑。你会更有效率，这也是成功的一部分。
+
+提问者： 我听说你直到30多岁才真正开始阅读文学作品，是文学。是的，你了解我比我自己更多，但我会尽量与你说的保持一致。是的，随便相信我说的任何故事吧，这样会更容易。在对话中，我听说提到了文学影响，菲利普·罗斯的《美国牧歌》是其中之一，我也喜欢这本书，我想这对你来说也是有意义的。无论如何，哪些文学作品对你产生了持久的影响？
+
+回答者： 好的。我已经见过罗斯了，我们在同一天都从哈佛大学获得了博士学位。所以我们一起吃过午餐之类的。但他知道计算机书籍永远不会卖得好。好吧，你说你是离开俄罗斯时的十几岁少年。我不得不说，托尔斯泰对我有很大的影响，特别是我喜欢《安娜·卡列尼娜》，不是因为情节或故事的特定区域，而是因为有这么一个角色，他进行了哲学讨论，整个生活方式在那里得到了体现，是在人物之间的。所以我认为那是特别美丽的。另一方面，陀思妥耶夫斯基我一点都不喜欢，因为我觉得他的天赋主要是因为他总是忘记他最初想做什么，而且他太草率了。我认为他根本没有把自己的作品搞得井井有条。我认为值得钦佩的是那些能够把事情做到井井有条的人，他们会对文字的音乐感到钦佩。这种音乐的美，我在俄语原著中无法欣赏，但我能感受到。雨果、格伦斯·克洛斯的友谊更加亲密，但是托尔斯泰以相同的原因让我喜欢上了赫尔曼·沃克。作为小说家，我喜欢他的书《玛乔丽·莫宁斯塔》有一个类似的角色，他发展了自己的个人哲学并坚持，这被称为坚持一致。
+
+提问者： 那么，你对自然语言有什么看法，以及我们人类世界的混乱，试图表达困难的事情？
+
+回答者： 文学编程的理念实际上是为了通过从正式和非正式两个角度看待事物来更好地理解它。如果我们试图理解一个复杂的事物，如果我们可以从不同的角度看待它，这实际上是技术写作的关键。一个好的技术作者会试图不显而易见地这样做，但会正式和非正式地说一切，或者可能是三次。但你会试图为读者提供一种将概念放入他自己大脑或她自己大脑中的方法。这对于作者或读者哪一个更好，或者两者兼而有之？
+
+提问者： 那么作者只是试图理解读者。这是作家的目标，是对读者有一个良好的心理形象，并说出读者下一步的期望，并向读者展示什么让作者感到有趣。所以当你有一个计算机程序时，我们试图的不是将其视为我们只是试图向计算机发出指令的东西，而是真正希望将洞察力传递给将要维护这个程序的人，或者当他调试时，作为程序员本人，为什么要这样做。所以所有教师使用的解释技巧或书写者使你更好的程序，如果你的程序不仅仅是一次性的话。
+
+
+
+
+## Informal vs formal
+so how difficult is that
 do you see hope for the combination of informal and formal for the programming
 task yeah I I'm the wrong person to ask I guess because I'm a geek but but I
 think for a geek it's easy I don't know I don't know see not some people have
@@ -222,7 +139,9 @@ I'm not the right one to to uh to judge but I don't think you teach any person
 any particular skill like I do think that that writing is is half of my life
 and so I put it together and let program he won't even when I'm writing a one-shot program I I write it in
 literate way because I get it right faster though now does it get compiled
-How difficult is a design
+
+## How difficult is a design
+
 automatically or so I guess on the technical side my question was how
 difficult is a design a system where much of the programming is done informally informally yeah informally I
 think whatever works to make it understandable is good but then you have
@@ -247,7 +166,8 @@ I'm pointing to contain the numbers one two and six so by putting it in formally
 and also I converted into a into a dialogue statement that helps me
 understand the logical statement that he's written down as a string of numbers in terms of some abstract variables
 Eddie yeah that's really interesting so maybe an extension of that there has been a
-Using data to construct algorithms
+
+## Using data to construct algorithms
 resurgence in computer science and machine learning and neural networks so
 using data to construct algorithms so it's another way to construct algorithms
 really yes you can think of it that way so as opposed to natural language to
@@ -258,7 +178,8 @@ and would you know which is probably why it's it's like it's taken off that it
 has its own community that I thought really that really resonates with that but it's hard to you know to trust
 something like that because nobody even the people who who work with it that
 they have no idea what is what has been learned that's a really interesting thought that it's it makes algorithms
-Accessibility of algorithms
+
+## Accessibility of algorithms
 more accessible to a different community a different type of brain yep and that's
 really interesting because just like literate programming perhaps could make
 programming more accessible to a certain kind of brain there are people who think it's just a matter of Education and
@@ -314,7 +235,10 @@ computer science 3d comes comes in and and a lot of these comets are methods
 were found first in applications to artificial intelligence or cryptography
 and in my case I I just liked him and it was associated more with puzzles that
 you like the most in the domain of graphs and graph theory graphs are great
-Graph theory
+
+
+## Graph theory
+
 because they're terrific models of so many things in the real world and and
 and and you you throw numbers on a graph you got a network and so there you're right there you have but many more
 things so but comma toriel in general is in any arrangement of objects that that
@@ -349,7 +273,8 @@ you your problem has gotten more than ten times harder but there was an
 explosion of ideas about combinatoric s-- in the 70s and to the point that but
 Mike's take 1975 I bet you more than half of all the journals of computer
 science we're about combinatorial method and what kind of problems were occupying people's minds what kind of problems in
-Problems in combinatorics
+
+## Problems in combinatorics
 combinatorics was it's it's that gravity graph theory yeah gravity was was quite
 dominant I mean no but all of the np-hard problems that you have like
 Hamiltonian path or foul sail going beyond yeah yeah going beyond graphs you
@@ -372,7 +297,8 @@ a whole bunch of brand new methods that the fires I know there's no other there'
 covers this particular approach and and so I'm trying to do my best of exploring
 the tip of the iceberg and and and I try out lots of things and and keep keep
 rewriting finding as I find better better method so what's your writing
-Thinking and writing process
+
+## Thinking and writing process
 process like what's your thinking and writing process like every day so what's
 your routine even yeah I guess it's actually the best question because I spent seven days a
 week you're doing it the most prepares to answer it yeah yeah but okay so the
@@ -400,7 +326,8 @@ that I learned and you know I'm glad I heard about it in time otherwise my I
 wouldn't put my book out before I heard about the idea on the other hand this book was supposed to come in at 300
 pages and I'm up to 350 now that added 10 pages to the book but if I learn
 about another one I probably first gonna shoot me well so in the process in that
-Some days harder than others
+
+## Some days harder than others
 one month process are some days harder than others are some days harder than
 others well yeah my work is fun but I also work hard and every big job has
 parts that are a lot more fun than others and so many days I'll say why do
@@ -425,7 +352,9 @@ you type in tack and I type in tack and can you can you think in tech No so to a
 certain extent I have I have only a small number of idioms that I use like
 you know a beginning or theorem I do something for displayed equation I do something and and so on but I but I I
 have to see it and in the way that it's on here yeah right for example touring
-Macros
+
+
+## Macros
 wrote what the other direction you don't write macros you don't think
 in macros particularly but when I need a macro I'll go ahead and and these and do
 it but but the thing is they I also write to fit I mean I'll I'll change
@@ -436,7 +365,9 @@ the time or something like that and it could also be argued that that is what li
 ah yes in fact that's true like like I
 worked in the garden one day a week and that's that's kind of a description of my life is getting rid of weeds you know
 removing bugs for programs in so you know a lot of writers talk about you
-Writing
+
+
+## Writing
 know basically suffering the writing processes yeah having you know it's extremely difficult and I think of
 programming especially the or technical writing that you're doing can be like
 that do you find yourself methodologically how do you every day
@@ -461,7 +392,8 @@ person who who knew only cricket wouldn't think what would they think about this
 thing out but I you know I had I had a something that would really appeal to people who grew up with baseball as as
 has a major theme in their life which is a lot of people but yeah so I said on
 minority the small minority I took out bowling to even a smaller my noise what's the art
-Art
+
+## Art
 in the art of programming why why is there of the few words in the title why
 is art one of them yeah well that's that's what I wrote my Turing lecture about and and so when people talk about
 art it really I mean what the word means is something that's not a nature so when
@@ -478,7 +410,10 @@ intelligence well they're trying to mimic human beings but there's an element of
 well that's what I that's what I try to also say that you can write a program
 and make a work of art so now in terms
 of surprising you know what ideas in
-Transformational surprises
+
+
+## Transformational surprises
+
 writing from sort and search to the combinatorial algorithms what ideas have
 you come across that were particularly
 surprising to you that that change the way you see a space of
@@ -548,7 +483,9 @@ that's that's difficult for us at solver but uh but you would think that a
 problem with the hundred boolean variables has required to do 2 to the 100th operations because that's the
 number of possibilities when you have 200 boolean variables in 2 to the 100th to the 100th is way bigger than then we
 can handle 10 to the 17th is a lot you've mentioned over the past few years
-Algorithms
+
+
+## Algorithms
 that you believe P may be equal to NP but that it's not really you know
 somebody does prove that P equals NP it will not directly lead to an actual algorithm to solve difficult problems
 can you explain your intuition here has it been changed and in general on the
