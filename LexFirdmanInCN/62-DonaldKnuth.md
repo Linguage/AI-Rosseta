@@ -474,7 +474,7 @@ times faster than I was able to do before but and not worried about the fact tha
 and that is still that is still gonna take too long if I double the size of
 the problem 
 
-## Transformational surprises
+### Transformational surprises（整理）
 
 **Q:** So now in terms of surprising, you know, what ideas in writing from sort and search to the combinatorial algorithms have you come across that were particularly surprising to you? That changed the way you see a space of problems?
 
@@ -496,7 +496,7 @@ the problem
 
 **A:** I like a good case that is maybe only a million times faster than I was able to do before and not worried about the fact that it's still going to take too long if I double the size of the problem.
 
-## 转变性惊喜
+### 转变性惊喜
 
 **问：** 那么就惊喜而言，你在编写过程中遇到的哪些想法，从排序和搜索到组合算法，特别令你惊讶，改变了你对问题空间的看法？
 
@@ -555,7 +555,7 @@ problem with the hundred boolean variables has required to do 2 to the 100th ope
 number of possibilities when you have 200 boolean variables in 2 to the 100th to the 100th is way bigger than then we
 can handle 10 to the 17th is a lot 
 
-## Big-O notation
+### Big-O notation（整理）
 
 **Q:** So, you popularized the asymptotic notation for describing running time, obviously in the analysis of algorithms, worst cases such an important part. Do you see any aspects of that kind of analysis is lacking in notation?
 
@@ -565,7 +565,7 @@ can handle 10 to the 17th is a lot
 
 **A:** Well, the worst case of a combinatorial logarithm is almost always horrible. But we have SAT solvers that are solving where one of the last exercises in that part of my book was to figure out a problem that has a hundred variables that's difficult for a SAT solver. But you would think that a problem with a hundred boolean variables has required to do 2 to the 100th operations because that's the number of possibilities when you have 200 boolean variables in 2 to the 100th to the 100th is way bigger than we can handle, 10 to the 17th is a lot.
 
-## 大O符号表示法
+### 大O符号表示法
 
 **问：** 那么，您推崇用于描述运行时间的渐进符号显然在算法分析中，最坏情况是如此重要的一部分。您是否认为这种类型的分析在符号上存在某些不足之处？
 
@@ -750,7 +750,7 @@ mystery
 
 A: it it would be too dull yeah 
 
-## P=NP
+### P=NP（整理）
 
 **Q:** You've mentioned over the past few years that you believe P may be equal to NP but that it's not really, you know, somebody does prove that P equals NP it will not directly lead to an actual algorithm to solve difficult problems. Can you explain your intuition here? Has it been changed and in general on the difference between easy and difficult problems of P and NP and so on?
 
@@ -790,7 +790,7 @@ A: it it would be too dull yeah
 
 **A:** Because we are thrilled when I can get further than I ever thought I could, right? But I don't want much like with religion; these are glad there are no proofs that God exists or not. I mean, I think it would spoil the mystery. It would be too dull.
 
-## P=NP
+### P=NP（翻译）
 
 **问：** 在过去的几年里，您提到您相信 P 可能等于 NP，但这并不是真的，您知道，如果有人证明 P 等于 NP，它不会直接导致解决困难问题的实际算法。您能解释一下您的直觉吗？这方面有没有变化，以及 P 和 NP 的易解和困难问题之间的一般区别等等？
 
@@ -896,7 +896,7 @@ didn't wait until 1965 or
 
 **A:** That's only because I set the table of contents in 1962. You have to remember, I'm glad I didn't wait until 1965 or...
 
-### 人工智能（翻译）
+### 人工智能
 
 **问：** 所以，简单谈一下人工智能的另一方面，您对此有何看法？自上世纪60年代以来，人工智能社区作为计算机科学的一部分并与计算机科学平行发展。从60年代到现在，您对AI社区的看法如何？
 
@@ -969,7 +969,7 @@ I don't see any reason why God should be forbidden from using the most efficient
 dice are extremely important and inefficient algorithms there are things like that couldn't be done well without
 randomness and so I don't see any reason why my god should be prohibited but 
 
-## Ant Colonies and Human Cognition
+### Ant Colonies and Human Cognition（整理）
 
 **Q:** One book may touch on the Bible, but one book can't always cover the entirety of everything. So, I'm glad the table of contents for "The Art of Computer Programming" is what it is. But you did mention that an understanding of the way ant colonies perform incredibly organized tasks might be the key to understanding human cognition. These fundamentally distributed systems. What do you think is the difference between the way Don Knuth would sort a list and an ant colony would sort a list or perform an algorithm?
 
@@ -991,7 +991,7 @@ randomness and so I don't see any reason why my god should be prohibited but
 
 **A:** Yes, I don't see any reason why God should be forbidden from using the most efficient ways. We know that dice are extremely important and inefficient algorithms; there are things like that that couldn't be done well without randomness. So, I don't see any reason why God should be prohibited.
 
-## 蚂蚁群与人类认知
+### 蚂蚁群与人类认知
 
 **问：** 一本书可能会涉及到《圣经》，但一本书并不能总是涵盖一切。因此，我很高兴《计算机程序设计艺术》的目录是什么样子。但您提到了了解蚂蚁群如何执行令人难以置信的有组织任务可能是理解人类认知的关键。这些根本上分布式的系统。您认为唐纳德·克努斯特会对列表进行排序，而蚂蚁群会对列表进行排序或执行算法的方式有何不同？
 
@@ -1102,7 +1102,7 @@ that doesn't mean it worked at all so no other problems are going to drop out an
 that there are there are things beyond our beyond our ability I see hubris all
 around 
 
-## God and the Bible
+### God and the Bible（整理）
 
 **Q:** When the algorithm requires it, you don't see why the physics should constrain it. So in 2001, you gave a series of lectures at MIT about religion and science.
 
@@ -1124,7 +1124,7 @@ around
 
 **A:** I think mostly you want to learn humility. You want to realize that once we solve one problem, that doesn't mean it worked at all. No other problems are going to drop out, and we have to realize that there are things beyond our ability. I see hubris all around.
 
-## 上帝与圣经
+### 上帝与圣经
 
 **问：** 当算法需要时，您不认为物理学应该对其进行限制。所以在2001年，您在麻省理工学院进行了一系列有关宗教和科学的讲座。
 
@@ -1193,7 +1193,7 @@ should find somebody that that's screaming and and try to size them up but I'd b
 I'm not 100% happy but but I'm happy enough to death to be a you know part of
 a sustainable situation so so that's kind of the numerical analysis I do 
 
-## Reflection on Life
+### Reflection on Life(整理)
 
 **Q:** Yeah, well said. If you were to run program analysis on your own life, how did you do in terms of correctness, running time, resource use asymptotically speaking?
 
@@ -1203,7 +1203,7 @@ a sustainable situation so so that's kind of the numerical analysis I do
 
 **A:** There are times when I'm down, and I know that I'm chemically right. I've been programmed to be depressed a certain amount of time. If that gets out of kilter and I'm more depressed, sometimes I find myself trying to figure out who I should be mad at today. But then I realize it's just my chemistry telling me that I'm supposed to be mad at somebody. So, I trigger myself to say, "Okay, go to sleep and get better." If I'm not a hundred percent happy, it doesn't mean I should find somebody screaming and try to size them up. I'm saying, "Okay, I'm not a hundred percent happy, but I'm happy enough to be a part of a sustainable situation." That's kind of the numerical analysis I do.
 
-## 对生活的反思
+### 对生活的反思
 
 **问：** 是的，说得很好。如果你要对你的一生进行程序分析，就正确性、运行时间和资源使用方面而言，你认为自己的表现如何，从渐近的角度来看？
 
