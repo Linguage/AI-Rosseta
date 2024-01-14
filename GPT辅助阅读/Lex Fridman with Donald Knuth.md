@@ -182,7 +182,7 @@ Responder: right? So here we're not getting necessarily with numbers because you
 
 提问者： 设计一个系统，在其中大部分编程是非正式完成，这有多难？
 
-回答者： 从技术角度来看，我的问题是设计一个系统，在其中大部分编程是非正式完成，这有多难。是的，非正式地，我认为任何使其可理解的方法都是好的。但是你必须也要了解非正式的程度，你必须知道其限制，你必须连接。通过将公式和非正式结合在一起，这就锁定在你的大脑中。现在你可以说非正式地：“我现在正在解决一个问题，所以让我们去那里。”我明白那一点。你能给我举一个连接非正式和正式的例子吗？嗯，这有点太复杂了，有一个自指的难题，被称为日本箭头难题...
+回答者： 从技术角度来看，我的问题是设计一个系统，在其中大部分编程是非正式完成，这有多难。是的，非正式地，我认为任何使其可理解的方法都是好的。但是你必须也要了解非正式的程度，你必须知道其限制，你必须连接。通过将公式和非正式结合在一起，这就锁定在你的大脑中。现在你可以说非正式地：“我现在正在解决一个问题，所以让我们去那里。”我明白那一点。
 
 提问者： 你能给我举一个连接非正式和正式的例子吗？
 
@@ -200,7 +200,7 @@ Responder: right? So here we're not getting necessarily with numbers because you
 
 提问者： 它原本应该是一个单一的书，有12章。现在，今天是什么情况？57年后，你正在进行第4卷的中间，总共有7卷，而你现在正在进行4B
 
-回答者： B卷确切地是4B。
+回答者： B卷，确切地是4B。
 
 提问者： 我能请你完成一个不可能的任务吗，就是尝试通过给出排序和组合算法中的一些例子来总结这本书到目前为止？是的，根据建筑物的楼层数而定。是的，第一卷称为基础算法，讨论的是一些你无法缺少的东西...
 
@@ -219,142 +219,77 @@ Responder: right? So here we're not getting necessarily with numbers because you
 回答者： 再次，这是我们需要处理的无数事物的地方，我们发现其中一个好主意可能使某些东西的速度提高超过一百万倍，我们正在处理的问题可能永远不会被高效解决，但这并不意味着我们放弃，我们有机会拥有好的主意，而且我们在上面能够更快地进行。因此，这就是组合算法，这是我正在使用的算法...
 
 ## Graph theory
-Questioner: That's what I like the most in the domain of graphs and graph theory. 
+Questioner (Q): That's what I like the most in the domain of graphs and graph theory.
 
-Graphs are great.
-because they're terrific models of so many things in the real world and and
-and and you you throw numbers on a graph you got a network and so there you're right there you have but many more
-things so but comma toriel in general is in any arrangement of objects that that
-has some kind of a higher structure non non random structure and it's okay
-it is possible to put something together satisfying all these conditions like I
-mentioned arrows a minute ago you know is there a way to to put these numbers on a bunch of boxes that that are
-pointing to each other is that going to be possible at all 
+Answer (A): Graphs are great because they're terrific models of so many things in the real world. You throw numbers on a graph, you got a network. Combinatorial, in general, is in any arrangement of objects that has some kind of a higher non-random structure. It's possible to put something together satisfying all these conditions, like arrows pointing to each other.
 
-that's volume four
+Q: That's volume four.
 
-that's volume four what is a sage of
-Hawaiian for a was part one and and what happened was in 1962 when I started
-writing down a table of contents it wasn't going to be a book about computer
-programming in general it was going to be a book about how to write compilers and I was asked to write a book
-explaining how to how to write a compiler and at that time there were
-only a few dozen people in the world who had written compilers and I happen to be one of them so and I also had some
-experience for writing for like the campus newspaper and things like that so
-so I said okay great I'm the only person I know who who's written a compiler but
-hasn't invented any new techniques for writing compilers and and all the other people I knew had super ideas but I
-couldn't see that they would be able to write a book that wouldn't that would describe anybody else's ideas with their
-own so I could be the I could be the journalist and I could explained what all these cool ideas about compiler
-writing that were and and then I I started pretty well yeah let me you need and have a
-chapter about data structures you need to have some introductory material I want to talk about searching because a
-compiler writer has to it has to look up the variables in a symbol table and find
-out you know which which when you when you write the name of a variable in one
-place it's supposed to be the same as the one you put somewhere else so you need all these basic techniques and I
-and I you know kind of know some arithmetic to stuff so I throw I threw in these chapters and I threw in a
-chapter on comma talks because that was what I really enjoyed programming the
-most but there weren't many algorithms and known about combinatorial methods in 1962 so that was a kind of a short
-chapter but it was sort of thrown in just for fun and Chapter twelve was going to be actual compilers applying
-all the stuff in chapters 1 to 11 to make compilers well ok so that was my
-table of contents from 1962 
-and during the 70s the whole field of combinatoric
-s-- went through a huge explosion people talk about it comet oil explosion and
-they usually mean by that that the number of cases goes up you know you change n to n plus 1 and all of a sudden
-you your problem has gotten more than ten times harder
-but there was an
-explosion of ideas about combinatoric s-- in the 70s and to the point that but
-Mike's take 1975 I bet you more than half of all the journals of computer
-science we're about combinatorial method and 
+A: That's volume four. What is a sage of Hawaiian for? In 1962 when I started writing down a table of contents, it wasn't going to be a book about computer programming in general; it was going to be a book about how to write compilers. I was asked to write a book explaining how to write a compiler. At that time, there were only a few dozen people in the world who had written compilers, and I happened to be one of them. I also had some experience writing for the campus newspaper and things like that. So, I said okay, I'm the only person I know who has written a compiler but hasn't invented any new techniques for writing compilers. All the other people I knew had super ideas, but I couldn't see that they would be able to write a book that would describe anybody else's ideas with their own. So, I could be the journalist and I could explain all these cool ideas about compiler writing. I started with a chapter about data structures, introductory material, and talking about searching because a compiler writer has to look up the variables in a symbol table. You need all these basic techniques. I also threw in a chapter on combinatorial methods, even though there weren't many algorithms known in 1962. Chapter twelve was going to be actual compilers applying all the stuff in chapters 1 to 11 to make compilers. That was my table of contents from 1962.
 
+During the 70s, the whole field of combinatorics went through a huge explosion, people talk about it as a combinatorial explosion. They usually mean that the number of cases goes up, you change n to n plus 1, and all of a sudden, your problem has gotten more than ten times harder. There was an explosion of ideas about combinatorics in the 70s, to the point that, by 1975, I bet more than half of all the journals of computer science were about combinatorial methods.
 
+**提问者（Q）：** 这是我在图表和图论领域最喜欢的东西。
+
+**回答者（A）：** 图表非常棒，因为它们是现实世界中许多事物的出色模型。你将数字放在图上，你就得到了一个网络。组合学，总的来说，是任何具有某种较高非随机结构的对象排列。将满足所有这些条件的东西放在一起是可能的，就像箭头指向彼此一样。
+
+**Q：** 那是第四卷。
+
+**A：** 那是第四卷。夏威夷语中的“sage”是什么？1962年我开始写目录时，它不是一本关于计算机编程的一般书，而是一本关于如何编写编译器的书。我被要求写一本解释如何编写编译器的书。那时，世界上只有几十个人写过编译器，而我恰好是其中之一。我还有一些为校园报纸等写作的经验。所以，我说好吧，我是我所知道的唯一一个写过编译器但没有发明任何新技术来编写编译器的人。我认识的所有其他人都有很棒的想法，但我看不出他们是否能够写一本描述别人想法的书。所以，我可以成为记者，我可以解释有关编写编译器的所有这些酷想法。我从第一章开始谈论数据结构，引导性材料，以及关于搜索的内容，因为编译器编写者必须在符号表中查找变量。你需要所有这些基本技术。我还加入了一章关于组合方法的内容，尽管在1962年并不了解许多有关组合方法的算法。第十二章将是实际的编译器，应用在前11章中的所有内容上制作编译器。那是我1962年的目录。
+
+在70年代，整个组合数学领域发生了巨大的爆炸，人们谈论它为组合爆炸。他们通常指的是情况的数量增加，你将n更改为n加1，突然之间，你的问题变得超过了十倍的难度。在70年代，有关组合数学的想法爆炸性增长，以至于到1975年，我敢打赌超过一半的计算机科学期刊都是关于组合方法的。
 
 ## Problems in combinatorics
 
-what kind of problems were occupying people's minds what kind of problems in
-combinatorics was it's 
+**Questioner:** What kind of problems were occupying people's minds?
 
-it's that gravity graph theory 
+**Answer:** The problems in combinatorics, it's that.
 
-yeah gravity was was quite
-dominant I mean no but all of the np-hard problems that you have like
-Hamiltonian path or foul sail going beyond yeah yeah going beyond graphs you
-had a operation research whenever it was a small class of problems that had
-efficient solutions and they were associated with Maitre D' a special mathematical construction but once we
-went to things that involve three things at a time instead of instead of two all
-of a sudden the things got harder so we had satisfiability problems or if you have if you have clauses every Clause
-has two logical elements in it then we can satisfy it linear time we can test
-for satisfy building linear time but if you allow yourself three variables in the clause then nobody knows how to do
-it so these articles were about trying to find better or better ways to to
-solve cryptography problems and graph three problems where the we have lots of
-data but we didn't know how to find the best subset so the data like with sorting we could get the answer didn't
-take long 
+**Questioner:** Gravity graph theory?
 
-so how did they continue to change from the 70s to today 
+**Answer:** Yeah, gravity was quite dominant. I mean, all of the NP-hard problems like Hamiltonian path or foul sail going beyond graphs had efficient solutions in a small class of problems associated with Maitre D', a special mathematical construction. But once we went to things that involve three things at a time instead of two, all of a sudden, the problems got harder. Satisfiability problems, for example, where if you have clauses with three variables, nobody knows how to solve it efficiently. These articles were about finding better ways to solve cryptography problems and graph theory problems, where we have lots of data but didn't know how to find the best subset.
 
-yeah so now
-there may be half a dozen conferences whose topic is cognate arcs different
-kind but fortunately I don't have to rewrite my book every month you know like I had to in in the 70 but still
-there's huge amount of work being done and people getting better ideas on these
-problems that don't seem to have really efficient solutions but we can still get
-into a lot more with him and so this book that I'm finishing now is I've got
-a whole bunch of brand new methods that the fires I know there's no other there's no other book that covers that
-covers this particular approach and and so I'm trying to do my best of exploring
-the tip of the iceberg and and and I try out lots of things and and keep keep
-rewriting finding as I find better better method 
+**Questioner:** So how did they continue to change from the 70s to today?
 
+**Answer:** Now, there may be half a dozen conferences whose topic is cognate arcs, different kinds. Fortunately, I don't have to rewrite my book every month like I had to in the '70s, but there's still a huge amount of work being done. People are getting better ideas on these problems that don't seem to have efficient solutions, but we can still get into a lot more with them. The book I'm finishing now has a whole bunch of brand new methods that I know no other book covers, exploring the tip of the iceberg, trying out lots of things, and rewriting as I find better methods.
+**提问者：** 人们都在关注什么样的问题？
 
-so what's your writing
+**回答：** 在组合数学中的问题，就是那样。
 
-## Thinking and writing process
-process like what's your thinking and writing process like every day 
+**提问者：** 引力图论？
 
-so what's
-your routine even 
+**回答：** 是的，引力相当占主导地位。我的意思是，所有的 NP-难问题，比如哈密顿路径或者超过图的费解问题，在一个与 Maitre D' 相关的特殊数学构造的小类问题中有了有效的解决方案。但一旦我们涉及到涉及三个事物而不是两个的问题，问题突然变得更加困难。例如，可满足性问题，如果子句中有三个变量，那么没有人知道如何高效地解决。这些文章都是关于寻找更好的解决密码学问题和图论问题的方法，其中我们有大量数据但不知道如何找到最佳子集。
 
-yeah I guess it's actually the best question because I spent seven days a
-week 
+**提问者：** 那么从70年代到现在，这些问题是如何发展变化的？
 
-you're doing it the most prepares to answer it 
+**回答：** 现在可能有半打与同源弧有关的会议，各种不同的会议。幸运的是，我不必像在70年代那样每个月都重写我的书，但仍然有大量的工作在进行中。人们在这些看似没有有效解决方案的问题上得到了更好的想法，但我们仍然可以在其中做更多。我正在完成的这本书有很多全新的方法，我知道没有其他书涵盖这个特定的方法，尽力探索冰山一角，尝试很多方法，并且随着发现更好的方法而不断重写。
 
-yeah yeah but okay so the
-chair I'm sitting in is where I do that's 
+## Thinking and Writing Process 
 
-where the magic happens 
+**Questioner:** So what's your writing process like, what's your thinking and writing process like every day?
 
-well
-reading and writing that many chairs usually sitting over there where I have other books some reference book but but
-I I found his chair which was designed by a Swedish guy anyway it turns out
-this was the only chair I can really sit in for hours and hours and not know that I'm in a chair but then I have the
-stand-up desk right next next to us and and so after I write something with pencil and eraser I get up and I type it
-and revise and rewrite 
+**Answer:** It's actually the best question because I spend seven days a week doing it. The chair I'm sitting in is where the magic happens. I usually sit there, reading and writing, surrounded by other books. I found this chair, designed by a Swedish guy, and it's the only chair I can sit in for hours without realizing it. I also have a stand-up desk nearby. After writing with pencil and eraser, I get up and type, revise, and rewrite.
 
-the kernel the
-idea is first put on paper 
+**Questioner:** The kernel, the idea, is first put on paper?
 
-yep that's worth right and I call right
-maybe five programs a week of course literate programming and these are
-before I describe something in my book I always program it to see how it's working and I and I tried a lot so for
-example I learned at the end of January I learned of a breakthrough by for
-Japanese people who had extended one of the one of my methods in in a new
-direction and so I I spent the next five days writing a program to implement what
-they did and then I you know but they had only generalized part of what I had
-done so that I had to see if I could generalize more parts of it and then I had to take their approach and I had to
-I had to try it out on a couple of dozen of the other problems I had already worked out with that with my old methods
-and so that took another couple of weeks and then I would you know then I then I started to see the light nicely and and
-I started writing the final draft and and then I would you know type it up
-involves some new mathematical questions and so I wrote to my friends and might
-be good at solving those problems and and they solve some of them so I put
-that in his exercises and and so a month later I had absorbed one new idea that I
-that I learned and you know I'm glad I heard about it in time otherwise my I
-wouldn't put my book out before I heard about the idea
- on the other hand this book was supposed to come in at 300
-pages and I'm up to 350 now that added 10 pages to the book but if I learn
-about another one I probably first gonna shoot me 
+**Answer:** Yes, that's right. I call right maybe five programs a week, of course, literate programming. Before I describe something in my book, I always program it to see how it's working. For example, I learned of a breakthrough by Japanese people at the end of January, and I spent the next five days writing a program to implement it. Then I generalized more parts of it, tried it on other problems, and wrote the final draft involving new mathematical questions. I involve my friends who might be good at solving those problems, and they solve some, which I put in as exercises. A month later, I had absorbed one new idea. If I learn about another one, it might add more pages to the book.
 
 
+
+**思考和写作过程**
+
+**提问者：** 那么你的写作过程是什么样的，每天的思考和写作过程是什么样的？
+
+**回答：** 实际上这是一个很好的问题，因为我每周都在七天都在做这件事。我坐的椅子是魔法发生的地方。我通常坐在那里，阅读和写作，周围是其他的书。我找到了这把椅子，是瑞典设计师设计的，是我唯一可以坐上几个小时而不知道自己在椅子上的椅子。我还有一个随身的站立式写字桌。用铅笔和橡皮擦写完后，我就站起来打字，修改和重写。
+
+**提问者：** 核心思想首先被写在纸上？
+
+**回答：** 是的，就是这样。我一周可能写五个程序，当然是文学化编程。在我描述书中的某个内容之前，我总是先编写程序看看它是如何工作的。例如，我在一月底得知日本人取得的突破性进展，然后花了接下来的五天编写一个实现它的程序。然后我对其进行了更多的泛化，尝试在其他问题上使用，并编写了最终的草稿，其中涉及到新的数学问题。我会找一些擅长解决这些问题的朋友，他们解决了其中的一些问题，我就将其放入练习中。一个月后，我吸收了一个新的想法。如果我了解到另一个想法，可能会给这本书增加更多的页面。
 
 ## Some days harder than others
-well so in the process in thatone month process are some days harder than others 
+Questioner: well so in the process in thatone month process are some days harder than others 
 
-are some days harder than
-others 
+are some days harder than others 
 well yeah my work is fun but I also work hard and every big job has
 parts that are a lot more fun than others and so many days I'll say why do
 I have to have such high standards like why couldn't I just be sloppy and not try this out and you know just just
@@ -387,7 +322,6 @@ No so to a
 certain extent I have I have only a small number of idioms that I use like
 you know a beginning or theorem I do something for displayed equation I do something and and so on but I but I I
 have to see it and in the way that it's on here 
-
 yeah right for example touring
 
 
