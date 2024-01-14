@@ -1,67 +1,79 @@
-Introduction
-the following is a conversation with donald knuth one of the greatest and most impactful computer scientists and
-mathematicians ever he's the recipient of the 1974 Turing award considered the
-Nobel Prize of computing he's the author of the multi-volume work the magnum opus
-the art of computer programming he made several key contributions to the
-rigorous analysis of computational complexity of algorithms including the popularization of asymptotic notation
-that we all affectionately know as the Big O notation he also created the tech
-typesetting system which most computer scientists physicists mathematicians and
-scientists and engineers in general used to write technical papers and make them
-look beautiful I can imagine no better guest to in 2019 with than Don one of
-the kindest most brilliant people in our field this podcast was recorded many
-months ago it's one I avoided because perhaps counter-intuitively the conversation meant so much to me if you
-can believe it I knew even less about recording back then so the camera angle is a bit off I hope that's okay with you
-the office space was a bit cramped for filming but it was a magical space Ordon
-does most of his work it meant a lot to me that he would welcome me into his home it was quite a journey to get there
-as many people know he doesn't check email so I had to get creative the effort was worth it I've been doing this
-podcast on the side for just over a year sometimes I had to sacrifice a bit of sleep but always happy to do it and to
-be part of an amazing community of curious minds thank you for your kind words support for the interesting
-discussions and I look forward to many more of those in 2020 this is the
-artificial intelligence podcast if you enjoy it subscribe on YouTube give it five stars an Apple podcast follow on
-Spotify support on patreon or simply connect with me on Twitter at lex friedman spelled fri d-m am
-I recently started doing ads at the end of the introduction I'll do one or two minutes after introducing the episode
-and never any ads in the middle that break the flow of the conversation I hope that works for you and doesn't hurt
-the listening experience I provide time stamps for the start of the conversation that you can skip to but it helps if you
-listen to the ad and support this podcast by trying out the product the service being advertised this show is
-presented by cash app the number one finance app in the App Store I personally use cash app to send money
-to friends but you can also use it to buy sell and deposit Bitcoin in just seconds cash app also has a new
-investing feature you can buy a fraction of a stock say $1 worth no matter what the stock price is brokerage services
-are provided by cash app investing a subsidiary of square and member s IBC
-I'm excited to be working with cash app to support one of my favorite organizations called first best known
-for their first robotics and Lego competitions they educate and inspire hundreds of thousands of students in
-over 110 countries and have a perfect rating and charity navigator which means that donated money is used to maximum
-effectiveness when you get cash app from the App Store or Google Play and use code Lex podcast you'll get ten
-dollars in cash up will also donate ten dollars the first which again is an organization that I've personally seen
-inspire girls and boys to dream of engineering a better world and now
-here's my conversation with Donald Knuth in 1957 atcase tech you were once
-Donald Knuth Interview
-allowed to spend several evenings with a IBM 650 computer as you've talked about
-in the past then you fell in love with computing then can you take me back to that moment with
-the IBM 650 what was it that grabs you about that computer so the IBM 650 was
-this this machine that well it didn't fill a room but it it was
-it was big and noisy but when I first saw it it was through a window and there
-were just a lot of lights flashing on it and I was a freshman I had a job with
-the statistics group and I was supposed to punch cards and pour data and then
-sort them on another machine but then they got this new computer came in and I
-and it had interesting like you know lights okay so well but I had it kind of
-key to the building so I can you know like I could get in and look at it and got a manual for it and and my first
-experience was based on the fact that I could punch cards basically would you a big thing for though deal with thick but
-the is 6:50 was you know big in size but but incredibly small in power in memory
-it had it had 2,000 words of memory and in a word of memory was 10 decimal
-digits plus a sign and it it would do to add two numbers together you could
-probably expect that would take oh say three milliseconds so that's pretty fast
-it's the memories that constraint the memories the problem that was why it was three millisecond because it took five
-milliseconds for the drum to go around and you had to wait I don't know five
-cycle times if you have an instruction one position on the drum then it would
-be ready to read the data for the instruction and three notches the drum
-is 50 cycles around and you go three cycles and you can get the data and then you can go another three cycles and get
-and get to next instruction if the instruction is there otherwise otherwise you spin until you get to there
-play and and we had no random-access memory whatsoever until my senior year
-you see here we got fifty words of random access memory which were which were priceless and we would and we would
-move stuff up to the up to the random access memory in 60 word chunks and then
-we would start again so it's separating when to go up there and could you have predicted the future 60 years later of
-Predicting the Future
-computing from then you know in fact the hardest question I was ever asked was
+
+# Lex Fridman X Donald Knuth 
+
+## Introduction
+
+
+The following is a conversation with Donald Knuth, one of the greatest and most impactful computer scientists and mathematicians ever. He's the recipient of the 1974 Turing award, considered the Nobel Prize of computing. He's the author of the multi-volume work, the magnum opus, "The Art of Computer Programming."
+
+He made several key contributions to the rigorous analysis of computational complexity of algorithms, including the popularization of asymptotic notation that we all affectionately know as the Big O notation. He also created the TeX typesetting system, which most computer scientists, physicists, mathematicians, and scientists and engineers in general used to write technical papers and make them look beautiful.
+
+I can imagine no better guest to have in 2019 than Don, one of the kindest, most brilliant people in our field. This podcast was recorded many months ago. It's one I avoided because perhaps counter-intuitively, the conversation meant so much to me. If you can believe it, I knew even less about recording back then, so the camera angle is a bit off. I hope that's okay with you.
+
+The office space was a bit cramped for filming, but it was a magical space where Don does most of his work. It meant a lot to me that he would welcome me into his home. It was quite a journey to get there. As many people know, he doesn't check email, so I had to get creative. The effort was worth it. I've been doing this podcast on the side for just over a year. Sometimes I had to sacrifice a bit of sleep, but always happy to do it and to be part of an amazing community of curious minds. Thank you for your kind words, support, for the interesting discussions, and I look forward to many more of those in 2020.
+
+This is the Artificial Intelligence Podcast. If you enjoy it, subscribe on YouTube, give it five stars on Apple Podcasts, follow on Spotify, support on Patreon, or simply connect with me on Twitter at Lex Friedman, spelled F-R-I-D-M-A-N.
+
+I recently started doing ads at the end of the introduction. I'll do one or two minutes after introducing the episode, and never any ads in the middle that break the flow of the conversation. I hope that works for you and doesn't hurt the listening experience. I provide timestamps for the start of the conversation that you can skip to, but it helps if you listen to the ad and support this podcast by trying out the product or service being advertised.
+
+This show is presented by Cash App, the number one finance app in the App Store. I personally use Cash App to send money to friends, but you can also use it to buy, sell, and deposit Bitcoin in just seconds. Cash App also has a new investing feature. You can buy a fraction of a stock, say $1 worth, no matter what the stock price is. Brokerage services are provided by Cash App Investing, a subsidiary of Square and member SIPC.
+
+I'm excited to be working with Cash App to support one of my favorite organizations called FIRST, best known for their FIRST Robotics and Lego competitions. They educate and inspire hundreds of thousands of students in over 110 countries and have a perfect rating on Charity Navigator, which means that donated money is used to maximum effectiveness. When you get Cash App from the App Store or Google Play and use code "LexPodcast," you'll get $10 in Cash App, and Cash App will also donate $10 to FIRST, which again is an organization that I've personally seen inspire girls and boys to dream of engineering a better world.
+
+And now, here's my conversation with Donald Knuth.
+
+以下是与Donald Knuth的对话，他是有史以来最伟大和最有影响力的计算机科学家和数学家之一。他是1974年图灵奖的获得者，被认为是计算机界的诺贝尔奖。他是多卷著作《计算机编程的艺术》的作者。
+
+他在算法的计算复杂性的严格分析方面做出了几项重要贡献，包括普及我们大家亲切称之为大O符号的渐近符号。他还创建了TeX排版系统，这是大多数计算机科学家、物理学家、数学家以及一般科学家和工程师用来编写技术论文并使其看起来漂亮的工具。
+
+我无法想象比Don更好的2019年嘉宾，他是我们领域中最善良、最聪明的人之一。这个播客是很久以前录制的，我一直回避它，因为或许有些出乎意料，这次对话对我来说意义重大。如果你能相信，当时我对录音了解得更少，所以摄像机角度有点不对。希望你能接受。
+
+办公空间有点拥挤，但对于拍摄来说却是一个神奇的地方，Don在那里完成大部分工作。他能够欢迎我进入他的家对我来说意义非凡。要到那里真的是一次不小的旅程，正如许多人所知，他不查看电子邮件，所以我必须有所创意。付出的努力是值得的。我已经在做这个播客超过一年了，有时候我不得不牺牲一点睡眠，但总是乐于为之，并成为一个充满好奇心的社区的一部分。感谢你的好评和支持，感谢有趣的讨论，我期待在2020年有更多这样的时刻。
+
+这是《人工智能播客》。如果你喜欢它，请在YouTube上订阅，在Apple Podcasts上给予五星评价，关注Spotify，在Patreon上提供支持，或者简单地在Twitter上与我联系，用户名是Lex Friedman，拼写为F-R-I-D-M-A-N。
+
+我最近开始在引言的结尾做广告。在介绍完一两分钟后，我会播放一两分钟的广告，而不会在对话中间插入任何打破流程的广告。希望这对你有用，不会影响听觉体验。我提供对话开始的时间戳，你可以跳过去，但如果你听广告并尝试广告中宣传的产品或服务，这对支持这个播客很有帮助。
+
+这个节目由Cash App赞助，是App Store中排名第一的金融应用。我个人使用Cash App向朋友发送钱，但你也可以用它在几秒钟内购买、出售和存入比特币。Cash App还推出了一项新的投资功能，你可以购买一小部分股票，比如价值1美元，无论股价如何。经纪服务由Cash App Investing提供，是Square的子公司，是SIPC的成员。
+
+我很高兴能够与Cash App合作，支持我最喜欢的组织之一，称为FIRST，以其FIRST机器人和乐高比赛而闻名。他们在110多个国家教育和激发数十万学生，并在慈善导航上获得了满分，这意味着捐赠的资金被最大程度地有效利用。当你从App Store或Google Play获取Cash App并使用代码“LexPodcast”时，你将获得10美元的Cash App，并且Cash App还将捐赠10美元给FIRST，这是一个我亲自看到激发女孩和男孩梦想工程更美好世界的组织。
+
+现在，让我们开始与Donald Knuth的对话。
+
+## Donald Knuth Interview
+
+Questioner:In 1957 at Case Tech, you were once allowed to spend several evenings with an IBM 650 computer, as you've talked about in the past. Then you fell in love with computing. Can you take me back to that moment with the IBM 650? What was it that grabbed you about that computer?
+
+Answerer: The IBM 650 was this machine that, well, it didn't fill a room, but it was big and noisy. When I first saw it through a window, there were just a lot of lights flashing on it. I was a freshman, and I had a job with the statistics group. I was supposed to punch cards and pour data, then sort them on another machine. But then they got this new computer, and I had a key to the building, so I could get in and look at it. I got a manual for it, and my first experience was based on the fact that I could punch cards.
+
+Questioner: What was a big thing for you to deal with, considering the IBM 650's size and power?
+
+Answerer: The IBM 650 was big in size but incredibly small in power and memory. It had 2,000 words of memory, and in a word of memory, there were 10 decimal digits plus a sign. To add two numbers together, you could probably expect that it would take, say, three milliseconds, so that's pretty fast. The memory was the constraint; it had 2,000 words of memory, and to read the data for an instruction, you had to wait for the drum to go around, which took five milliseconds.
+
+Questioner: Did you have any random-access memory back then?
+
+Answerer: We had no random-access memory whatsoever until my senior year. We got fifty words of random access memory, which were priceless. We would move stuff up to the random access memory in 60-word chunks, and then we would start again.
+
+提问者：在1957年，你曾经有机会在Case Tech度过几个晚上与IBM 650计算机为伍，正如你之前所说的。后来你爱上了计算机。你能带我回到与IBM 650的那个时刻吗？是什么让你对那台计算机着迷？
+
+回答者： IBM 650是一台机器，嗯，它并没有填满整个房间，但它很大且嘈杂。当我第一次通过窗户看到它时，上面有许多闪烁的灯光。我当时是一名大一新生，加入了统计小组的工作。我本应该打孔卡片、输入数据，然后在另一台机器上对它们进行排序。但后来他们引进了这台新计算机，而我有大楼的钥匙，所以我可以进去看看。我找到了它的手册，我的第一次经验基于我可以打孔卡片这个事实。
+
+提问者： 对于你来说，考虑到IBM 650的大小和性能，那是一个很大的挑战吗？
+
+回答者： IBM 650在体积上很大，但在性能和内存方面却非常有限。它有2,000个字的内存，每个字的内存包括10个十进制数字和一个符号。要将两个数字相加，你可能期望需要大约三毫秒，所以速度相当快。但内存是限制因素；它只有2,000个字的内存，要读取指令的数据，你必须等待滚筒转动，这需要五毫秒。
+
+提问者： 那个时候你有随机存取内存吗？
+
+回答者： 直到我大四的时候，我们根本没有随机存取内存。那时我们得到了50个字的随机存取内存，这是无价的。我们会将数据以60个字的块移至随机存取内存，然后重新开始。
+
+
+
+
+## Predicting the Future
+
+so it's separating when to go up there and could you have predicted the future 60 years later of
+computing from then 
+you know in fact the hardest question I was ever asked was
 what could I have predicted in other words the interviewer asked me she said
 you know what about computing has surprised you you know and immediately I ran I rattled off a couple dozen things
 and inches okay so what didn't surprise and I was I tried for five minutes to
