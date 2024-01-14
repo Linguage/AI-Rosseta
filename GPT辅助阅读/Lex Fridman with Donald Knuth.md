@@ -301,111 +301,128 @@ During the 70s, the whole field of combinatorics went through a huge explosion, 
 **回答：** 是的，就是这样。我一周可能写五个程序，当然是文学化编程。在我描述书中的某个内容之前，我总是先编写程序看看它是如何工作的。例如，我在一月底得知日本人取得的突破性进展，然后花了接下来的五天编写一个实现它的程序。然后我对其进行了更多的泛化，尝试在其他问题上使用，并编写了最终的草稿，其中涉及到新的数学问题。我会找一些擅长解决这些问题的朋友，他们解决了其中的一些问题，我就将其放入练习中。一个月后，我吸收了一个新的想法。如果我了解到另一个想法，可能会给这本书增加更多的页面。
 
 ## Some days harder than others
-Questioner: well so in the process in thatone month process are some days harder than others 
 
-are some days harder than others 
-well yeah my work is fun but I also work hard and every big job has
-parts that are a lot more fun than others and so many days I'll say why do
-I have to have such high standards like why couldn't I just be sloppy and not try this out and you know just just
-report the answer but I but I know that people are conning me to do this and so
-okay so okay Donald grit my teeth and do it and and and then the joy comes out
-when I see that actually you know I'm getting good results and and and I get and I even more when I see that somebody
-has actually read and understood what I wrote and told me how to make it even better 
-I did want to mention something
-about the about the method so I got this tablet here where I do the first you
-know the first writing of concepts okay so so and what language I didn't write
-so hey take a look at but you know here random say explain how to draw such
-skewed pixel diagrams okay so I got this paper about 40 years ago when I was
-visiting my sister in Canada and they make tablets of paper with this nice
-large size and just the right very small space between like oh yeah yeah
-particularly also just 
+**Q:** Well, so in the process in that one month process, are some days harder than others?
 
-yeah
-you know I've got these manuscripts going back to the 60s and and and those
-are when I get my ideas on paper okay but I'm a good typist in fact I went to
-type in school when I was when I was in high school and so I can type faster than I think so then when I do the
-editing you know stand up and type then I then I revise this and it comes out a
-lot different than what you look for style and rhythm and things like that come out at the at the typing state and
-you type in tack 
+**A:** Are some days harder than others? Well, yeah, my work is fun, but I also work hard. Every big job has parts that are a lot more fun than others. So many days I'll say, "Why do I have to have such high standards? Like, why couldn't I just be sloppy and not try this out and just report the answer?" But I know that people are counting on me to do this. So, okay, so, okay, I don my grit my teeth and do it. And then the joy comes out when I see that actually, you know, I'm getting good results. And even more when I see that somebody has actually read and understood what I wrote and told me how to make it even better.
 
-and I type in tack and can you 
+I did want to mention something about the method. So, I got this tablet here where I do the first, you know, the first writing of concepts.
 
-can you think in tech 
+**Q:** And what language?
 
-No so to a
-certain extent I have I have only a small number of idioms that I use like
-you know a beginning or theorem I do something for displayed equation I do something and and so on but I but I I
-have to see it and in the way that it's on here 
-yeah right for example touring
+**A:** I didn't write. So hey, take a look at, you know, here, random. Say, explain how to draw such skewed pixel diagrams. Okay, so I got this paper about 40 years ago when I was visiting my sister in Canada, and they make tablets of paper with this nice large size and just the right.
 
+**Q:** Very small space between like, oh yeah, yeah. Particularly also just.
+
+**A:** Yeah, you know, I've got these manuscripts going back to the '60s, and those are when I get my ideas on paper, okay? But I'm a good typist. In fact, I went to type in school when I was in high school, and so I can type faster than I think. So then when I do the editing, you know, stand up and type, then I revise this, and it comes out a lot different than what you look for. Style and rhythm and things like that come out at the typing stage.
+
+**Q:** And you type in TeX.
+
+**A:** And I type in TeX, and can you?
+
+**Q:** Can you think in TeX?
+
+**A:** No. So to a certain extent, I have only a small number of idioms that I use, like, you know, a beginning or theorem I do something for displayed equation I do something and so on, but I have to see it.
 
 ## Macros
-wrote what the other direction you don't write macros you don't think
-in macros 
 
-particularly but when I need a macro I'll go ahead and and these and do
-it but but the thing is they I also write to fit I mean I'll I'll change
-something if I can if I can save a line I've got you know it's like haiku I'll figure out a way to rewrite the sentence
-so that it'll look better on the page and I shouldn't be wasting my time on
-that but but I can't resist because I know it's only another three percent of
-the time or something like that and it could also be argued that that is what life is about
-ah yes in fact that's true like like I
-worked in the garden one day a week and that's that's kind of a description of my life is getting rid of weeds you know
-removing bugs for programs in so you know a lot of writers talk about you
+**Q:** In the way that it's on here, yeah, right? For example, Turing wrote, what the other direction, you don't write macros. You don't think in macros.
 
+**A:** Particularly. But when I need a macro, I'll go ahead and and these and do it. But the thing is, I also write to fit. I mean, I'll I'll change something if I can if I can save a line. It's like haiku. I'll figure out a way to rewrite the sentence so that it'll look better on the page. And I shouldn't be wasting my time on that. But I can't resist because I know it's only another three percent of the time or something like that.
 
-## Writing
-know basically suffering the writing processes yeah having you know it's extremely difficult and I think of
-programming especially the or technical writing that you're doing can be like
-that do you find yourself methodologically how do you every day
-sit down to do the work is it a challenge you kind of say it's you know
-oh yeah it's fun but it'd be interesting to hear if there
-are non fun parts that you really struggle with yes the fun comes with when I'm able to put together ideas of
-to two people who didn't know about each other and and and so I might be the first person that saw both of their
-ideas and so then you know then I get to make the synthesis and that gives me a
-chance to be creative but the dredge work is where I act I've got a chase
-everything down to its root this leads me into really interesting stuff i mean like i learned about sanskrit nice yeah
-and again you know I try to give credit to all the authors and so I write like so I write to people who know that the
-people thought as if they're dead I communicate this way I and I gotta get
-the math right and I got a tack all my programs try to find holes in them and I
-rewrite the programs over after I get a better idea is there ever dead-ends data and so yeah
-I throw stuff out yeah look one of the things that I spent a lot of time
-preparing a major example based on the game of baseball and I know a lot of
-people who for whom baseball is the most important thing in the world you know yes but it's but I also know a lot of
-people from cricket is the most important in the world or suck or something you know and and I realized
-that if if I had a big sample I mean it was gonna have a fold-out illustration and everything I was saying well what
-what am I really teaching about algorithms here where I had this this is this baseball example and if I was a
-person who who knew only cricket wouldn't think what would they think about this and and so I ripped the whole
-thing out but I you know I had I had a something that would really appeal to people who grew up with baseball as as
-has a major theme in their life which is a lot of people but yeah so I said on
-minority the small minority I took out bowling to even a smaller my noise what's the art
+**Q:** And it could also be argued that that is what life is about.
 
-## Art
-in the art of programming why why is there of the few words in the title why
-is art one of them yeah well that's that's what I wrote my Turing lecture about and and so when people talk about
-art it really I mean what the word means is something that's not a nature so when
-you have artificial intelligence that that art come from the same root saying
-that this is something that was created by by human beings and then it's gotten
-a further meaning often a fine art which has this beauty to the to the mix and
-says you know we have things that are artistically done and and this means not only done by humans but also done in a
-way that's elegant and brings joy and and has has I guess what
-Tolstoy burrs dusky but anyway it it's
-that part that that says that it's done well as well as not only a different
-from nature in general then alright is
-what human beings are specifically good at and when they say hey like artificial
-intelligence well they're trying to mimic human beings but there's an element of fine art and beauty you are
-well that's what I that's what I try to also say that you can write a program
-and make a work of art so now in terms
-of surprising you know what ideas in
+**A:** Ah yes, in fact, that's true. Like, like I worked in the garden one day a week, and that's kind of a description of my life is getting rid of weeds, you know, removing bugs for programs.
+
+**Q:** So, you know, a lot of writers talk about, you know, basically suffering the writing processes. Yeah, having, you know, it's extremely difficult. And I think of programming, especially the or technical writing that you're doing can be like that. Do you find yourself methodologically? How do you every day sit down to do the work? Is it a challenge? You kind of say it's, you know, it's fun, but it'd be interesting to hear if there are non-fun parts that you really struggle with.
+
+**A:** Yes, the fun comes with when I'm able to put together ideas of two people who didn't know about each other. And so I might be the first person that saw both of their ideas, and then, you know, then I get to make the synthesis, and that gives me a chance to be creative. But the drudge work is where I've got to chase everything down to its root. This leads me into really interesting stuff. I mean, like I learned about Sanskrit, and again, you know, I try to give credit to all the authors. And so I write to people who know that the people thought as if they're dead. I communicate this way. I got to get the math right, and I got to check all my programs, try to find holes in them, and I rewrite the programs after I get a better idea.
+
+**Q:** Is there ever dead-ends data and?
+
+**A:** So, yeah, I throw stuff out. Yeah, look, one of the things that I spent a lot of time preparing a major example based on the game of baseball. And I know a lot of people for whom baseball is the most important thing in the world, you know, yes. But it's, but I also know a lot of people for whom cricket is the most important in the world or soccer or something, you know. And I realized that if I had a big sample, I mean, it was gonna have a fold-out illustration and everything, I was saying, "Well, what am I really teaching about algorithms here where I had this, this is this baseball example? And if I was a person who knew only cricket, wouldn't think, what would they think about this?" And so I ripped the whole thing out, but I, you know, I had something that would really appeal to people who grew up with baseball as a major theme in their life.
+
+**Q:** Which is a lot of people but the small minority. I took out bowling to even a smaller minority.
+
+**Q:** What's the art in the art of programming? Why is there of the few words in the title? Why is art one of them?
+
+**A:** Yeah, well, that's what I wrote my Turing lecture about. And so when people talk about art, it really, I mean, what the word means is something that's not of nature. So when you have artificial intelligence, that art comes from the same root saying that this is something that was created by human beings. And then it's gotten a further meaning, often a fine art, which has this beauty to the mix and says, you know, we have things that are artistically done. And this means not only done by humans but also done in a way that's elegant and brings joy. And has, I guess what Tolstoy burrs dusky, but anyway, it's that part that says that it's done well, as well as not only different from nature in general. Then, alright, is what human beings are specifically good at. And when they say, "Hey, like artificial intelligence," well, they're trying to mimic human beings.
+
+**Q:** But there's an element of fine art and beauty you are well.
+
+**A:** That's what I try to also say that you can write a program and make
+
+ a work of art.
+
+ ## 有些日子比其他日子更难
+
+**问：** 那么，在那一个月的过程中，有些日子比其他日子更难吗？
+
+**答：** 有些日子比其他日子更难吗？嗯，是的，我的工作很有趣，但我也很努力工作。每个大项目都有比其他部分更有趣的部分。因此，有很多天我会说：“为什么我必须有这么高的标准呢？为什么我不能草率一些，不试一试，只是报告答案呢？”但我知道人们指望我这样做。所以，好吧，我咬紧牙关，去做，然后当我看到实际上，我知道我正在取得良好的结果时，喜悦就出现了，当我看到有人真的读懂了我写的东西，并告诉我如何使它更好时，我甚至更加高兴。
+
+我确实想提一下关于这种方法的一些事情。所以，我有这个平板，在这里我进行概念的第一次书写。
+
+**问：** 用什么语言？
+
+**答：** 我没有写。所以，嘿，看一看，你知道，这里，随机。说，解释如何绘制这样倾斜的像素图。好吧，所以我大约40年前在加拿大访问我姐姐时得到了这个纸张，他们用这个漂亮的大尺寸和合适的纸制作平板。
+
+**问：** 像哦，是的，是的。特别是，只是。
+
+**答：** 是的，你知道，我有这些手稿可以追溯到60年代，那时是我将我的想法记录下来的时候。好吧，我是一个好打字员。事实上，我上高中的时候上过打字学校，所以我打字比我思考得更快。所以当我进行编辑时，你知道，站起来打字，然后我对此进行修改，结果与你寻找的风格和韵律等方面大不相同。
+
+**问：** 你用TeX打字。
+
+**答：** 我用TeX打字，你能吗？
+
+**问：** 你能用TeX思考吗？
+
+**答：** 不能。在某种程度上，我只使用一小部分惯用语，比如你知道开始或定理，我为显示的等式做一些事情等等，但我必须看到它。
+
+## 宏
+
+**问：** 就是这样的吗？例如，图灵以相反的方式写了什么，你不写宏，你不考虑宏。
+
+**答：** 尤其是。但当我需要宏时，我会继续并这样做。但问题是，我也会进行修改以适应写作。我的意思是，如果我可以节省一行，我会改变一些东西。这就像俳句一样，我会想出一种重写句子的方式，使其在页面上看起来更好。我不应该浪费时间在这上面，但我无法抗拒，因为我知道这只是另外百分之三的时间左右。
+
+**问：** 还有一个论点，也可以说这就是生活的真谛。
+
+**答：** 啊是的，事实上，这是真的，就像我每周在花园里工作一天一样，那是我生活的一种描述，摆脱杂草，消除程序中的错误。
+
+**问：** 所以，你知道，很多作家谈论的是，你知道基本上受苦于写作过程，是的，有很多困难。我认为编程，特别是你正在进行的技术写作，可能会是这样。你发现自己在方法上吗？你每天如何坐下来做工作？是一种挑战吗？你是否说这很有趣，但听到有非有趣的部分，你真的很努力吗？
+
+**答：** 是的，有趣的部分是当我能够将两个人的想法结合起来时。因此，我可能是第一个看到他们两人的想法的人。那么，你知道，我有机会创造，但枯燥的工作是我必须追逐一切到根源。这把我引向真正有趣的事情。比如我了解梵文，再一次，你知道，我试图给所有作者以赞誉。因此，我写信给那些知道那些人已故的人，以这种方式沟通。我得把数学搞对，我得检查所有我的程序，试图找
+
+到其中的漏洞，我在得到更好的想法后重写程序。
+
+**问：** 有死胡同的时候吗？
+
+**答：** 是的，我扔掉一些东西。比如，我花了很多时间准备一个基于棒球比赛的主要示例。我知道很多人对于棒球是世界上最重要的事情。但我也知道有很多人，对他们来说，板球是世界上最重要的事情，或者什么什么的。我意识到，如果我有一个大的样本，我会有一个折叠插图，我在说什么，我真的在教授这里的算法，而我有了这个例子，如果我是一个只知道板球的人，我会想：“他们对这个有什么看法？”我就剪掉了整个东西。但我，你知道，我有一个真的吸引那些把棒球作为他们生活中的主要主题的人的东西。
+
+**问：** 这是很多人，但只是少数人，我也取消了保龄球，甚至是更小的少数人。
+
+**问：** 在《计算机程序设计的艺术》中，为什么艺术是其中几个字之一？为什么有艺术的？ 
+
+**答：** 是的，这是我关于艺术的图灵演讲的主题。当人们谈论艺术时，实际上这个词的意思是不是自然的事物。因此，当你有人工智能时，这个艺术来自相同的根源，说明这是由人类创造的东西。然后它得到了更深层次的含义，通常是美术的含义，这将美丽引入其中，表示我们有一些事情是以一种优雅的方式做的，带来欢乐。我猜托尔斯泰说过，然而，那就是它以出色的方式完成，不仅是与自然不同的，而且人类特别擅长的东西。当人们谈到人工智能时，他们试图模仿人类。
+
+**问：** 但其中还有一些精美的元素和美感，你也是。
+
+**答：** 这就是我尝试传达的，你可以编写程序并创作一件艺术品。
 
 
 ## Transformational surprises
-
+Q: so now in terms
+of surprising you know what ideas in
 writing from sort and search to the combinatorial algorithms what ideas have
 you come across that were particularly
 surprising to you that that change the way you see a space of
-I get a surprise every time I have a bug in my program but but that isn't really what your transformational surprises for
-example in volume for a I was especially surprised when I learned about data
+
+
+A: I get a surprise every time I have a bug in my program but but that isn't really 
+
+Q: what your transformational surprises for
+
+
+A: example in volume for a I was especially surprised when I learned about data
 structure called B BDD boolean decision diagram because I sort of had the
 feeling that as an old-timer and you
 know I've been programming since this since the 50s and bTW these weren't
