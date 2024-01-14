@@ -1,6 +1,7 @@
 
 # Lex Fridman X Donald Knuth 
 
+文稿来源：[Donald Knuth: Algorithms, Complexity, and The Art of Computer Programming | Lex Fridman Podcast #62](https://www.youtube.com/watch?v=2BdBfsXbST8)
 ```
 这篇访谈稿的整理比预期的困难很多。
 
@@ -10,7 +11,6 @@
 3. 使用GPT将区分问答之后的文稿分部补充标点符号，从而获得可读性；
 4. 使用GPT将英文稿翻译为汉语
 5. 完成翻译工作之后，对全文稿进行精修。
-
 
 ```
 
