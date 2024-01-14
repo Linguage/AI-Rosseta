@@ -412,15 +412,15 @@ Q: so now in terms
 of surprising you know what ideas in
 writing from sort and search to the combinatorial algorithms what ideas have
 you come across that were particularly
-surprising to you that that change the way you see a space of
+surprising to you that that change the way you see a space of problems
 
 
 A: I get a surprise every time I have a bug in my program but but that isn't really 
 
-Q: what your transformational surprises for
+Q: what your transformational surprises 
 
 
-A: example in volume for a I was especially surprised when I learned about data
+A: for example in volume for a I was especially surprised when I learned about data
 structure called B BDD boolean decision diagram because I sort of had the
 feeling that as an old-timer and you
 know I've been programming since this since the 50s and bTW these weren't
@@ -430,20 +430,29 @@ kinds of things in it I mean logically underlies it everything we can describe
 all of what we know in terms of logic somehow and and here and and
 propositional logic I thought that was cutting Dryden everything was known but
 but but he but here comes a Randy Bryant
-and oh and discovers that BDDs are incredibly powerful then then that's all
+and oh and discovers that BDDs are incredibly powerful 
+then then that's all
 so I that mean means I have a whole new section to the book that I never would
 have thought of until 1986 not until 1990s when I went when people started to got to use it for you know
 billion dollar of applications and it was it was the standard way to design
 computers for a long time until until sad solvers came along when in the year 2000 so that's another great big
-surprise so uh a lot of these things have have totally changed the structure
+surprise 
+so uh a lot of these things have have totally changed the structure
 of my book and the middle third of volume four B's is about that solvers
 and that's 300 plus pages which is which is all
 about material mostly about material that was discovered in this century and
 I had to start from scratch and meet all the people in the field and right
 I have 15 different sets Alvers that i wrote while preparing that seven of them
-are described in the book others were for my own experience so newly invented
-data structures or ways to represent a whole new class of algorithm calling you
-classified yeah and the interesting thing about the BD DS was that the
+are described in the book others were for my own experience 
+
+Q: so newly invented
+data structures or ways to represent 
+
+A: a whole new class of algorithm 
+
+Q: whole new class
+
+A: yeah and the interesting thing about the BD DS was that the
 theoretician started looking at it and started to describe all the things you
 couldn't do with BD DS and so they were getting a bad they were getting a bad
 name because you know okay they were they were useful but they didn't solve
@@ -452,16 +461,72 @@ doesn't solve everything but I not only worried about the worst case I get a
 huge delight when I can actually solve a problem that I couldn't solve before yeah even though I can't solve the
 problem that's that it suggests as a further problem like I know that I'm Way
 better than I was before and so I found out that BD DS could do all kinds of miraculous things and so I had been
-quite a few years learning about the that territory so in general what brings
+quite a few years learning about the that territory 
+
+Q: so in general what brings
 you more pleasure in proving or showing a worst case analysis of an algorithm or
-showing a good average case or just showing a good case that you know
-something good pragmatically can be done with this algorithm yeah I like a good case that that is maybe only a million
+showing a good average case or just showing a good case 
+that you know
+something good pragmatically can be done with this algorithm 
+
+A: yeah I like a good case that that is maybe only a million
 times faster than I was able to do before but and not worried about the fact that
 and that is still that is still gonna take too long if I double the size of
-the problem so that said you popularize the asymptotic notation for describing
+the problem 
+
+## Transformational surprises
+
+**Q:** So now in terms of surprising, you know, what ideas in writing from sort and search to the combinatorial algorithms have you come across that were particularly surprising to you? That changed the way you see a space of problems?
+
+**A:** I get a surprise every time I have a bug in my program, but that isn't really...
+
+**Q:** What are your transformational surprises?
+
+**A:** For example, in volume four, I was especially surprised when I learned about a data structure called BDD (Boolean Decision Diagram). As an old-timer programming since the 50s, these weren't invented until 1986, and here comes a brand new idea that revolutionized the way to represent a boolean function. Boolean functions underlie everything we can describe in terms of logic, and here comes Randy Bryant, discovers that BDDs are incredibly powerful. That means I have a whole new section in the book that I never would have thought of until 1986, not until the 1990s when people started using it for billion-dollar applications. It was the standard way to design computers for a long time until SAT solvers came along in the year 2000. So, that's another great big surprise. Many of these things have totally changed the structure of my book, especially the middle third of volume four, which is about SAT solvers, covering material discovered in this century.
+
+**Q:** So newly invented data structures or ways to represent?
+
+**A:** A whole new class of algorithms.
+
+**Q:** A whole new class.
+
+**A:** Yes, and the interesting thing about BDDs was that theoreticians started looking at it, describing all the things you couldn't do with BDDs. They were getting a bad name, useful but not solving everything. Theoreticians might show in the next 10 years why machine learning doesn't solve everything. But I not only worry about the worst case, I get huge delight when I can solve a problem that I couldn't solve before, even though it suggests a further problem. I know I'm way better than before, and I found out that BDDs could do miraculous things, spending quite a few years learning about that territory.
+
+**Q:** So, in general, what brings you more pleasure: proving or showing a worst-case analysis of an algorithm, showing a good average case, or just showing a good case, something good pragmatically that can be done with this algorithm?
+
+**A:** I like a good case that is maybe only a million times faster than I was able to do before and not worried about the fact that it's still going to take too long if I double the size of the problem.
+
+## 转变性惊喜
+
+**问：** 那么就惊喜而言，你在编写过程中遇到的哪些想法，从排序和搜索到组合算法，特别令你惊讶，改变了你对问题空间的看法？
+
+**答：** 我每次在程序中发现错误都会感到惊喜，但那并不是真正的...
+
+**问：** 那么，你的转变性惊喜是什么？
+
+**答：** 例如，在第四卷中，我尤其惊讶地了解到一种称为BDD（布尔决策图）的数据结构。作为一个自50年代以来一直从事编程的老手，这些直到1986年才被发明，然后出现了一个彻底颠覆表示布尔函数的方式的全新想法。布尔函数对我们描述的逻辑基础中的一切都至关重要，我以为在命题逻辑方面已经无所不知。但是，Randy Bryant发现BDD非常强大。这意味着我在书中有了一个全新的部分，直到1986年我都没有想到过，直到1990年代人们开始将其用于价值数十亿美元的应用程序。直到2000年SAT求解器出现之前，这是设计计算机的标准方法。所以，这是另一个很大的惊喜。这些事情中的许多都彻底改变了我书中的结构，尤其是第四卷的中间部分，涵盖了在本世纪发现的材料，主要是关于SAT求解器的。
+
+**问：** 所以是新发明的数据结构或表示方式？
+
+**答：** 全新的算法类别。
+
+**问：** 完全新的类别。
+
+**答：** 是的，有趣的是关于BDD的事情是，理论家开始研究它，并开始描述你不能用BDD做的所有事情。它们开始名声烂掉，实用但不能解决所有问题。理论家可能会在未来10年内证明为什么机器学习不能解决所有问题。但我不仅担心最坏的情况，当我能够解决以前无法解决的问题时，我感到非常高兴，即使它提出了进一步的问题。我知道我比以前好得多，我发现BDD可以做出许多神奇的事情，花了好几年的时间学习那个领域。
+
+**问：** 总的来说，是什么更让你感到愉悦：证明或显示算法的最坏情况分析，展示平均情况良好，还是只是展示一种好的情况，明确算法可以实现一些好的实用情况？
+
+**答：** 我喜欢一种好的情况，可能只比我之前能做到的快一百万倍，不用担心问题的规模加倍后仍然需要太长时间。
+
+## Big-O notation
+
+Q: so that said you popularize the asymptotic notation for describing
 running time obviously in the analysis of algorithms worst cases such as such
-an important part do you see any aspects of that kind of analysis is lacking so
-and notation - well the main purpose you have notations that that help us for the
+an important part 
+do you see any aspects of that kind of analysis is lacking so
+and notation 
+
+A: - well the main purpose you have notations that that help us for the
 problems we want to solve and so that they match our they match our intuitions and people who worked in number theory
 had used asymptotic notation in what Ennis in a certain way but it was only
 known to a small group of people and and I realized that in fact it was very
@@ -476,22 +541,51 @@ what it is but I know it's not too big I know it's not bigger than some constant
 fine so I write Big O of N squared and now I learned how to add Big O of N squared to Big O of N cubed and I know
 how to add Big O of N squared 2 plus 1 and square that and how to take
 logarithms and Exponential's to have big O's in the middle of them and that turned out to be hugely valuable in all
-of the work that I was trying to do is I'm trying to figure out how good so I have there been algorithms in your
-journey that perform very differently in practice than they do in theory well the
+of the work that I was trying to do is I'm trying to figure out how good 
+
+Q: so I have there been algorithms in your
+journey that perform very differently in practice than they do in theory 
+
+A: well the
 worst case of a comet our logarithm is almost always horrible but but we have
 sad solvers that are solving where one of the one of the last exercises in that
 part of my book was to figure out a problem that has a hundred variables
 that's that's difficult for us at solver but uh but you would think that a
 problem with the hundred boolean variables has required to do 2 to the 100th operations because that's the
 number of possibilities when you have 200 boolean variables in 2 to the 100th to the 100th is way bigger than then we
-can handle 10 to the 17th is a lot you've mentioned over the past few years
+can handle 10 to the 17th is a lot 
+
+## Big-O notation
+
+**Q:** So, you popularized the asymptotic notation for describing running time, obviously in the analysis of algorithms, worst cases such an important part. Do you see any aspects of that kind of analysis is lacking in notation?
+
+**A:** Well, the main purpose of notations is to help us for the problems we want to solve so that they match our intuitions. People who worked in number theory had used asymptotic notation in what Ennis in a certain way, but it was only known to a small group of people. I realized that it was very useful to have a notation for something that we don't know exactly what it is but we only know partially about it. For example, instead of Big O notation, let's take a much simpler notation where I say 0 or 1 or 0 1 or 2, and suppose that when I had been in high school, we would be allowed to put in the middle of our formula x + 0 1 or 2 equals y. Then we would learn how to multiply two such expressions together. The same thing Big O notation says: here's something that I'm not sure what it is, but I know it's not too big. I know it's not bigger than some constant times N squared or something like that. So, I write Big O of N squared, and now I learn how to add Big O of N squared to Big O of N cubed and how to add Big O of N squared 2 plus 1 and square that, and how to take logarithms and exponentials with Big O's in the middle of them. That turned out to be hugely valuable in all of the work that I was trying to do to figure out how good.
+
+**Q:** So, have there been algorithms in your journey that perform very differently in practice than they do in theory?
+
+**A:** Well, the worst case of a combinatorial logarithm is almost always horrible. But we have SAT solvers that are solving where one of the last exercises in that part of my book was to figure out a problem that has a hundred variables that's difficult for a SAT solver. But you would think that a problem with a hundred boolean variables has required to do 2 to the 100th operations because that's the number of possibilities when you have 200 boolean variables in 2 to the 100th to the 100th is way bigger than we can handle, 10 to the 17th is a lot.
+
+## 大O符号表示法
+
+**问：** 那么，您推崇用于描述运行时间的渐进符号显然在算法分析中，最坏情况是如此重要的一部分。您是否认为这种类型的分析在符号上存在某些不足之处？
+
+**答：** 嗯，符号的主要目的是帮助我们解决我们想要解决的问题，使它们与我们的直觉相匹配。在数字理论中工作的人们以某种方式使用了渐进符号，但这只为一小部分人所知。我意识到，对于我们不确切知道的事物而仅知道部分信息的情况，拥有一种符号是非常有用的。例如，与其使用大O符号，我们来看一个简单得多的符号，我说0或1或0 1或2，假设在我上高中时，我们被允许在我们的公式中加入x + 0 1或2等于y。然后我们将学会如何将两个这样的表达式相乘。同样，大O符号表示：这是一些我不确定的东西，但我知道它不会太大。我知道它不会大于某个常数乘以N的平方之类的。因此，我写下了大O的N平方，现在我学会了如何将大O的N平方加到大O的N立方上，以及如何将大O的N平方2加1并平方，以及如何对数和指数与其中间的大O进行运算。这在我尝试弄清楚事物有多好的所有工作中都是非常有价值的。
+
+**问：** 在您的学术历程中，是否有算法在实践中与理论相比表现得截然不同？
+
+**答：** 嗯，组合对数的最坏情况几乎总是糟糕的。但我们有能够解决的SAT求解器，其中我书中的最后一部分的练习之一是找出一个具有一百个变量的问题，这对SAT求解器来说很困难。但您会认为一个具有一百个布尔变量的问题需要进行2的100次运算，因为当您具有200个布尔变量时，2的100次方的100次方要比我们处理的要大得多，10的17次方是很多的。
 
 
-## Algorithms
+
+
+## P=NP
+Q: you've mentioned over the past few years
 that you believe P may be equal to NP but that it's not really you know
 somebody does prove that P equals NP it will not directly lead to an actual algorithm to solve difficult problems
 can you explain your intuition here has it been changed and in general on the
-difference between easy and difficult problems of P and NP and so on yes so the popular idea is if an algorithm
+difference between easy and difficult problems of P and NP and so on yes 
+
+A: so the popular idea is if an algorithm
 exists then somebody will find it and
 it's just a matter of writing it down one point well but many more algorithms
 exist than anybody can end understand or ever make you discover yeah because
@@ -501,7 +595,11 @@ know we don't the foggiest idea what the algorithms are there's there are simple
 examples based on on game playing where you have
 where you say well there must be an algorithm that exists to win in the game of hex because for the first player to
 win in the game of hex because hex is always either an a win for the first
-player of the second player well what's the game of hack there's a game of hex which is which based on putting pebbles
+player of the second player 
+
+Q: well what's the game of hack 
+
+A: there's a game of hex which is which based on putting pebbles
 onto a hexagonal board and and the white player tries to get a light path from
 left to right and the black player tries to get a black path from bottom to top and how does capture occur just so and
 and and there's no capture you just put levels down what one at a time but there's no drawers because they after
@@ -533,34 +631,59 @@ one of these bad minimum graphs that's not in the family for in plate case for
 planar graph the minimum graph is a is a five-pointed star where there everything pointed to another and the minimum graph
 consisting of trying to connect three utilities to three houses without crossing lines and so there are two
 there are two bad graphs that are not planar and every every non planar graph
-contains one of these two bad graphs by by shrinking and he said again so he
-proved that there's a finite number of these bad guys always a finite know somebody says here's a family it's hard
-to believe and they present its sequence of 20 papers I mean in there it's deep
-work but it you know it's because that's for any arbitrary class so it's for any
-arbitrary class that's closed under taking minors that's closed under maybe I'm not understanding because it seems
-like a lot of them are closed taking minors almost all the important classes of graphs are there are tons of of such graphs but
+contains one of these two bad graphs by by shrinking and 
+
+he said again so he
+proved that there's a finite number of these bad guys always a finite know 
+
+somebody says here's a family 
+
+Q: it's hard to believe 
+
+A: and they present its sequence of 20 papers I mean in there it's deep
+work but it you know it's 
+
+Q: because that's for any arbitrary class 
+
+A: so it's for any
+arbitrary class that's closed under taking minors that's closed under 
+
+Q: maybe I'm not understanding because it seems
+like a lot of them are closed taking minors 
+
+A: almost all the important classes of graphs are there are tons of of such graphs but
 also hundreds of them that arise in applications like I have a book over
 here called classes of graphs and then and it it's amazing how many different
-classes people have looked at so why do you bring up this theorem lower this
-proof so you know there are lots of algorithms that that are known for special class of graphs for example if I
-have a certain if I have a chordal graph then I can color it efficiently if I
+classes people have looked at 
+
+Q: so why do you bring up this theorem lower this proof 
+
+A: so you know there are lots of algorithms that that are known for special class of graphs for example if I
+have a certain if I have a chordal graph then I can color it efficiently 
+if I
 have some kinds of graphs it'll make a great Network very soon like you'd like
 to test you somebody gives you a graph that's always it in this family of grass if so then I hope then I can I can go to
 the library and find an algorithm that's gonna solve my problem on that graph okay so we we have we want to have a
 graph that says number than that says
-give me a graph I'll tell you whether it's and whether it's in this family or not okay and so all I have to do is test
+give me a graph I'll tell you whether it's and whether it's in this family or not 
+okay and so all I have to do is test
 whether or not that does this given graph have a minor that's one of the bad ones a minor is is everything you can
 get by shrinking and removing edges and given any minor there's a polynomial
 time algorithm saying I can tell whether this is a minor of you and there's a
 finite number of bad cases so I just tried you know does it have this bad case by polynomial time I got the answer
 does he have this bad case probably time I got the answer a total polynomial time
-and so I've solved the problem however all we know is that the number of minors
+and so I've solved the problem 
+however all we know is that the number of minors
 is finite we don't know what we might only know one or two of those minors but
-we don't know that if we got it if we got 20 of them we don't know there might be 20 125 the Halloween all we know is
+we don't know that if we got it if we got 20 of them we don't know there might be 21 25 the Halloween all we know is
 that is that it's finite so here we have a polynomial time algorithm that we don't know
-mm-hm that's a really great example of what you worry about or why you think P
+
+
+Q: mm-hm that's a really great example of what you worry about or why you think P
 equals NP won't be useful but still why do you hold the intuition
-that P equals NP because you have to
+that P equals NP 
+
+A: because you have to
 rule out so many possible algorithms have been not working you know you can
 you can take the graph and you can represent it as in terms of certain
 prime numbers and then you can multiply those together and then you can then you can take the bitwise and and and you
@@ -572,63 +695,237 @@ happens to self it happens to solve a problem just because you know there's
 there's so many hairs on your head but it seems like unlikely that two
 people are going to have the same number of hairs on their head but but they're
 obvious but you can count how many people there are and how many hairs on there so there must be people walking
-around in the country to have the same number of hairs on their head well that's the kind of a coincidence that
+around in the country to have the same number of hairs on their head 
+well that's the kind of a coincidence that
 you might say also you know this this particular combination of operations just happens to prove that a graph is
 has a Hamiltonian path and I see lots of cases where unexpected things happen
-when you have enough enough possibilities but because the space of possibility is so huge I have to rule
+when you have enough enough possibilities 
+
+Q: but because the space of possibility is so huge 
+
+A: You have to rule
 them all out and so that's the reason for my intuition is good by no means approve I mean some people say you know
 well P can't equal NP because you've had all these smart people you know the
 smartest designers of algorithms that have been wrecking their brains for years and years and and there's million-dollar
 prizes out there and you know none of them nobody has thought of the algorithm
 so it must must be no such job on the other hand I can use exactly the same
 logic and I can say well P must be equal to NP because there's so many smart people out here been trying to prove it
-unequal to NP and they've all failed you know this kind of reminds me of the
+unequal to NP and they've all failed you know 
+
+Q: this kind of reminds me of the
 discussion about the search for aliens they've been trying to look for them and we haven't found them yet therefore they
-don't exist yeah but you can show that there's so many planets out there that they very possibly could exist yeah and right and
+don't exist yeah but you can show that there's so many planets out there that they very possibly could exist 
+
+A: yeah and right and
 then there's also the possibility that that they exist but they they all
-discovered machine learning or something and and and then blew each other up well
-on that small quick danger let me ask do you think there's intelligent life out there in the universe I have no idea do you hope so
-do you think about it it I I don't I don't spend my time thinking about
-things that I could never know really and yet you do enjoy the fact that there are many things you don't know you do
-enjoy the mystery of things I enjoy the fact that there that I have limits yeah
-but I don't but but I don't take time to answer unsolvable questions I got it
+discovered machine learning or something and and and then blew each other up 
+
+Q: well
+on that small quick danger let me ask do you think there's intelligent life out there in the universe 
+
+A: I have no idea 
+
+Q: do you hope so
+do you think about it 
+
+A: it I I don't I don't spend my time thinking about
+things that I could never know really and 
+
+Q: yet you do enjoy the fact that there are many things you don't know you do
+enjoy the mystery of things 
+
+A: I enjoy the fact that there that I have limits yeah
+but I don't but but I don't take time to answer unsolvable questions 
+
+Q: I got it
 well because you've taken on some tough questions that may seem unsolvable you
-have taken on some tough questions and you seem unsolvable if there is because we are thrilled when I can get further
+have taken on some tough questions and you seem unsolvable if there is 
+
+A: because we are thrilled when I can get further
 than I ever thought I could right yeah but but I don't what much like was religion these I'm glad the dirt that
-that there are no proof that God exists or not I mean I think it would spoil the
-mystery it it would be too dull yeah so
+that there are no proof that God exists or not I mean I think 
+
+Q: it would spoil the
+mystery 
+
+A: it it would be too dull yeah 
+
+## P=NP
+
+**Q:** You've mentioned over the past few years that you believe P may be equal to NP but that it's not really, you know, somebody does prove that P equals NP it will not directly lead to an actual algorithm to solve difficult problems. Can you explain your intuition here? Has it been changed and in general on the difference between easy and difficult problems of P and NP and so on?
+
+**A:** So the popular idea is if an algorithm exists, then somebody will find it, and it's just a matter of writing it down at one point. But many more algorithms exist than anybody can understand or ever make you discover. Because they're just way beyond human comprehension, the total number of algorithms is more than mind-boggling. So we have situations now where we know that an algorithm exists, but we don't have the foggiest idea what the algorithms are. There are simple examples based on game-playing where you say, "Well, there must be an algorithm that exists to win in the game of hex because for the first player to win in the game of hex because hex is always either a win for the first player or the second player."
+
+**Q:** What's the game of hex?
+
+**A:** There's a game of hex which is based on putting pebbles onto a hexagonal board. The white player tries to get a light path from left to right, and the black player tries to get a black path from bottom to top. There's no capture; you just put pebbles down one at a time. But there's no draws because after all the white and black pebbles are placed, there's either going to be a white path across from east to west or a black path from bottom to top. So there's always a win for the first or second player. Mathematically, you follow out all the trees, and either there's always the win for the first or second player. It's finite, so there's an algorithm that will decide. You can show it has to be one or the other because the second player could mimic the first player with a kind of pairing strategy. So you can show that it has to be one or the other, but we don't know any algorithm. We don't know in a case where you can prove the existence of the solution, but nobody knows how to find it.
+
+**Q:** Why do you bring up this theorem or this proof?
+
+**A:** There are lots of algorithms that are known for special classes of graphs. For example, if I have a certain chordal graph, then I can color it efficiently. If I have some kinds of graphs, it'll make a great network very soon. If somebody gives you a graph that's always in this family of graphs, then I hope that I can go to the library and find an algorithm that's going to solve my problem on that graph. So we want to have a graph that says, "Give me a graph; I'll tell you whether it's in this family or not." All I have to do is test whether or not this given graph has a minor that's one of the bad ones. A minor is everything you can get by shrinking and removing edges. Given any minor, there's a polynomial-time algorithm saying I can tell whether this is a minor of you, and there's a finite number of bad cases. So I've solved the problem. However, all we know is that the number of minors is finite. We don't know what we might only know one or two of those minors, but we don't know if we got 20 of them. We don't know; there might be 21, 25. All we know is that it's finite. So here we have a polynomial-time algorithm that we don't know.
+
+**Q:** That's a really great example of what you worry about or why you think P equals NP won't be useful. But still, why do you hold the intuition that P equals NP?
+
+**A:** Because you have to rule out so many possible algorithms that are not working. Some people say P can't equal NP because you've had all these smart people, the smartest designers of algorithms, that have been racking their brains for years, and there are million-dollar prizes out there. None of them have thought of the algorithm, so it must be no such job. On the other hand, I can use exactly the same logic and say P must be equal to NP because there are so many smart people out here been trying to prove it unequal to NP, and they've all failed.
+
+**Q:** This kind of reminds me of the discussion about the search for aliens—they've been trying to look for them, and we haven't found them yet; therefore, they don't exist. Yeah, but you can show that there's so many planets out there that they very possibly could exist.
+
+**A:** Yeah, and right, and then there's also the possibility that they exist, but they discovered machine learning or something and then blew each other up.
+
+**Q:** Well, on
+
+ that small quick danger, let me ask, do you think there's intelligent life out there in the universe?
+
+**A:** I have no idea.
+
+**Q:** Do you hope so? Do you think about it?
+
+**A:** I don't spend my time thinking about things that I could never know really.
+
+**Q:** Yet you do enjoy the fact that there are many things you don't know. You do enjoy the mystery of things.
+
+**A:** I enjoy the fact that I have limits, yeah, but I don't take time to answer unsolvable questions.
+
+**Q:** I got it. Well, because you've taken on some tough questions that may seem unsolvable. You have taken on some tough questions and you seem unsolvable if there is.
+
+**A:** Because we are thrilled when I can get further than I ever thought I could, right? But I don't want much like with religion; these are glad there are no proofs that God exists or not. I mean, I think it would spoil the mystery. It would be too dull.
+
+## P=NP
+
+**问：** 在过去的几年里，您提到您相信 P 可能等于 NP，但这并不是真的，您知道，如果有人证明 P 等于 NP，它不会直接导致解决困难问题的实际算法。您能解释一下您的直觉吗？这方面有没有变化，以及 P 和 NP 的易解和困难问题之间的一般区别等等？
+
+**答：** 因此，普遍的观点是，如果存在一种算法，那么某人迟早会找到它，这只是在某个时间点将其写下而已。但是存在的算法比任何人能理解或发现的算法都要多得多，因为它们远远超出了人类的理解范围，算法的总数超出了想象。因此，我们现在面临的情况是，我们知道存在一个算法，但我们对算法一无所知。有一些基于游戏玩法的简单例子，你说，“嗯，在六角游戏中存在一种算法，因为在六角游戏中，对于第一位玩家而言，他总是会赢得胜利。”
+
+**问：** 什么是六角游戏？
+
+**答：** 有一个基于将小石块放在六边形棋盘上的游戏。白色玩家试图在左右之间获得一条白色路径，而黑色玩家试图在底部和顶部之间获得一条黑色路径。没有捕获；你只是一个接一个地放石块。但是没有平局，因为在放置所有白色和黑色石块之后，要么会有一条从东到西的白色路径，要么会有一条从底部到顶部的黑色路径。因此，总是存在第一位或第二位玩家的获胜。数学上，你可以追踪所有的树，要么总有第一位玩家的获胜，要么总有第二位玩家的获胜。它是有限的，因此存在一种算法，将决定它是其中之一，因为第二位玩家可以模仿第一位玩家采用一种成对策略。因此，你可以证明它必须是其中之一，但是我们不知道任何算法。在有解的情况下，你可以证明解决方案的存在，但是没人知道如何找到它。
+
+**问：** 为什么提到这个定理或证明？
+
+**答：** 已知有很多用于特殊类别的图的算法。例如，如果我有某种弦图，那么我可以有效地为它上色。如果我有某些类型的图，它将很快形成一个很好的网络。如果你想测试某人是否给你一个始终位于这个图类别中的图，那么我希望我可以去图书馆找到一个解决该图上问题的算法。因此，我们希望有一个图，它说：“给我一个图，我会告诉你它是否属于这个类别。”我所要做的就是测试这个给定的图是否具有其中一个是不好的情况的缩小。通过缩小和删除边缘获得的一切都是一个次级。任何次级都有一个多项式时间算法，它告诉我可以告诉你这是否是你的次级。有一个有限数量的坏情况，所以我通过多项式时间得到了答案。是否有这个坏情况的多项式时间。所以我解决了这个问题。然而，我们唯一知道的是次级的数量是有限的。我们不知道我们可能只知道其中一个或两个次级，但是如果我们有其中20个，我们不知道可能会有21个，25个。我们唯一知道的是有限的。所以在这里，我们有一个我们不知道的多项式时间算法。
+
+**问：** 这是您担心的一个很好的例子，或者为什么您认为 P 等于 NP 不会有用。但是，为什么您对 P 等于 NP 有直觉？
+
+**答：** 因为你必须排除那么多可能不起作用的算法。有些人说 P 不能等于 NP，因为有所有这些聪明的人，算法的最聪明的设计者们多年来一直在苦苦思索，而且有百万美元的奖金。没有人想到算法，所以它一定不是这样的工作。另一方面，我可以使用完全相同的逻辑，并说 P 一定等于 NP，因为这里有那么多聪明的人一直在试图证明它不等于 NP，而他们都失败了。
+
+**问：** 这有点让我想起了有关寻找外星人的讨论——他们一直在试图寻找它们，但我们还没有找到，因此它们不存在。是的，但你可以证明有这么多行星，它们很可能存在。
+
+**答：** 是的，对，还有可能是它们存在，但他们发现了机器学
+
+习之类的东西，然后彼此炸毁了。
+
+**问：** 那么在这个小小的危险上，让我问一下，您是否认为宇宙中存在智慧生命？
+
+**答：** 我不知道。
+
+**问：** 你希望是这样吗？你会想这个问题吗？
+
+**答：** 我不会花时间去思考我永远不可能知道的事情。
+
+**问：** 但是您确实享受许多事情您不知道的事实。您确实享受事物的神秘性。
+
+**答：** 我喜欢事实上我有极限的事实，但我不会花时间回答无法解决的问题。
+
+**问：** 我明白了。好吧，因为您曾经提出过一些看似无法解决的难题。您确实提出了一些似乎无法解决的难题，但是如果存在。
+
+**答：** 因为当我能走得比我以前以为我能走得更远时，我们会感到兴奋，对吧？但是我不像宗教那样希望有没有上帝存在的证据，我认为这会破坏神秘性。那将会太无趣了。
+
+
+
+## Artificial intelligence
+
+Q: so
 to quickly talk about the other art of artificial intelligence what is if you what's your view
 you know artificial intelligence community has developed as part of computer science and in parallel with
-computer science since the 60s what's your view of the AI community from the 60s to now so all the
+computer science since the 60s what's your view of the AI community from the 60s to now 
+
+A: so all the
 way through it was the people who were inspired by trying to mimic intelligence
 or to do things that that were somehow the greatest achievements of intelligence that had been inspiration
 to people who have pushed the envelope of computer science maybe more than any
 other group of people so it's all the way through it's been a great source of of good problems to to sink teeth into
 and and getting getting partial answers
 and then more and more successful answers over the year so this has this
-has been the inspiration for lots of the great discoveries of computer science are you yourself captivated by the
+has been the inspiration for lots of the great discoveries of computer science 
+
+Q: are you yourself captivated by the
 possibility of creating of algorithms having echoes of intelligence in them
+
+A: 
 not as much as most of the people in the field I guess I would say but but that's
 not to say that they're wrong or that it's just you asked about my own personal preferences and yeah but but
 the thing that I that I worry about is
 when people start believing that they've actually succeeded and because the seems
 to me this huge gap between really understanding something and being able
-to pretend to understand something and give these give the illusion of understanding something do you think
-it's possible to create without understanding yeah so to uh I do that all the time to run I
+to pretend to understand something and give these give the illusion of understanding something 
+
+
+Q: do you think
+it's possible to create without understanding 
+
+A: yeah so to uh I do that all the time to run I
 mean that's why I use random members I like yeah but I but but there's there's
 still what this great gap I don't know certain it's impossible but I'm like but I don't see a anything coming any closer
 to really the the kind of stuff that I would
-consider intelligence say you've mentioned something that on that line of thinking which I very much agree with so
+consider intelligence 
+
+Q: say you've mentioned something that on that line of thinking which I very much agree with so
 the art of computer programming as the book is focused on single processor
-algorithms and for the most part and you mentioned that's only because I set the
-table of contents in 1962 you have to remember for sure there's no I'm glad I
-didn't wait until 1965 or one book maybe
+algorithms and for the most part and you mentioned 
+
+A: that's only because I set the
+table of contents in 1962 you have to remember 
+I'm glad I
+didn't wait until 1965 or 
+
+## Artificial Intelligence
+
+**Q:** So, to quickly talk about the other part of artificial intelligence, what is your view? You know, the artificial intelligence community has developed as part of computer science and in parallel with computer science since the '60s. What's your view of the AI community from the '60s to now?
+
+**A:** So, all the way through, it was the people who were inspired by trying to mimic intelligence or to do things that were somehow the greatest achievements of intelligence. That had been an inspiration to people who have pushed the envelope of computer science, maybe more than any other group of people. So, all the way through, it's been a great source of good problems to sink teeth into and getting partial answers and then more and more successful answers over the years. So, this has been the inspiration for lots of the great discoveries of computer science.
+
+**Q:** Are you yourself captivated by the possibility of creating algorithms having echoes of intelligence in them?
+
+**A:** Not as much as most of the people in the field, I guess I would say. But that's not to say that they're wrong or that it's just, you asked about my own personal preferences. But the thing that I worry about is when people start believing that they've actually succeeded. Because it seems to me this huge gap between really understanding something and being able to pretend to understand something and give these illusions of understanding something.
+
+**Q:** Do you think it's possible to create without understanding?
+
+**A:** Yeah, so I do that all the time to run. I mean, that's why I use random numbers, yeah. But there's still this great gap. I don't know, certainly it's impossible, but I don't see anything coming any closer to really the kind of stuff that I would consider intelligence.
+
+**Q:** You've mentioned something on that line of thinking, which I very much agree with. The art of computer programming, as the book is focused on single-processor algorithms for the most part. And you mentioned...
+
+**A:** That's only because I set the table of contents in 1962. You have to remember, I'm glad I didn't wait until 1965 or...
+
+## 人工智能
+
+**问：** 所以，简单谈一下人工智能的另一方面，您对此有何看法？自上世纪60年代以来，人工智能社区作为计算机科学的一部分并与计算机科学平行发展。从60年代到现在，您对AI社区的看法如何？
+
+**答：** 一直以来，人们受到启发，试图模仿智能或进行一些在某种程度上是智能最伟大成就的事情，这一直是推动计算机科学发展的灵感之源，或许比其他任何人群都更多。因此，一直以来，这一直是一个激发人们投入、得到部分答案，然后在多年里取得越来越成功答案的伟大计算机科学发现的灵感。
+
+**问：** 您自己是否着迷于创造具有智能回音的算法的可能性？
+
+**答：** 与该领域的大多数人相比，我可能没有那么着迷。但这并不是说他们错了，或者这仅仅是问及我个人偏好。但我担心的是，当人们开始相信他们确实取得了成功时。因为在真正理解某事与能够假装理解某事之间存在巨大差距，并能够给出这些假象，这对我来说是个巨大的鸿沟。
+
+**问：** 您认为在不理解的情况下创建可能吗？
+
+**答：** 是的，我经常这样运行。我的意思是，这就是为什么我使用随机数的原因。但仍然存在这个巨大的鸿沟。我不知道，当然有可能，但我并没有看到任何越来越接近我认为是智能的那种东西。
+
+**问：** 在这方面的思考路线上，您提到的是我非常同意的。计算机编程的艺术，正如该书主要关注单处理器算法一样。您提到...
+
+**答：** 那只是因为我在1962年设定了目录。您必须记住，我很高兴我没有等到1965年或...
+
+
+## Ant colonies and human cognition
+
+Q: one book maybe
 will touch in the Bible but one book can't always cover the entirety of everything so I'm glad yeah I'm glad the
 the table of contents for the art of computer programming is what it is but
 you did mention that that you thought that an understanding of the way ant colonies are able to perform incredibly
 organized tasks might well be the key to understanding human cognition so these fundamentally distributed
 systems so what do you think is the difference between the way Don Knuth
-would sort a list and an ant colony would sort a list or performing algorithm sorting a list isn't same as
+would sort a list and an ant colony would sort a list or performing algorithm 
+
+Q: sorting a list isn't same as
 cognition though but but I know what you're getting at is well the advantage
 of ant colony at least we can see what they're doing we we know which ant has
 talked to which other ant and and and and it's much harder with the quick
