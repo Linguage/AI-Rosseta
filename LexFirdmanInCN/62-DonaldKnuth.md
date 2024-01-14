@@ -878,7 +878,7 @@ table of contents in 1962 you have to remember
 I'm glad I
 didn't wait until 1965 or 
 
-## Artificial Intelligence
+### Artificial Intelligence（整理）
 
 **Q:** So, to quickly talk about the other part of artificial intelligence, what is your view? You know, the artificial intelligence community has developed as part of computer science and in parallel with computer science since the '60s. What's your view of the AI community from the '60s to now?
 
@@ -896,7 +896,7 @@ didn't wait until 1965 or
 
 **A:** That's only because I set the table of contents in 1962. You have to remember, I'm glad I didn't wait until 1965 or...
 
-## 人工智能
+### 人工智能（翻译）
 
 **问：** 所以，简单谈一下人工智能的另一方面，您对此有何看法？自上世纪60年代以来，人工智能社区作为计算机科学的一部分并与计算机科学平行发展。从60年代到现在，您对AI社区的看法如何？
 
@@ -925,43 +925,113 @@ organized tasks might well be the key to understanding human cognition so these 
 systems so what do you think is the difference between the way Don Knuth
 would sort a list and an ant colony would sort a list or performing algorithm 
 
-Q: sorting a list isn't same as
+A: sorting a list isn't same as
 cognition though but but I know what you're getting at is well the advantage
 of ant colony at least we can see what they're doing we we know which ant has
 talked to which other ant and and and and it's much harder with the quick
-brains to just to know how to what extent of neurons are passing signal so
-I understand that aunt Connie might be a if they have the secret of cognition
+brains to just to know how to what extent of neurons are passing signal 
+so I understand that aunt Connie might be a if they have the secret of cognition
 think of an ant colony as a cognitive single being rather than as a colony of
 lots of different ants I mean just like the cells of our brain are and and the
-microbiome and all that is interacting entities but but somehow I consider
+microbiome and all that is interacting entitiesbut but somehow I consider 
 myself to be single person well you know aunt Connie you can say might be cognitive is
 somehow and it's yeah I mean you know I okay I like I smash a certain aunt and
-mmm that's stung what was that right you know but if we're going to crack the the
+mmm that's stung what was that  
+you know but if we're going to crack the the
 the secret of cognition it might be that we could do so by but my psyche note how
 ants do it because we have a better chance to measure and they're communicating by pheromones and by
 touching each other and sight but but not by much more subtle phenomenon Mike
-electric currents going through but even a simpler version of that what are your thoughts of maybe Conway's Game of Life
-okay so Conway's Game of Life is is able to simulate any any computable process
-and any deterministic process is like how you went there I mean that's not its
+electric currents going through 
+
+Q: but even a simpler version of that what are your thoughts of maybe Conway's Game of Life
+
+A: okay so Conway's Game of Life is is able to simulate any any computable process
+and any deterministic process 
+
+Q: is like how you went there I mean that's not its
 most powerful thing I would say I mean
 you can simulate it but the magic is that the individual units are
-distributed yes and extremely simple yes we can we understand exactly what the
-primitives are the permit is the just like with the anthology even simple but if we but still it doesn't say that I
+distributed  and extremely simple 
+
+A: yes we can we understand exactly what the primitives are 
+
+Q: the permit is the just like with the anthology even simple 
+
+A: but if we but still it doesn't say that I
 understand I understand life I mean I understand it it gives me an it gives me
 a better insight into what does it mean to to have a deterministic universe what
-does it mean to to have free choice for example do you think God plays dice yes
+does it mean to to have free choice for example 
+
+Q: do you think God plays dice 
+
+A: yes
 I don't see any reason why God should be forbidden from using the most efficient ways to to to I mean we we know that
 dice are extremely important and inefficient algorithms there are things like that couldn't be done well without
-randomness and so I don't see any reason why my god should be prohibited but when the
+randomness and so I don't see any reason why my god should be prohibited but 
+
+## Ant Colonies and Human Cognition
+
+**Q:** One book may touch on the Bible, but one book can't always cover the entirety of everything. So, I'm glad the table of contents for "The Art of Computer Programming" is what it is. But you did mention that an understanding of the way ant colonies perform incredibly organized tasks might be the key to understanding human cognition. These fundamentally distributed systems. What do you think is the difference between the way Don Knuth would sort a list and an ant colony would sort a list or perform an algorithm?
+
+**A:** Sorting a list isn't the same as cognition, though. But I know what you're getting at. The advantage of an ant colony is that, at least, we can see what they're doing. We know which ant has talked to which other ant. It's much harder with quick brains to know the extent to which neurons are passing signals. So, I understand that an ant colony might be a, if they have the secret of cognition, think of an ant colony as a cognitive single being rather than as a colony of lots of different ants. I mean, just like the cells of our brain are, and the microbiome and all that are interacting entities, but somehow, I consider myself to be a single person. Well, you know, an ant colony, you can say, might be cognitive in some way. It's, yeah, I mean, you know, I okay, I smash a certain ant, and mmm, that's stung, what was that? But if we're going to crack the secret of cognition, it might be that we could do so by studying how ants do it because we have a better chance to measure, and they're communicating by pheromones and by touching each other and sight, but not by much more subtle phenomena like electric currents going through.
+
+**Q:** But even a simpler version of that, what are your thoughts on maybe Conway's Game of Life?
+
+**A:** Okay, so Conway's Game of Life is able to simulate any computable process and any deterministic process.
+
+**Q:** It's like how you went there. I mean, that's not its most powerful thing, I would say. I mean, you can simulate it, but the magic is that the individual units are distributed and extremely simple.
+
+**A:** Yes, we can understand exactly what the primitives are.
+
+**Q:** The primitive is just like with the ant colony, even simple.
+
+**A:** But if we but still, it doesn't say that I understand Life. I mean, I understand it. It gives me a better insight into what does it mean to have a deterministic universe, what does it mean to have free choice, for example.
+
+**Q:** Do you think God plays dice?
+
+**A:** Yes, I don't see any reason why God should be forbidden from using the most efficient ways. We know that dice are extremely important and inefficient algorithms; there are things like that that couldn't be done well without randomness. So, I don't see any reason why God should be prohibited.
+
+## 蚂蚁群与人类认知
+
+**问：** 一本书可能会涉及到《圣经》，但一本书并不能总是涵盖一切。因此，我很高兴《计算机程序设计艺术》的目录是什么样子。但您提到了了解蚂蚁群如何执行令人难以置信的有组织任务可能是理解人类认知的关键。这些根本上分布式的系统。您认为唐纳德·克努斯特会对列表进行排序，而蚂蚁群会对列表进行排序或执行算法的方式有何不同？
+
+**答：** 对列表进行排序并非与认知相同。但我知道你的意思。蚂蚁群的优势在于，至少我们可以看到它们在做什么。我们知道哪只蚂蚁与哪只蚂蚁交流过。对于快速的大脑来说，要知道神经元传递信号的程度要困难得多。因此，我理解蚂蚁群可能是认知单一存在的，而不是许多不同蚂蚁的群体。我是说，就像我们的大脑细胞一样，以及微生物群落等互动实体，但以某种方式，我认为自己是一个单一的个体。蚂蚁群，你可以说，在某种程度上可能是认知的。是的，我是说，你知道，我打死了某只蚂蚁，嗯，那是被蛰了，那是什么？但如果我们要破译认知的秘密，也许我们可以通过研究蚂蚁是如何做到的，因为我们有更好的测量机会，它们通过信息素、互相触摸和视觉进行交流，但并不是通过更加微妙的现象，比如电流穿过。
+
+**问：** 但即使是一个更简化版本的，您对康威生命游戏有什么看法？
+
+**答：** 好吧，康威的生命游戏能够模拟任何可计算的过程和任何确定性过程。
+
+**问：** 就像您刚才所说的。我是说，这并不是它最强大的地方，我认为。我是说，你可以模拟它，但其中个体单位的魔力在于它们分布式且非常简单。
+
+**答：** 是的，我们可以准确了解基本元素是什么。
+
+**问：** 这个基本元素就像蚂蚁群一样，即使简单。
+
+**答：** 但即便如此，这并不意味着我理解“生命”。我的意思是，我理解了它，它让我更好地了解什么是拥有确定性宇宙，什么是例如自由选择。
+
+**问：** 您认为上帝是否会掷骰子？
+
+**答：** 是的，我认为没有理由阻止上帝使用最有效的方法。我们知道骰子是极其重要和低效的算法之一，有一些事情，如果没有随机性，就很难做到。因此，我认为没有理由禁止上帝这样做。
+
+## God and the Bible
+
+Q: when the
 when the algorithm requires it you don't see why the know the physics
-should constrain it yeah so in 2001 you gave a series of lectures at MIT about religion and science
-well that would 1999 but you published the book came out in Cooper so in 1999
-you spent a little bit of time in Boston enough to give those lectures yeah and I
+should constrain it yeah 
+so in 2001 you gave a series of lectures at MIT about religion and science
+
+
+A: well that would 1999 but you published the book came out in Cooper 
+
+Q: so in 1999
+you spent a little bit of time in Boston enough to give those lectures and I
 read in the 2001 version that most of it it's quite fascinating read I recommend
 people its transcription of your lectures so what did you learn about how
 ideas get started and grow from studying the history of the Bible sieve rigorously studied a very particular
 part of the Bible what did you learn from this process about the way us human beings as a society develop and grow
-ideas share ideas and I'm by those idea I I tried to summarize that I wouldn't
+ideas share ideas and I'm by those idea 
+
+A: I I tried to summarize that I wouldn't
 say that I that I learned a great deal of really definite things like right where I could make conclusions but I
 learned more about what I don't know you have a complex subject which is really
 beyond human understanding so so we give
@@ -973,22 +1043,26 @@ studying parts that somebody tells me to study or instead of studying nothing
 because it's too hard so I I i decided
 for my own amusement that one ones that I would I would take a subset of the of
 the verses of the Bible and I would try to find out what the
-best thinkers have said about that small subset and I had had about let's say 660
+best thinkers have said about that small subset and I had had about let's say 60
 verses out of out of 3,000 I think it's one out of 500 or something like this and so then I went to the libraries
 which which are well indexed uh you can you you know I spent for example at at
 Boston Public Library I I would go once a week for a year and I went to I went I
 have done time stuff and over Harvard library to look at this yes that weren't
-in the Boston Public where they where scholars had looked at and you can call in the eight and you can go down the
+in the Boston Public 
+where they where scholars had looked at and you can call in the eight and you can go down the
 shelves and and you can pretty you can look at the index and say oh there it is this verse I mentioned anywhere in this
 book if so look at page 105 so I was like I could learn not only about the
 Bible but about the secondary literature about the Bible the things that scholars have written about it and so that that
 gave me a way to uh to zoom in on parts
 of the things so that I could get more more insight and and so I look at it as
 a way of giving me some firm pegs which
-icon which I could hang pieces of information but not as as things where I would say and therefore this is true in
+icon which I could hang pieces of information but not as as things where I would say and therefore this is true 
+
+Q: in
 this random approach of sampling the Bible what did you learn about the the
 most you know central oh one of the biggest accumulation of ideas you know
-to me that the that the main thrust was not the one that most people think of as
+
+A: to me that the that the main thrust was not the one that most people think of as
 saying you know you know don't have sex or something like this but that the main
 thrust was to try to to try to figure
 out how to live in harmony with God's wishes I'm assuming that God exists and I say I'm glad that I that
@@ -1000,10 +1074,14 @@ exists but it if but a lot of things the people say God doesn't exist but that's
 still important to them and so in a way in a way that might still be other God
 is there or not in some sense so it it guys important to them it's one of the
 one of the verses I studied act is you can interpret as saying you know it's much better to be an atheist that not to
-care at all so I would say it's yeah it's similar to the P equals NP
+care at all 
+
+Q: so I would say it's yeah it's similar to the P equals NP
 discussion yeah you you mentioned a mental exercise that I'd love it if you
 could partake in yourself a mental exercise of being God and so how would
-you if you were God dot Knuth how would you present yourself to the people of Earth you mentioned your love of
+you if you were God dot Knuth how would you present yourself to the people of Earth 
+
+A: you mentioned your love of
 literature and there was it there's this book that would that really uh I can recommend to you if I can't think yeah
 the title I think is blasphemy it talks about God revealing himself through a
 computer in in in Los Alamos and and it
@@ -1013,14 +1091,71 @@ don't want to give that away but it but it's really very much about this questio
 but but suppose God said okay that my
 previous on means of communication with the world are and not the best for the
 21st century so what should I do now and and and it's conceivable that that it
-would that that God would choose the way that's described in this book and
+would that that God would choose the way that's described in this book 
+
+Q: and
 another way to look at this exercise is looking at the human mind looking at the human spirit the human life in a
-systematic way I think it mostly you want to learn humility you want to realize that once we solve one problem
+systematic way 
+
+A: I think it mostly you want to learn humility you want to realize that once we solve one problem
 that doesn't mean it worked at all so no other problems are going to drop out and and and and we have to realize that that
 that there are there are things beyond our beyond our ability I see hubris all
-around yeah well said if you were to run
+around 
+
+## God and the Bible
+
+**Q:** When the algorithm requires it, you don't see why the physics should constrain it. So in 2001, you gave a series of lectures at MIT about religion and science.
+
+**A:** Well, that would be 1999, but the book came out in Cooper.
+
+**Q:** So in 1999, you spent a little bit of time in Boston, enough to give those lectures, and I read in the 2001 version that most of it is quite a fascinating read. I recommend people its transcription of your lectures. So what did you learn about how ideas get started and grow from studying the history of the Bible? You rigorously studied a very particular part of the Bible. What did you learn from this process about the way us human beings as a society develop and grow ideas, share ideas, and abide by those ideas?
+
+**A:** I tried to summarize that. I wouldn't say that I learned a great deal of really definite things, like right where I could make conclusions. But I learned more about what I don't know. You have a complex subject that is really beyond human understanding. So, we give up on saying I'm never going to get to the end of the road and I'm never going to understand it. But maybe it might be good for me to get closer and closer and learn more about something. So, oh, how can I do that efficiently? The answer is, well, use randomness. To try a random subset of that which is within my grasp and study that in detail instead of just studying parts that somebody tells me to study or instead of studying nothing because it's too hard. I decided, for my amusement, that I would take a subset of the verses of the Bible and I would try to find out what the best thinkers have said about that small subset. I had about, let's say, 60 verses out of 3,000. I think it's one out of 500 or something like this. Then I went to the libraries, which are well-indexed. I spent, for example, at Boston Public Library, I would go once a week for a year, and I went over to Harvard library to look at this, yes, that weren't in the Boston Public where scholars had looked at. You can call in and you can go down the shelves and you can pretty much look at the index and say, oh, there it is, this verse I mentioned anywhere in this book. If so, look at page 105. I could learn not only about the Bible but also about the secondary literature about the Bible, the things that scholars have written about it. That gave me a way to zoom in on parts of the things so that I could get more insight. I look at it as a way of giving me some firm pegs on which I could hang pieces of information but not as things where I would say, and therefore, this is true.
+
+**Q:** In this random approach of sampling the Bible, what did you learn about one of the biggest accumulations of ideas?
+
+**A:** To me, the main thrust was not the one that most people think of as saying, you know, don't have sex or something like this. But the main thrust was to try to figure out how to live in harmony with God's wishes, assuming that God exists. I'm glad that there's no way to prove this because that would run through the proof once, and then I'd forget it. I would never just speculate about spiritual things and mysteries otherwise. I think my life would be very incomplete. So, I'm assuming that God exists, but a lot of people say God doesn't exist, but that's still important to them. So, in a way, God is there or not in some sense. It is important to them. One of the verses I studied can be interpreted as saying, you know, it's much better to be an atheist than not to care at all.
+
+**Q:** It's similar to the P equals NP discussion. You mentioned a mental exercise that I'd love it if you could partake in yourself, a mental exercise of being God. If you were God, Donald Knuth, how would you present yourself to the people of Earth?
+
+**A:** You mentioned your love of literature, and there's this book that really, I can recommend to you if I can think of the title. I think it is "Blasphemy." It talks about God revealing himself through a computer in Los Alamos. It's the only book that I've ever read where the punchline was really the very last word of the book, and it explained the whole idea of the book. I don't want to give that away, but it's really much about this question that she raised. But suppose God said, okay, that my previous means of communication with the world are not the best for the 21st century. What should I do now? It's conceivable that God would choose the way that's described in this book.
+
+**Q:** Another way to look at this exercise is looking at the human mind, looking at the human spirit, the human life in a systematic way.
+
+**A:** I think mostly you want to learn humility. You want to realize that once we solve one problem, that doesn't mean it worked at all. No other problems are going to drop out, and we have to realize that there are things beyond our ability. I see hubris all around.
+
+## 上帝与圣经
+
+**问：** 当算法需要时，您不认为物理学应该对其进行限制。所以在2001年，您在麻省理工学院进行了一系列有关宗教和科学的讲座。
+
+**答：** 嗯，那应该是1999年，但该书在2001年出版。
+
+**问：** 因此，在1999年，您在波士顿待了一点时间，足够进行这些讲座，我在2001年版本中读到大部分内容非常有趣。我建议大家阅读您的讲座转录。因此，通过研究《圣经》历史，您对于思想如何产生并发展学到了什么？您对我们人类作为一个社会是如何发展和传播思想，以及奉行这些思想的过程有何看法？ 
+
+**答：** 我试图总结一下。我不会说我学到了很多确切的东西，就像我可以得出结论的地方一样。但我更多地了解了我不知道的东西。这是一个复杂的主题，真的超出了人类的理解能力。因此，我们放弃说我永远无法走到路的尽头，我永远无法理解它。但也许对我来说，逐渐更加接近并学到更多关于某事的知识是有好处的。那么，嗯，我该如何有效地做到这一点呢？答案是，使用随机性。尝试对我可以掌握的那一部分进行随机子集的研究，而不仅仅是学习有人告诉我要学习的部分，或者因为太难而不学习。我决定，为了自己的娱乐，我将选择《圣经》的某些经文，然后尝试找出对于这个小小的子集最优的思考者都说了些什么。我有大约，比如说3000篇中的60篇。我认为是500分之一左右。然后我去了图书馆，这些图书馆都有很好的索引。例如，在波士顿公共图书馆，我每周去一次，持续了一年，我还去了哈佛图书馆，看了那里波士顿公共图书馆没有的东西。学者们已经研究过的地方。您可以打电话，您可以去书架下，您可以相当地查看索引，然后说，哦，那就是它，这一节在这本书的任何地方都提到了吗？如果是这样，请查看105页。我像我可以不仅了解《圣经》，还了解关于《圣经》的次级文献，学者们对它写的东西。这使我有了一种方法来放大事物的一部分，以便我可以更多地了解。我把它看作是一种让我能够挂载信息片段的坚实挂钩，但并不是我会说，因此这是真的。
+
+**问：** 在对《圣经》进行这种随机抽样的方法中，您对最大的一堆思想积累之一学到了什么？
+
+**答：** 对我来说，主要的推动力并不是大多数人认为的那种说，你知道，不要发生性关系之类的。但主要的推动力是尝试弄清楚如何与上帝的意愿和谐相处，假设上帝存在。我很高兴没有办法证明这一点，因为那将使我经过一次证明，然后就会忘记它，我就不会对精神事物和神秘事物进行臆测了。否则，我认为我的生活会非常不完整。因此，我假设上帝存在，但许多人说上帝不存在，但对他们来说，这仍然很重要。所以，在某种程度上，上帝是在那里或不存在。我研究的一篇经文可以解释为说，成为无神论者要好得多，而不是根本不关心。
+
+**问：** 这与P等于NP的讨论相似。您提到了一种心理锻炼，我很喜欢您能亲自参与的心理锻炼，那就是成为上帝。如果您是上帝，唐纳德·克努斯，您将如何向地球上的人们展示自己？
+
+**答：** 您提到了您对文学的热爱，有一本真正的书，我可以向您推荐，如果我能想到标题的话。我认为它是《亵渎》。它谈到上帝通过洛斯阿拉莫斯的计算机揭示自己的一本书。这是我唯一读过的书，结尾确实是书的最后一个词，
+
+它解释了整本书的思想。我不想泄露这个，但它确实非常涉及她提出的这个问题。但假设上帝说，好的，我的以前与世界沟通的手段并不是21世纪最好的，那我现在该怎么办呢？这是可以想象的，上帝会选择这本书中描述的方式。
+
+**问：** 从另一个角度看这个练习是以系统的方式看待人类的思维，人类的精神，人类的生活。
+
+**答：** 我认为主要是要学会谦逊。您想要意识到一旦我们解决了一个问题，这并不意味着它根本有效。其他问题不会脱颖而出，我们必须意识到有些事情是我们能力之外的。我到处都看到傲慢。
+
+
+## Reflection on life
+
+Q: yeah well said if you were to run
 program analysis on your own life how did you do in terms of correctness
-running time resource use asymptotically speaking of course okay yeah well I
+running time resource use asymptotically speaking 
+
+A: of course okay yeah well I
 would say that question has not been asked me before and i i i started out
 with library subroutines and and
 learning how to be a automaton that was obedient and i had the great advantage
@@ -1032,15 +1167,21 @@ but i but i know that that's an extra burden that i didn't have to suffer from
 and and and then i I found the from from
 parents I learned the idea of of altruist to other people as being more
 important than then when I get out of
-stuff myself I you know that I need to I need to be happy enough enough in order
+stuff myself 
+I you know that I need to I need to be happy enough enough in order
 to be able to speed up service but I thought but I you know but I I came to a philosophy for finally that that I
 phrased as point eight is enough there
-was a TV show once called hate is enough which was about a you know somebody had eight kids but but I I say point a is
+was a TV show once called hate is enough which was about a you know somebody had eight kids 
+but but I I say point a is
 enough which means if I can have a way of rating happiness I think it's good
 design that to have to have an organism
 that's happy about eighty percent of the time and if it was a hundred percent of
 the time it would be like every like everybody's on drugs and and never and and and and everything collapses nothing
-works because everybody's just too happy do you think you've achieved that point eight optimal work there are times when
+works because everybody's just too happy 
+
+Q: do you think you've achieved that point eight optimal work 
+
+A: there are times when
 I when I'm down and I you know and I think I mean I know that I'm chemically
 right I know that I've actually been programmed to be I to be depressed a
 certain amount of time and and and if that gets out of kilter and I'm more depressed and you know sometimes like
@@ -1050,7 +1191,33 @@ me that I'm supposed to be mad at somebody and so and so I triggered up say okay
 but if I'm but if I'm not a hundred percent happy that doesn't mean that I
 should find somebody that that's screaming and and try to size them up but I'd be like I'm saying you know okay
 I'm not 100% happy but but I'm happy enough to death to be a you know part of
-a sustainable situation so so that's kind of the numerical analysis I do you
+a sustainable situation so so that's kind of the numerical analysis I do 
+
+## Reflection on Life
+
+**Q:** Yeah, well said. If you were to run program analysis on your own life, how did you do in terms of correctness, running time, resource use asymptotically speaking?
+
+**A:** Of course, okay. Yeah, well, I would say that question has not been asked to me before. I started out with library subroutines and learning how to be an automaton that was obedient. I had the great advantage that I didn't have anybody to blame for my failures. If I started not understanding something, I knew that I should stop playing ping pong, and it was my fault that I wasn't studying hard enough, rather than someone discriminating against me. I don't know how to avoid the existence of biases in the world, but I know that's an extra burden that I didn't have to suffer from. Then, from parents, I learned the idea of altruism to other people being more important than what I get out of stuff myself. I need to be happy enough to be able to speed up service. But I came to a philosophy that I phrased as "point eight is enough." There was a TV show once called "Eight Is Enough," about someone having eight kids. But I say "point eight is enough," meaning it's a good design to have an organism that's happy about eighty percent of the time. If it were a hundred percent of the time, it would be like everyone's on drugs, and everything collapses because everybody's just too happy.
+
+**Q:** Do you think you've achieved that point eight optimal work?
+
+**A:** There are times when I'm down, and I know that I'm chemically right. I've been programmed to be depressed a certain amount of time. If that gets out of kilter and I'm more depressed, sometimes I find myself trying to figure out who I should be mad at today. But then I realize it's just my chemistry telling me that I'm supposed to be mad at somebody. So, I trigger myself to say, "Okay, go to sleep and get better." If I'm not a hundred percent happy, it doesn't mean I should find somebody screaming and try to size them up. I'm saying, "Okay, I'm not a hundred percent happy, but I'm happy enough to be a part of a sustainable situation." That's kind of the numerical analysis I do.
+
+## 对生活的反思
+
+**问：** 是的，说得很好。如果你要对你的一生进行程序分析，就正确性、运行时间和资源使用方面而言，你认为自己的表现如何，从渐近的角度来看？
+
+**答：** 当然，好的。是的，我会说这个问题之前从未有人问过我。我从库子程序和学习如何成为一个顺从的自动机开始。我有一个很大的优势，那就是我没有任何人可以责怪我的失败。如果我开始不理解某事，我知道我应该停止打乒乓球，那就是我不够努力学习的错。而不是有人歧视我。我不知道如何避免世界上存在偏见，但我知道这是我不必遭受的额外负担。然后，从父母那里，我学到了对他人的利他主义比我自己得到的更重要的观念。我需要足够快乐才能加快服务速度。但我得出了一个哲学观点，我称之为“0.8就足够了”。有一次有一部电视节目叫做《足够了八个孩子》，讲述的是一个人有八个孩子。但我说“0.8就足够了”，意思是设计一个在八成时间内快乐的有机体是一个好的设计。如果一百百分之百的时间，就好像每个人都在吸毒，一切都会崩溃，因为每个人都太开心了。
+
+**问：** 你认为你已经达到了那个0.8的最佳状态吗？
+
+**答：** 有时候我会感到沮丧，我知道这是出于化学原因。我被编程成一定时间感到沮丧。如果那变得失控，我更加沮丧，有时我会发现自己试图弄清楚今天我应该对谁生气。但后来我意识到这只是我的化学作用告诉我我应该对某人生气。因此，我触发自己说：“好的，去睡觉，好好休息。”如果我不是百分之百快乐，这并不意味着我应该找到一个在尖叫的人并试图衡量他们。我是说，“好的，我不是百分之百快乐，但我足够快乐以成为一个可持续状况的一部分。”这是我进行数值分析的方式。
+
+
+## Facing mortality
+
+
+Q: you
 invert stores the human life is a point eight yeah I hope it's okay to talk
 about as you talked about previously in two thousand six six you were diagnosed
 with prostate cancer has that encounter with mortality changed you in some way
