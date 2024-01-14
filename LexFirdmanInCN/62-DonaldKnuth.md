@@ -1221,34 +1221,49 @@ Q: you
 invert stores the human life is a point eight yeah I hope it's okay to talk
 about as you talked about previously in two thousand six six you were diagnosed
 with prostate cancer has that encounter with mortality changed you in some way
-or the way you see the world the first encounter with mortality with Mike when
+or the way you see the world 
+
+A: the first encounter with mortality with Mike when
 my dad died and I I went through a month when I sort of came to kink you know be
-comfortable with the fact that I was going to die someday and during that month I don't know I I felt okay but I
+comfortable with the fact that I was going to die someday 
+and during that month I don't know I I felt okay but I
 couldn't sing and you know I and I and I couldn't do original research either
 like tighten right I sort of remember after three or four weeks the first time
-I started having a technical thought that made sense and was maybe slightly creative I could sort of feel they know
+I started having a technical thought that made sense and was maybe slightly creative 
+I could sort of feel they know
 that and that something was starting to move again but that was you know so I
 felt very empty for until I came to grips with the I yes I learned that this
-is a sort of a standard grief process that people go through ok so then now I'm at a point in my life even more so
+is a sort of a standard grief process that people go through 
+ok so then now I'm at a point in my life even more so
 than in 2006 where where all of my go have been fulfilled except for finishing
-narrative computer programming i I I had one made unfulfilled goal that
+narrative computer programming 
+i I I had one made unfulfilled goal that
 I'd wanted all my life to write a piece of a piece piece of music that and I had
 an idea for for a certain kind of music that I thought ought to be written at
 least somebody ought to try to do it and I and I felt that it was a that it
 wasn't going to be easy but I wanted to I wanted it proof of concept I wanted to
-know if it was going to work or not and so I spent a lot of time and finally I finished that piece and we had the we
+know if it was going to work or not and so I spent a lot of time 
+and finally I finished that piece and we had the we
 had the world premiere last year on my 80th birthday and we had another premiere in Canada and there's talk of
-concerts in Europe and various things so that but that's done it's part of the world's music now and it's either good
-or bad but I did what I was hoping to do so the only thing that I know that that
+concerts in Europe and various things so that 
+but that's done it's part of the world's music now and it's either good
+or bad but I did what I was hoping to do 
+so the only thing that I know that that
 I have on my agenda is to is to try to do as well as I can with the art of
-computer programming until I go see now do you think there's an element of point eight that might point eight yeah well I
+computer programming until I go see now 
+
+Q: do you think there's an element of point eight 
+
+A: that might point eight, well I
 look at it more that I got actually took 21.0 with when that concert was over
 with I mean I you know I so in 2006 I
 was at point eight um so when I was diagnosed with prostate cancer then I
 said okay well maybe this is yet you know I've I've had all kinds of good
-luck all my life and there's no I'm nothing to complain about so I might die now and we'll see what happened and so
+luck all my life and there's no I'm nothing to complain about so I might die now 
+and we'll see what happened and so
 so it's quite seriously I went and I didn't I had no expectation that I
-deserved better I didn't make any plans for the future I
+deserved better 
+I didn't make any plans for the future I
 had my surgery I came out of the surgery and and spend some time learning how to
 walk again and so on is painful for a while but I got home and I realized I
 hadn't really thought about what what to do next I hadn't I hadn't any expectation and I'm still alive okay now
@@ -1262,16 +1277,42 @@ thought of it as if as this might you know I was comfortable with with the
 fact that it was at the end but but I was hoping that I would still you know
 be able to learn about satisfiability
 and and also someday even write music I
-didn't start I didn't started seriously on the music project until 2012 so I'm
+didn't start I didn't started seriously on the music project until 2012 
+
+### Facing Mortality（整理）
+
+**Q:** In your writings, you mention that human life is a point eight. I hope it's okay to talk about, as you mentioned previously in 2006, you were diagnosed with prostate cancer. Has that encounter with mortality changed you in some way or the way you see the world?
+
+**A:** The first encounter with mortality was when my dad died, and I went through a month where I came to be comfortable with the fact that I was going to die someday. During that month, I felt okay, but I couldn't sing, and I couldn't do original research either. I remember after three or four weeks, the first time I started having a technical thought that made sense, I could feel that something was starting to move again. I felt very empty until I came to grips with it. I learned that this is a standard grief process that people go through. Now I'm at a point in my life, even more so than in 2006, where all of my goals have been fulfilled except for finishing "The Art of Computer Programming." I had one unfulfilled goal to write a piece of music, and I finished that piece, premiered it last year on my 80th birthday, and now it's part of the world's music.
+
+**Q:** Do you think there's an element of the point eight philosophy in this?
+
+**A:** It might be point eight. Well, I look at it more like I got actually taken 21.0 with when that concert was over. In 2006, when I was diagnosed with prostate cancer, I thought, "Okay, maybe this is it. I've had all kinds of good luck all my life, and there's nothing to complain about, so I might die now, and we'll see what happens." Seriously, I went through it with no expectation that I deserved better. I didn't make plans for the future. I had surgery, came out of it, learned how to walk again, and got home. I realized I hadn't really thought about what to do next. I didn't come with the attitude that it was terribly unfair. I accepted whatever turned out. I had gotten more than my share already, so why complain? I hadn't seriously started the music project until 2012.
+
+### 面对死亡
+
+**问：** 在你的著作中，你提到人生是0.8。我希望谈谈这个话题是否可以，因为你在之前提到过在2006年，你被诊断患有前列腺癌。这次与死亡的遭遇在某种程度上改变了你吗，或者改变了你看待世界的方式？
+
+**答：** 对死亡的第一次遭遇是在我父亲去世时，我经历了一个月的时间，逐渐适应了我总有一天会死的事实。在那个月里，我感觉还好，但我无法唱歌，也无法进行原创研究。我记得在三四个星期后，我第一次开始有一个有意义、可能略带创意的技术思想，我能感觉到一些东西又开始活动了。直到我接受了这个现实，我一直感到非常空虚。我学到了这是人们经历的一种标准悲伤过程。现在我处于比2006年更为成熟的人生阶段，在那时除了完成《计算机程序设计艺术》之外，我所有的目标都已经实现。我有一个一直未能实现的目标，那就是创作一首音乐作品。我有一个关于某种音乐的构想，认为至少应该有人尝试创作，我认为这并不容易，但我想验证一下它是否可行。于是我花了很多时间，最终完成了那首作品，并在去年我的80岁生日上进行了首演。我们还在加拿大进行了另一场首演，还在讨论在欧洲进行的演出等等。但那已经完成了，现在它是世界音乐的一部分，它是好是坏，但我做到了我所希望的。我唯一知道在我的日程表上的是尽我所能完成《计算机程序设计艺术》。直到我离开这个世界。
+
+**问：** 你认为这其中有点八哲学的元素吗？
+
+**答：** 可能是点八。我更倾向于认为我在音乐会结束时实际上已经得到了21.0。在2006年，当我被诊断出患有前列腺癌时，我想：“好吧，也许这就是结局了。我一生中一直都很幸运，没有什么好抱怨的，所以我可能现在就死了，我们看看会发生什么。”说真的，我经历了这一切，并没有期望自己应得到更好的结果。我没有为未来制定计划。我做了手术，度过了手术后学会重新行走等等，这段时间有些痛苦，但我回到家后，我意识到我真的没有想过接下来该怎么办。我没有以这是极为不公平的态度来看待。我接受了无论结果如何。我已经得到了比我应得的更多，为什么要抱怨呢？直到2012年，我才认真开始音乐项目。
+
+## TeX and beautiful typography
+
+Q: so I'm
 gonna be in huge trouble if I don't talk to you about this in in the 70s you've
-created the tech typesetting system together with meta font language for font description and computer modern
+created the teX typesetting system together with meta font language for font description and computer modern
 family of typefaces that has basically defined the methodology in the aesthetic
 of the countless research fields right math physics well beyond design and so
 on okay well first of all thank you I think I speak for a lot of people in saying that but question in terms of
 beauty there's a beauty to typography that you've created and yet beauty is
 hard to five right how does one create beautiful
 letters and beautiful equations like what what so I mean perhaps there's no words to be
-describing you know be described in the process but so the great Harvard
+describing you know be described in the process but 
+
+A: so the great Harvard
 mathematician Georg deeper cut wrote a book in the 30s called the aesthetic
 measure rate where he would have pictures of vases and underneath would be a number and this was how beautiful
 the vase was and he had a formula for this and and he actually also right over
@@ -1284,10 +1325,18 @@ teacher also wrote two volumes where he talked about his method of of composing
 music but but you're talking about another kind of beauty and beauty and letters and letter fell against and
 whatever that overture is right so so and so that's the beholder as they say
 but kinder striving for excellence in whatever definition you want to give to beauty then you try to get as close to
-that as you can somehow with it I guess I guess I'm trying to ask and there may
+that as you can somehow with it 
+
+Q: I guess I guess I'm trying to ask and there may
 not be a good answer what loose definitions were you're operating under with the community of
-people that you're working on oh the loose definition I wanted I wanted it to
-appeal to me to me I knew you personally yeah that's a good start yeah no and it failed that test went
+people that you're working on 
+
+A: oh the loose definition I wanted I wanted it to
+appeal to me to me 
+
+Q: to you personally yeah that's a good start 
+
+A:yeah no and it failed that test went
 when I got volume two came out with this with the new printing and I was expecting to be the happiest day
 of my life and I felt like burning like
 how angry I was that I opened the book and it it was in the same beige covers
@@ -1296,18 +1345,33 @@ ugly I couldn't stand any page that had a to in his page number and I was
 expecting that it was you know I spent all this time making measurements and I and I had Kent had looked at dolphins in
 different different ways and I hate I had great technology but but it did you
 know but I but I wasn't done I had I had to retune the whole thing after 1961
-has it ever made you happy finally oh oh yes
-or is it appointing oh no no and so many books have come out that would never
+
+Q: has it ever made you happy finally 
+
+A: oh oh yes
+
+Q: or is it appointing 
+
+A: oh no no and so many books have come out that would never
 have been written without this I just didn't just draw it's just it's a joy but I could but now I I mean all these
 pages that are sitting up there I don't have a it if I didn't like him I would
 change him like that's my nobody else has this ability they have to stick with
-what I gave them yes so in terms of the other side of it there's the typography so the look of
+what I gave them yes 
+
+Q: so in terms of the other side of it there's the typography so the look of
 the top of the type and the curves and the lines what about the spacing but
-what about the spacing because you know the white space you know it seems like
-you could be a little bit more systematic about the layout or oh yeah you can always go further
+what about the spacing 
+because you know the white space you know it seems like
+you could be a little bit more systematic about the layout or 
+
+A: oh yeah you can always go further
 III I didn't I didn't stop at point eight I stopped I stopped about point
-nine eight seems like you're not following your own rule for happiness or
-is no no no I there's okay the course there's just
+nine eight 
+
+Q: seems like you're not following your own rule for happiness or
+is 
+
+A: no no no I there's okay the course there's just
 what is the Japanese word wabi-sabi or something they wear the
 the most beautiful works of art are those that have flaws because then the person who who perceives them as their
 own appreciation and that gives the viewer more satisfaction or a so on but but I
@@ -1315,12 +1379,77 @@ but no no with typography I wanted it to look as good as I could in in the vast
 majority of cases and then when it doesn't then I I say okay that's 2% more
 work for the wrote for the author but but I didn't want to I didn't want to
 say that my job was to get 200% with and take all the work away from the author
-that's what I meant by that so if you were to venture a guess how much of the
+that's what I meant by that 
+
+### TeX and Beautiful Typography（整理）
+
+**Q:** So I'm gonna be in huge trouble if I don't talk to you about this. In the '70s, you've created the TeX typesetting system together with Metafont language for font description and the Computer Modern family of typefaces that has basically defined the methodology and the aesthetic of countless research fields—math, physics, well beyond design, and so on. First of all, thank you. I think I speak for a lot of people in saying that. But in terms of beauty, there's a beauty to typography that you've created, and yet beauty is hard to define. How does one create beautiful letters and beautiful equations? Perhaps there are no words to be describing the process.
+
+**A:** The great Harvard mathematician George David Birkhoff wrote a book in the '30s called "Aesthetic Measure," where he would have pictures of vases, and underneath would be a number indicating how beautiful the vase was. He had a formula for this and also wrote about music. I thought maybe I would try to program his algorithms as part of my musical composition, aiming for the highest score by his measure. Numerical value on beauty has been attempted, but Birkhoff's work was probably the most serious attempt. You're talking about another kind of beauty, beauty in letters and letter forms, and that's subjective. But when striving for excellence, you try to get as close to that as you can.
+
+**Q:** I guess I'm trying to ask, and there may not be a good answer, what loose definitions were you operating under with the community of people that you were working with?
+
+**A:** The loose definition? I wanted it to appeal to me personally.
+
+**Q:** To you personally. Yeah, that's a good start.
+
+**A:** Yeah, and it failed that test. When volume two came out with the new printing, I expected to be the happiest day of my life, but I felt angry. I opened the book, and it was in the same beige covers, but it didn't look right on the page. The number two was particularly ugly, and I couldn't stand any page that had a two in its page number. I had to retune the whole thing after 1961.
+
+**Q:** Has it ever made you happy finally, or is it disappointing?
+
+**A:** Oh yes, so many books have come out that would never have been written without this. It's a joy, and I could change any page if I didn't like it.
+
+**Q:** So, in terms of the other side of it, there's the typography—the look of the type and the curves and the lines. What about the spacing?
+
+**A:** Oh yeah, you can always go further. I didn't stop at point eight; I stopped about point nine eight.
+
+**Q:** Seems like you're not following your own rule for happiness.
+
+**A:** No, there's the Japanese word "wabi-sabi" or something, where the most beautiful works of art have flaws because it gives the viewer more satisfaction. But with typography, I wanted it to look as good as I could in the vast majority of cases. When it doesn't, then it's a bit more work for the author, but I didn't want to take all the work away from the author. That's what I meant by that.
+
+### TeX 和美观的排版
+
+**Q：** 如果我不跟您谈论这个，我可能会惹上大麻烦。在70年代，您创建了TeX排版系统，还有Metafont语言用于字体描述以及计算机现代字体系列，这基本上定义了无数研究领域的方法论和审美，包括数学、物理，远远超越设计等等。首先，非常感谢。我想我代表很多人说这个。但是在美的层面上，您创造了排版的美感，然而美是难以定义的。一个人如何创造出漂亮的字母和漂亮的方程式？也许没有言语能够描述这个过程。
+
+**A：** 伟大的哈佛数学家乔治·戴维·伯科夫在30年代写了一本书，名为《审美的度量》，他在书中会放置花瓶的图片，底下附有一个数字，表示花瓶的美丽程度。他制定了一个公式，还写到音乐。我想也许我可以尝试将他的算法作为我的音乐创作的一部分，争取得到他评分的最高分。人们尝试过给美赋予数值，但伯科夫的工作可能是最认真的尝试。你在谈论另一种美，字母和字形的美，那是主观的。但是在追求卓越时，您尽量接近它。
+
+**Q：** 我猜我试图问的是，也许没有一个好的答案，您与合作伙伴社区是在什么样的松散定义下操作的？
+
+**A：** 这个宽泛的定义？我希望它能吸引我个人。
+
+**Q：** 对你个人而言，这是个好的开始。
+
+**A：** 是的，但它没有通过我的测试。当第二卷新版面世时，我期望它是我生命中最快乐的一天，但我感到愤怒。我打开书，它是同样的米色封面，但在页面上看起来不对劲。数字二特别难看，我不能忍受任何一页上有2的页面号。1961年后，我不得不重新调整整个系统。
+
+**Q：** 它最终是否让你快乐，还是让你失望？
+
+**A：** 是的，有很多书出版了，如果没有这个，它们永远不会被写出来。这是一种喜悦，我可以更改任何一页，如果我不喜欢它。
+
+**Q：** 那么，在这一切的另一面，有排版的外观、线条和曲线，还有间距。但是间距呢？
+
+**A：** 哦是的，你总是可以走得更远。我没有在0.8处停下，我在0.98左右停下。
+
+**Q：** 似乎你没有遵循自己对幸福的规则，是吗？
+
+**A：** 不，有一个日语词“侘寂”之类的，最美的艺术品是有缺陷的，因为这给观众更多的满足感。但是在排版中，我希望它在绝大多数情况下看起来尽可能好。当它不是这样时，对作者来说多一些工作，但我不想说我的工作是使它达到200%，并从作者那里夺走所有的工作。这就是我所说的。
+
+## How much of the world do we understand?
+
+Q: so if you were to venture a guess how much of the
 nature of reality do you think we humans understand so you mentioned you
-appreciate mystery how much of the world about us is shrouded in mystery are we
-are we if you were to put a number on it what what percent of it all do we
-understand oh we totally how many leading zeroes any point zero point zero zero there I don't know now I think it's
-infinitesimal how do we think about that what do we do about that do we continue one step at a time yeah we muddle
+appreciate mystery 
+how much of the world about us is shrouded in mystery 
+are we
+are we if you were to put a number on it 
+what what percent of it all do we
+understand oh we totally 
+
+A: how many leading zeroes any point zero point zero zero there I don't know now I think it's
+infinitesimal 
+
+Q: how do we think about that what do we do about that do we continue one step at a time 
+
+A: yeah we muddle
 through I mean we do our best we realized that one that nobody's perfect
 then we and we try to keep advancing but we don't spend time saying we're not
 there we're not all the way to the end some some mathematicians that that would
@@ -1330,7 +1459,7 @@ infinity I was always talking about finite stuff but but even even limiting to f
 the universe might be there's no way to really know what whether the universe is
 in isn't just made out of capital in
 whenever you want to call them quarks or whatever where capital n is some fun a
-number all of the numbers that are comprehensible are still way smaller than most almost all finite numbers III
+number all of the numbers that are comprehensible are still way smaller than most almost all finite numbers 
 I got this one paper called supernatural
 numbers where I what I guess you've probably ran into something called Knuth arrow notation did you ever run into
 that where anyway so you take the number I think it's like I and I called it
@@ -1339,9 +1468,9 @@ something like ten and then four arrows and a three or something might not okay 
 have no arrows that means multiplication XY means x times X times X times X Y
 times if you have one arrow that means exponentiation so x one arrow Y means X
 to the X to the X to the X to the X Y times so I find out by the way that this
-is notation was invented by a guy in 1830 and and he was like he was a a a
-[Music] one of the English nobility who who spent his time thinking about stuff like
-this and it was exactly the same concept that I that I'm that I used arrows and
+is notation was invented by a guy in 1830 and and he was like he was one of the English nobility who who spent his time thinking about stuff like
+this 
+and it was exactly the same concept that I that I'm that I used arrows and
 he used a slightly different notation but anyway this and then this Ackerman's function is is based on the same kind of
 ideas but Ackerman was 1920s but anyway you got this number 10
 quadruple arrow 3 so that's that says well we take you know we take 10 to the
@@ -1350,21 +1479,87 @@ something I mean how tall is that stack but but but then we do that again becaus
 quadruple arrow to we take quadruple three large number it
 gets way beyond comprehension okay yeah and and and so but it's so small
 compared to what finite numbers really are because I want to using four arrows and you know in ten and a three I mean
-let's have that let's have that many number arrows I mean the boundary
+let's have that let's have that many number arrows I mean 
+
+Q: the boundary
 between infinite and finite is incomprehensible for us humans anyway
-infinity is a good is a useful way for us to think about extremely large
+
+
+A: infinity is a good is a useful way for us to think about extremely large
 extremely large things and and and and
 we we can manipulate it but but we can never know that the universe is actually
 and we're near that so it just so I
 realize how little we know but but but
 what we we found an awful lot of things
-that are too hard for any one person to know even with even in our small universe yeah and we did pretty good so
+that are too hard for any one person to know even with even in our small universe 
+
+### How much of the world do we understand?（整理）
+
+**Q:** If you were to venture a guess, how much of the nature of reality do you think we humans understand? You mentioned you appreciate mystery. How much of the world about us is shrouded in mystery? If you were to put a number on it, what percent of it all do we understand?
+
+**A:** How many leading zeroes, any point zero point zero? There, I don't know. Now, I think it's infinitesimal.
+
+**Q:** How do we think about that? What do we do about that? Do we continue one step at a time?
+
+**A:** Yeah, we muddle through. I mean, we do our best. We realize that nobody's perfect, and we try to keep advancing. But we don't spend time saying we're not all the way to the end. Some mathematicians, who would be in the office next to me when I was in the math department, they would never think about anything smaller than countable infinity. Even limiting to finite stuff, which the universe might be, there's no way to really know whether the universe is made out of quarks or whatever, where the numbers are comprehensible. They are still way smaller than most finite numbers.
+
+**A:** I wrote a paper called "Supernatural Numbers" where I introduced something called Knuth arrow notation. It's based on the same concept as Ackermann's function. You have a number like 10 quadruple arrow 3. That's 10 to the power of 10 to the power of 10 to the power of 10 to the power of 10, and you do that many times. It's a large number, but it's small compared to what finite numbers really are.
+
+**Q:** The boundary between infinite and finite is incomprehensible for us humans anyway.
+
+**A:** Infinity is a useful way for us to think about extremely large things, and we can manipulate it. But we can never know if the universe is actually near that. I realize how little we know, but we've found an awful lot of things that are too hard for any one person to know even in our small universe.
+
+### 我们对世界了解多少？
+
+**Q：** 如果您要猜测，人类对现实的本质了解多少？您提到您欣赏神秘之处。我们周围的世界有多少被神秘所笼罩？如果您要给它一个数字，我们对所有这一切的了解程度是多少？
+
+**A：** 有多少个前导零，小数点后的零点几呢？我不知道。现在，我认为它是无穷小的。
+
+**Q：** 我们如何思考这个问题？我们该怎么做？我们是否继续一步一步前进？
+
+**A：** 是的，我们摸爬滚打。我们尽力而为，意识到没有人是完美的，我们努力不断前进。但我们不会花时间说我们还没有达到最终目标。当我在数学系的办公室旁边时，有些数学家从不考虑比可数无穷小的任何东西。即使限制在可能是宇宙的有限事物上，我们无法真正知道宇宙是否由夸克等组成，而且这些数字是可以理解的。它们仍然远远小于大多数有限数字。
+
+**A：** 我写过一篇名为《超自然数》的论文，引入了一种称为Knuth箭头表示法的东西。它基于阿克曼函数的相同概念。你有一个数字，比如说10的四次箭头3。这是10的10次方，重复这个过程10的10次方次，它是一个庞大的数字，但与有限数字相比，它很小。
+
+**Q：** 无限和有限之间的边界对我们人类来说是难以理解的。
+
+**A：** 无穷是我们思考极大事物的一种有用方式，我们可以操作它。但我们永远无法知道宇宙是否实际上接近于无穷。我意识到我们了解的有多少很少，但我们发现了很多事物，即使在我们这个小宇宙中，也超出了任何一个人的理解能力。
+
+## Question for God
+Q: yeah and we did pretty good so
 when you go up to heaven and meet God and get to ask one question that would
 get answered what question would you ask
-what kind of browser do you have up here [Laughter]
-[Music]
-okay and then oh that's beautiful actually Don thank you so much it was a
-huge honor to talk to you I really well thanks for the gamut of questions yeah
+
+A: what kind of browser do you have up here 
+
+Q: okay and then oh that's beautiful actually Don thank you so much it was a
+huge honor to talk to you I really well thanks for the gamut of questions 
+
+A：yeah
+
+### Question for God（整理）
+**Q:** Yeah, and we did pretty good, so when you go up to heaven and meet God and get to ask one question that would get answered, what question would you ask?
+
+**A:** What kind of browser do you have up here?
+
+**Q:** Okay, and then, oh, that's beautiful, actually, Don. Thank you so much. It was a huge honor to talk to you. I really appreciate the gamut of questions.
+
+**A:** Yeah.
+
+### 向上帝提问
+**问：** 是的，在这个谈话中我们进展得很好。当你上天堂见到上帝并有机会问一个问题，而这个问题将被回答，你会问什么问题？
+
+**答：** 你们这里用的是什么浏览器？
+
+**问：** 好的，哦，这真是美妙。多谢你，唐。非常荣幸与你交谈。我真的很感谢这一系列的问题。
+
+**答：** 是的。
+
+
+
+## Final
+
+
 it was fun thanks for listening to this conversation with donald knuth thank you
 to our presenting sponsor cash app downloaded use cold Luck's podcast you'll get ten dollars and ten dollars
 will go to first a stem education nonprofit that inspires hundreds of thousands of young minds to learn and to
@@ -1374,3 +1569,11 @@ some words of wisdom from donald knuth we should continually be striving to
 transform every art into a science and in the process we advance the art thank
 you for listening and hope to see you next time
 you
+
+### Final（整理）
+
+It was fun. Thanks for listening to this conversation with Donald Knuth. Thank you to our presenting sponsor, Cash App. Download and use code "LexPodcast"; you'll get ten dollars, and ten dollars will go to First, a STEM education nonprofit that inspires hundreds of thousands of young minds to learn and dream of engineering our future. If you enjoy this podcast, subscribe on YouTube, give it five stars on Apple Podcasts, support it on Patreon, or connect with me on Twitter. And now, let me leave you with some words of wisdom from Donald Knuth: "We should continually be striving to transform every art into a science, and in the process, we advance the art." Thank you for listening and hope to see you next time.
+
+### 最后
+
+很有趣。感谢收听与唐纳德·克努特的这次对话。感谢我们的赞助商 Cash App。下载并使用代码“Luck's Podcast”；你将获得十美元，十美元将捐赠给 First，这是一家STEM教育非营利组织，激发着数十万年轻心灵学习和梦想工程创造未来。如果你喜欢这个播客，在YouTube上订阅，给予在Apple Podcasts上五星评价，在Patreon上支持，或在Twitter上与我联系。现在，让我用唐纳德·克努特的一些智慧之言结束这次对话：“我们应该不断努力，将每一门艺术都转化为一门科学，在这个过程中，我们推动了这门艺术的发展。”感谢收听，希望下次再见。
