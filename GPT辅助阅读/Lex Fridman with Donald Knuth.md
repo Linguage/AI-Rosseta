@@ -1,6 +1,19 @@
 
 # Lex Fridman X Donald Knuth 
 
+```
+这篇访谈稿的整理比预期的困难很多。
+
+我的处理流程如下：
+1. 在YouTube上将视频生成的英文访谈文本拷贝出来。
+2. 通过听视频将访谈稿进行必要的分割，主要为了区别提问者和回答者。但此部分并不容易，因为提问者经常插话，增加了不少零碎的内容。
+3. 使用GPT将区分问答之后的文稿分部补充标点符号，从而获得可读性；
+4. 使用GPT将英文稿翻译为汉语
+5. 完成翻译工作之后，对全文稿进行精修。
+
+
+```
+
 ## Introduction
 
 
@@ -252,6 +265,7 @@ During the 70s, the whole field of combinatorics went through a huge explosion, 
 **Questioner:** So how did they continue to change from the 70s to today?
 
 **Answer:** Now, there may be half a dozen conferences whose topic is cognate arcs, different kinds. Fortunately, I don't have to rewrite my book every month like I had to in the '70s, but there's still a huge amount of work being done. People are getting better ideas on these problems that don't seem to have efficient solutions, but we can still get into a lot more with them. The book I'm finishing now has a whole bunch of brand new methods that I know no other book covers, exploring the tip of the iceberg, trying out lots of things, and rewriting as I find better methods.
+
 **提问者：** 人们都在关注什么样的问题？
 
 **回答：** 在组合数学中的问题，就是那样。
