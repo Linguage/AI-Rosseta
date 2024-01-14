@@ -129,123 +129,110 @@ Questioner: Well, the writer just tries to understand the reader. That's the goa
 
 
 ## Informal vs formal
-so how difficult is that
-do you see hope for the combination of informal and formal for the programming
-task yeah I I'm the wrong person to ask I guess because I'm a geek but but I
-think for a geek it's easy I don't know I don't know see not some people have
-difficulty writing and that might be because there's something in their brain
-structure that makes it hard for them to write or or it might be something just that they haven't had enough practice
-I'm not the right one to to uh to judge but I don't think you teach any person
-any particular skill like I do think that that writing is is half of my life
-and so I put it together and let program he won't even when I'm writing a one-shot program I I write it in
-literate way because I get it right faster though now does it get compiled
 
-## How difficult is a design
 
-automatically or so I guess on the technical side my question was how
-difficult is a design a system where much of the programming is done informally informally yeah informally I
-think whatever works to make it understandable is good but then you have
-to also understand how informal is you have to know the limitations you have to
-connect so so by putting the formula and informal together this this is where
-this is where it gets locked into your into your brain now you can you can say
-informally well I'm working on a problem right now so let's go there I get that
-can you give me an example of of connecting the informal in the formal well it's a little too complicated an
-example there's a puzzle that that's self referential it's called a Japanese
-arrow puzzle and and and you're given a a bunch of boxes each one points north
-east south or west and at the end you're supposed to fill in each box with the
-number of distinct numbers that it points to so if I put a three in a box
-that means that and it's pointing to five other boxes that means that there's going to be three different numbers in
-those five bucks and and those boxes are pointing what I might be pointing to me
-one of my might be pointing the other way but anyway I kind of defined a set
-of numbers that obeys this complicated condition that each number counts how
-many distinct numbers if it points do well and still a guy sent me his
-solution to this problem where he where he presents
-formal statements that that say either this is true or this is true this is true and and and so I try to render that
-formal statement informally and I try say I contain a three and and the guys
-I'm pointing to contain the numbers one two and six so by putting it in formally
-and also I converted into a into a dialogue statement that helps me
-understand the logical statement that he's written down as a string of numbers in terms of some abstract variables
-Eddie yeah that's really interesting so maybe an extension of that there has been a
+Questioner: So how difficult is that? Do you see hope for the combination of informal and formal for the programming task?
 
-## Using data to construct algorithms
-resurgence in computer science and machine learning and neural networks so
-using data to construct algorithms so it's another way to construct algorithms
-really yes you can think of it that way so as opposed to natural language to
-construct algorithms use data to construct other so what what's the view
-of this branch of computer science where data is almost more important than the
-mechanism of the algorithm it seems to be suited to a certain kind of non geek
-and would you know which is probably why it's it's like it's taken off that it
-has its own community that I thought really that really resonates with that but it's hard to you know to trust
-something like that because nobody even the people who who work with it that
-they have no idea what is what has been learned that's a really interesting thought that it's it makes algorithms
+Responder: I think I'm the wrong person to ask, I guess because I'm a geek. But for a geek, it's easy. I don't know, not everyone might have difficulty writing, and that might be because there's something in their brain structure that makes it hard for them to write, or it might be something just that they haven't had enough practice. I'm not the right one to judge, but I don't think you teach any person any particular skill. I do think that writing is half of my life, so I put it together and let programming. Even when I'm writing a one-shot program, I write it in a literate way because I get it right faster. Though now, does it get compiled automatically or...
 
-## Accessibility of algorithms
-more accessible to a different community a different type of brain yep and that's
-really interesting because just like literate programming perhaps could make
-programming more accessible to a certain kind of brain there are people who think it's just a matter of Education and
-anybody can learn to be a great program or anybody can to be a great skier uh yeah you know I I
-wish that were true but but I know that there's a lot of things that I've tried to do and I and like I was well motivate
-an icon and I kept trying to build myself up and I never got past a certain level I can't use for example I can't
-view three-dimensional objects in my in
-my head I have to I have to make a model and look at it and study it from all points of view and then I start to get
-some idea but other people are good at four dimensions I mean physicists yeah
-so let's go to the art of computer
-programming in 1962 you set the table of contents for this magnum opus right yeah
-it was supposed to be a single book for 12 chapters now today what is it
-57 years later you're in the middle of volume 4 of 7 and in the middle of going
-for B is 4 B precisely can ask you for an impossible task which is try to
-summarize the book so far maybe by giving a little examples so from the
-sorting and the search in the combinatorial algorithms if you were to give a summary a quick elevator summary
-yeah right what depending how many floors that are in the building yes the first volume called fundamental
-algorithms talks about something that you can't the stuff you can't do without
-I guess that you have to know the basic concepts of what is a program now what
-is it what is it algorithm and and and it also talks about a low-level machine
-so you can have some some kind of an idea what's going on and it has basic
-concepts of input/output and subroutines induction induction writes mathematical
-so so the thing that makes my book different from a lot of others is that
-all that I try to not only present the algún but I try to analyze them and which means to quantitatively I say not
-only does it work but it works this fast okay and so I need math for them and then there's the standard way to
-structure data inside and represent information in the computer so that's
-all volume 1 volume 2 talks it's called semi numerical algorithms and here we're here we're writing
-programs but we're also dealing with numbers algorithms deal with with with
-any kinds of objects but but specific when there's objects or numbers well then then we have certain special
-paradigms that apply to things that have 12 numbers and so there's there's what there's like there's arithmetic on
-numbers and and there's matrices full of numbers there's random numbers and
-there's power series full of numbers there's different algebraic concepts
-that have numbers in structured ways and the arithmetic in the way a computer would think about arithmetic is a
-floating point floating point arithmetic a high precision arithmetic not only
-addition subtraction multiplication but also comparison up number
-so then check then volume three talks about I like that one sort insert sorting a circle of sorting right so so
-here you know we're not getting necessarily with numbers because you slipped you saw it letters and other objects and searching we're doing all
-the time we googled nowadays but I mean we have to find stuff so again algorithms that that underlie
-all kinds of applications like you know none of these volumes it's about a particular application but the
-applications are examples of of why people want to know about sorting why people want to know about random numbers
-so then volume 4 goes into combinatorial I'll again this is where we have
-zillions of things to deal with and we and here we keep finding cases where one
-good idea can can make something go more than a million times faster and and and
-we're dealing with problems that are probably never going to be solved efficiently but that doesn't mean we
-give up on them and and and we have this chance to have good ideas and and go
-much much faster on them so so that's comets are all algorithms and those are the ones that are yeah I'm using
-charting is most fun for you well how many toriel algorithms are the ones that
-I always that I always enjoyed the most because that's when my skillet
-programming had most payoff you know the different the difference between an obvious algorithm that you think up
-first thing and you know and a good you know an interesting subtle out algorithm
-that not so obvious but but run circles around the other one that's that's where
-computer science 3d comes comes in and and a lot of these comets are methods
-were found first in applications to artificial intelligence or cryptography
-and in my case I I just liked him and it was associated more with puzzles that
-you like the most in the domain of graphs and graph theory graphs are great
+Questioner: How difficult is a design, especially in a system where much of the programming is done informally?
 
+Responder: On the technical side, my question was how difficult is to design a system where much of the programming is done informally. Yeah, informally, I think whatever works to make it understandable is good. But then you have to also understand how informal is. You have to know the limitations; you have to connect. So, by putting the formal and informal together, this is where it gets locked into your brain. Now you can say informally, "I'm working on a problem right now, so let's go there." I get that. Can you give me an example of connecting the informal and the formal? Well, it's a little too complicated an example. There's a puzzle that's self-referential, called a Japanese arrow puzzle...
+
+Questioner: Can you give me an example of connecting the informal and the formal?
+
+Responder: Well, it's a little too complicated an example. There's a puzzle that's self-referential, called a Japanese arrow puzzle...
+
+Questioner: That's really interesting. So maybe an extension of that, there has been a resurgence in computer science and machine learning and neural networks, so using data to construct algorithms. It's another way to construct algorithms, really?
+
+Responder: Yes, you can think of it that way. As opposed to natural language to construct algorithms, use data to construct others. So, what's the view of this branch of computer science where data is almost more important than the mechanism of the algorithm? It seems to be suited to a certain kind of non-geek, and would you know which is probably why it's taken off, that it has its own community? That really resonates with that, but it's hard to trust something like that because nobody, even the people who work with it, they have no idea what has been learned...
+
+Questioner:That's a really interesting thought that it makes algorithms more accessible to a different community, a different type of brain. 
+
+Responder:Yep, and that's really interesting because just like literate programming perhaps could make programming more accessible to a certain kind of brain, there are people who think it's just a matter of education, and anybody can learn to be a great programmer, anybody can learn to be a great skier. Yeah, you know, I wish that were true, but I know that there's a lot of things that I've tried to do, and I was well motivated, and I kept trying to build myself up, and I never got past a certain level. I can't, for example, view three-dimensional objects in my head...
+
+Questioner: So let's go to the art of computer programming. In 1962, you set the table of contents for this magnum opus, right?
+
+Responder: Yeah, 
+
+Questioner: it was supposed to be a single book for 12 chapters. Now today, what is it? 57 years later, you're in the middle of volume 4 of 7 and in the middle of going for B 
+
+Responder:is 4 B precisely. 
+
+Questioner: Can I ask you for an impossible task, which is to try to summarize the book so far, maybe by giving a little examples from the sorting and the search in the combinatorial algorithms, if you were to give a summary, a quick elevator summary?
+
+Questioner: Yeah, right, what depending how many floors that are in the building. Yes, the first volume called fundamental algorithms talks about something that you can't do without...
+
+Responder: The stuff you can't do without. I guess that you have to know the basic concepts of what is a program, what is it, what is an algorithm, and it also talks about a low-level machine so you can have some idea what's going on. It has basic concepts of input/output and subroutines, induction, writes mathematical. So the thing that makes my book different from a lot of others is that all that I try to not only present the algorithm but I try to analyze them, which means to quantitatively. I say not only does it work, but it works this fast, okay, and so I need math for them. And then there's the standard way to structure data inside and represent information in the computer so that's all volume 1...Volume 2 talks, it's called semi-numerical algorithms, and here we're writing programs, but we're also dealing with numbers...
+
+Responder: Algorithms deal with any kinds of objects but specific when there's objects or numbers, well then we have certain special paradigms that apply to things that have numbers. So there's like there's arithmetic on numbers, and there's matrices full of numbers, there's random numbers, and there's power series full of numbers. There's different algebraic concepts that have numbers in structured ways, 
+
+Questioner: and the arithmetic in the way a computer would think about arithmetic is a floating point, 
+
+Responder: floating point arithmetic, a high precision arithmetic not only addition, subtraction, multiplication but also comparison of numbers. So then check. Then volume 3 talks about, 
+
+Questioner: I like that one, sort insert sorting, a circle of sorting, 
+
+Responder: right? So here we're not getting necessarily with numbers because you slipped, you saw it, letters and other objects, and searching we're doing all the time. We googled nowadays but I mean we have to find stuff. So again, algorithms that underlie all kinds of applications like you know, none of these volumes is about a particular application, but the applications are examples of why people want to know about sorting, why people want to know about random numbers...So then volume 4 goes into combinatorial. I'll again; this is where we have zillions of things to deal with, and we keep finding cases where one good idea can make something go more than a million times faster. We're dealing with problems that are probably never going to be solved efficiently, but that doesn't mean we give up on them, and we have this chance to have good ideas and go much, much faster on them. So that's combinatorial algorithms, and those are the ones that I'm using. Charting is most fun for you. Well, how many combinatorial algorithms are the ones that I always enjoyed the most because that's when my skill in programming had most payoff...The difference between an obvious algorithm that you think up first thing and an interesting, subtle algorithm that's not so obvious but runs circles around the other one. That's where computer science 3D comes in, and a lot of these combinatorial methods were found first in applications to artificial intelligence or cryptography. And in my case, I just liked them, and it was associated more with puzzles. 
+
+
+提问者： 那有多难呢？你认为在编程任务中，非正式和正式的结合有希望吗？
+
+回答者： 我想我可能不是问这个问题的合适人选，因为我是一个极客。但对于一个极客来说，这很容易。我不知道，不是每个人都可能有写作困难，这可能是因为他们的大脑结构中有一些东西，使他们难以写作，或者可能只是因为他们没有足够的实践。我不是合适的人来评判，但我不认为你能教授任何人任何特定的技能。我确实认为写作是我生活的一半，所以我把它和编程结合起来。即使当我写一个一次性的程序时，我写它以一种有文化的方式，因为这样我能更快地弄清楚。不过现在它是否被编译是自动的，或者...
+
+提问者： 设计一个系统，在其中大部分编程是非正式完成，这有多难？
+
+回答者： 从技术角度来看，我的问题是设计一个系统，在其中大部分编程是非正式完成，这有多难。是的，非正式地，我认为任何使其可理解的方法都是好的。但是你必须也要了解非正式的程度，你必须知道其限制，你必须连接。通过将公式和非正式结合在一起，这就锁定在你的大脑中。现在你可以说非正式地：“我现在正在解决一个问题，所以让我们去那里。”我明白那一点。你能给我举一个连接非正式和正式的例子吗？嗯，这有点太复杂了，有一个自指的难题，被称为日本箭头难题...
+
+提问者： 你能给我举一个连接非正式和正式的例子吗？
+
+回答者： 嗯，这有点太复杂了，有一个自指的难题，被称为日本箭头难题...
+
+提问者： 那真的很有趣。也许是这样，计算机科学和机器学习以及神经网络出现了复苏，所以使用数据构建算法。这是构建算法的另一种方式，对吧？
+
+回答者： 是的，你可以这样认为。与使用自然语言构建算法相反，使用数据构建其他算法。那么，这个计算机科学分支的观点是数据几乎比算法的机制更重要。这似乎更适合某种非极客的人，你是否知道这可能是为什么它蓬勃发展，并且有自己的社群。我认为这真的很引人注目，因为甚至那些与之一起工作的人也不知道学到了什么...
+
+提问者： 那是一个非常有趣的想法，它使算法更容易被不同社群、不同类型的人理解。是的，这真的很有趣，就像文学编程可能会使编程对某种类型的大脑更容易理解一样。有人认为这只是教育问题，任何人都可以学会成为一位出色的程序员，任何人都可以成为一位出色的滑雪者。是的，你知道，我希望那是真的，但我知道有很多事情我试图做，我也很有动力，我一直试图建立自己，但我从未超过一定水平。例如，我不能使用三维物体在我的脑中...
+
+提问者： 那么让我们回到计算机编程的艺术。在1962年，你为这个巨著制定了目录，对吗？
+
+回答者： 是的，
+
+提问者： 它原本应该是一个单一的书，有12章。现在，今天是什么情况？57年后，你正在进行第4卷的中间，总共有7卷，而你现在正在进行4B
+
+回答者： B卷确切地是4B。
+
+提问者： 我能请你完成一个不可能的任务吗，就是尝试通过给出排序和组合算法中的一些例子来总结这本书到目前为止？是的，根据建筑物的楼层数而定。是的，第一卷称为基础算法，讨论的是一些你无法缺少的东西...
+
+回答者： 你无法缺少的东西。我猜你必须了解程序是什么，算法是什么，它还谈到了一个低级的机器，所以你可以对发生的事情有一些想法。它有输入/输出和子程序的基本概念，数学归纳法，写数学。因此，使我的书与其他许多书不同的是，我不仅试图呈现算法，而且试图分析它们，这意味着在数量上我说它不仅仅是工作，而且它的速度是多快，好吧，所以我需要数学。然后在计算机内部结构化数据和表示信息的标准方法，因此那就是所有卷1...第2卷谈到了，被称为半数值算法，这里我们写程序，但我们还涉及到数字...
+
+回答者： 算法涉及到任何种类的对象，但是特定的情况是涉及到数字的对象，那么我们就有某些特殊的范例适用于具有数字的事物。因此，有像数字上的算术，有充满数字的矩阵，有随机数字，有充满数字的幂级数。有以结构化方式包含数字的不同代数概念...
+
+提问者： 计算机在思考算法的方式中的算术，是浮点，
+
+回答者： 浮点算术，高精度算术，不仅仅是加法、减法、乘法，还有数字的比较。所以检查。然后第3卷谈到，我喜欢那个，排序插入排序，一个排序的圈，对吧？
+
+回答者： 对。所以在这里，你知道，我们不一定处理数字，因为你滑倒了，你看到了字母和其他对象，而搜索我们一直在做。我们现在搜索了很多，但我们必须找到一些东西。因此，像你知道的，这些卷中没有一个是关于特定应用的，但这些应用是人们为什么想要了解排序，人们为什么想要了解随机数字的例子...
+
+回答者： 所以第4卷进入组合...
+
+回答者： 再次，这是我们需要处理的无数事物的地方，我们发现其中一个好主意可能使某些东西的速度提高超过一百万倍，我们正在处理的问题可能永远不会被高效解决，但这并不意味着我们放弃，我们有机会拥有好的主意，而且我们在上面能够更快地进行。因此，这就是组合算法，这是我正在使用的算法...
 
 ## Graph theory
+Questioner: That's what I like the most in the domain of graphs and graph theory. 
 
+Graphs are great.
 because they're terrific models of so many things in the real world and and
 and and you you throw numbers on a graph you got a network and so there you're right there you have but many more
 things so but comma toriel in general is in any arrangement of objects that that
 has some kind of a higher structure non non random structure and it's okay
 it is possible to put something together satisfying all these conditions like I
 mentioned arrows a minute ago you know is there a way to to put these numbers on a bunch of boxes that that are
-pointing to each other is that going to be possible at all that's volume four that's volume four what is a sage of
+pointing to each other is that going to be possible at all 
+
+that's volume four
+
+that's volume four what is a sage of
 Hawaiian for a was part one and and what happened was in 1962 when I started
 writing down a table of contents it wasn't going to be a book about computer
 programming in general it was going to be a book about how to write compilers and I was asked to write a book
@@ -266,16 +253,26 @@ chapter on comma talks because that was what I really enjoyed programming the
 most but there weren't many algorithms and known about combinatorial methods in 1962 so that was a kind of a short
 chapter but it was sort of thrown in just for fun and Chapter twelve was going to be actual compilers applying
 all the stuff in chapters 1 to 11 to make compilers well ok so that was my
-table of contents from 1962 and during the 70s the whole field of combinatoric
+table of contents from 1962 
+and during the 70s the whole field of combinatoric
 s-- went through a huge explosion people talk about it comet oil explosion and
 they usually mean by that that the number of cases goes up you know you change n to n plus 1 and all of a sudden
-you your problem has gotten more than ten times harder but there was an
+you your problem has gotten more than ten times harder
+but there was an
 explosion of ideas about combinatoric s-- in the 70s and to the point that but
 Mike's take 1975 I bet you more than half of all the journals of computer
-science we're about combinatorial method and what kind of problems were occupying people's minds what kind of problems in
+science we're about combinatorial method and 
+
+
 
 ## Problems in combinatorics
-combinatorics was it's it's that gravity graph theory yeah gravity was was quite
+
+what kind of problems were occupying people's minds what kind of problems in
+combinatorics was it's 
+
+it's that gravity graph theory 
+
+yeah gravity was was quite
 dominant I mean no but all of the np-hard problems that you have like
 Hamiltonian path or foul sail going beyond yeah yeah going beyond graphs you
 had a operation research whenever it was a small class of problems that had
@@ -287,7 +284,11 @@ for satisfy building linear time but if you allow yourself three variables in th
 it so these articles were about trying to find better or better ways to to
 solve cryptography problems and graph three problems where the we have lots of
 data but we didn't know how to find the best subset so the data like with sorting we could get the answer didn't
-take long so how did they continue to change from the 70s to today yeah so now
+take long 
+
+so how did they continue to change from the 70s to today 
+
+yeah so now
 there may be half a dozen conferences whose topic is cognate arcs different
 kind but fortunately I don't have to rewrite my book every month you know like I had to in in the 70 but still
 there's huge amount of work being done and people getting better ideas on these
@@ -296,19 +297,38 @@ into a lot more with him and so this book that I'm finishing now is I've got
 a whole bunch of brand new methods that the fires I know there's no other there's no other book that covers that
 covers this particular approach and and so I'm trying to do my best of exploring
 the tip of the iceberg and and and I try out lots of things and and keep keep
-rewriting finding as I find better better method so what's your writing
+rewriting finding as I find better better method 
+
+
+so what's your writing
 
 ## Thinking and writing process
-process like what's your thinking and writing process like every day so what's
-your routine even yeah I guess it's actually the best question because I spent seven days a
-week you're doing it the most prepares to answer it yeah yeah but okay so the
-chair I'm sitting in is where I do that's where the magic happens well
+process like what's your thinking and writing process like every day 
+
+so what's
+your routine even 
+
+yeah I guess it's actually the best question because I spent seven days a
+week 
+
+you're doing it the most prepares to answer it 
+
+yeah yeah but okay so the
+chair I'm sitting in is where I do that's 
+
+where the magic happens 
+
+well
 reading and writing that many chairs usually sitting over there where I have other books some reference book but but
 I I found his chair which was designed by a Swedish guy anyway it turns out
 this was the only chair I can really sit in for hours and hours and not know that I'm in a chair but then I have the
 stand-up desk right next next to us and and so after I write something with pencil and eraser I get up and I type it
-and revise and rewrite the kernel the
-idea is first put on paper yep that's worth right and I call right
+and revise and rewrite 
+
+the kernel the
+idea is first put on paper 
+
+yep that's worth right and I call right
 maybe five programs a week of course literate programming and these are
 before I describe something in my book I always program it to see how it's working and I and I tried a lot so for
 example I learned at the end of January I learned of a breakthrough by for
@@ -323,40 +343,59 @@ involves some new mathematical questions and so I wrote to my friends and might
 be good at solving those problems and and they solve some of them so I put
 that in his exercises and and so a month later I had absorbed one new idea that I
 that I learned and you know I'm glad I heard about it in time otherwise my I
-wouldn't put my book out before I heard about the idea on the other hand this book was supposed to come in at 300
+wouldn't put my book out before I heard about the idea
+ on the other hand this book was supposed to come in at 300
 pages and I'm up to 350 now that added 10 pages to the book but if I learn
-about another one I probably first gonna shoot me well so in the process in that
+about another one I probably first gonna shoot me 
+
+
 
 ## Some days harder than others
-one month process are some days harder than others are some days harder than
-others well yeah my work is fun but I also work hard and every big job has
+well so in the process in thatone month process are some days harder than others 
+
+are some days harder than
+others 
+well yeah my work is fun but I also work hard and every big job has
 parts that are a lot more fun than others and so many days I'll say why do
 I have to have such high standards like why couldn't I just be sloppy and not try this out and you know just just
 report the answer but I but I know that people are conning me to do this and so
 okay so okay Donald grit my teeth and do it and and and then the joy comes out
 when I see that actually you know I'm getting good results and and and I get and I even more when I see that somebody
-has actually read and understood what I wrote and told me how to make it even better I did want to mention something
+has actually read and understood what I wrote and told me how to make it even better 
+I did want to mention something
 about the about the method so I got this tablet here where I do the first you
 know the first writing of concepts okay so so and what language I didn't write
 so hey take a look at but you know here random say explain how to draw such
 skewed pixel diagrams okay so I got this paper about 40 years ago when I was
 visiting my sister in Canada and they make tablets of paper with this nice
 large size and just the right very small space between like oh yeah yeah
-particularly also just yeah
+particularly also just 
+
+yeah
 you know I've got these manuscripts going back to the 60s and and and those
 are when I get my ideas on paper okay but I'm a good typist in fact I went to
 type in school when I was when I was in high school and so I can type faster than I think so then when I do the
 editing you know stand up and type then I then I revise this and it comes out a
 lot different than what you look for style and rhythm and things like that come out at the at the typing state and
-you type in tack and I type in tack and can you can you think in tech No so to a
+you type in tack 
+
+and I type in tack and can you 
+
+can you think in tech 
+
+No so to a
 certain extent I have I have only a small number of idioms that I use like
 you know a beginning or theorem I do something for displayed equation I do something and and so on but I but I I
-have to see it and in the way that it's on here yeah right for example touring
+have to see it and in the way that it's on here 
+
+yeah right for example touring
 
 
 ## Macros
 wrote what the other direction you don't write macros you don't think
-in macros particularly but when I need a macro I'll go ahead and and these and do
+in macros 
+
+particularly but when I need a macro I'll go ahead and and these and do
 it but but the thing is they I also write to fit I mean I'll I'll change
 something if I can if I can save a line I've got you know it's like haiku I'll figure out a way to rewrite the sentence
 so that it'll look better on the page and I shouldn't be wasting my time on
