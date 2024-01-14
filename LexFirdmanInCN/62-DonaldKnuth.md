@@ -2,9 +2,9 @@
 # Lex Fridman X Donald Knuth 
 
 文稿来源：[Donald Knuth: Algorithms, Complexity, and The Art of Computer Programming | Lex Fridman Podcast #62](https://www.youtube.com/watch?v=2BdBfsXbST8)
-```
-这篇访谈稿的整理比预期的困难很多。
 
+这篇访谈稿的整理比预期的困难很多。
+```
 我的处理流程如下：
 1. 在YouTube上将视频生成的英文访谈文本拷贝出来。
 2. 通过听视频将访谈稿进行必要的分割，主要为了区别提问者和回答者。但此部分并不容易，因为提问者经常插话，增加了不少零碎的内容。
@@ -13,6 +13,12 @@
 5. 完成翻译工作之后，对全文稿进行精修。
 
 ```
+
+目前仍需要做的事情：
+
+- [ ] 把前半部的文档进行修理
+- [ ] 通读文稿，标记并修正不通顺的或令人费解的内容
+
 
 ## Introduction
 
