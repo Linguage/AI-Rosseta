@@ -169,7 +169,7 @@ Galois宇宙群”表达了物理基本常数之间一种新型对称性。据�
 ## 42岁时，他从世界和科学中隐退
 
 ```
-“Retiré du monde et de la science à l'âge de 42 ans”
+Retiré du monde et de la science à l'âge de 42 ans
 
 由Michel de Pracontal于2015年1月14日星期三发布的文章
 
@@ -278,7 +278,7 @@ Schapiro成功逃离到柏林，然后到巴黎。他改名为Tanaroff，在1924
 ##  法国数学的卓越，一项历史传统
 
 ```
-** L'excellence mathématique française, une tradition historique ** 
+L'excellence mathématique française, une tradition historique
 
 Michel de Pracontal 文章发表于2015年1月14日，星期三
 
@@ -361,7 +361,7 @@ Bourbaki小组继承了康托尔和希尔伯特的遗产，使法国数学重新
 ## 后记：数学有什么用？
 
 ```
-** “Post-scriptum: à quoi servent les mathématiques?” **
+“Post-scriptum: à quoi servent les mathématiques?” 
 
 Michel de Pracontal于2015年1月14日发表
 ```
