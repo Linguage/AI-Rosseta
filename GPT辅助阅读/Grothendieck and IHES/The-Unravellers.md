@@ -95,7 +95,7 @@ idea should shed its light afar. A key word was
 “dévissage,” or “unscrewing.”
 
 I was stunned the day he proved the base change
-theorem for a proper morphism $f：g^* Rf_* \stackrel{\sim}{\to} Rf^‘_* g^{'*}$
+theorem for a proper morphism $f：g^* Rf_* \stackrel{\sim}{\to} Rf^{'}_* g^{'*}$
 starting from the case of a constant sheaf on a
 family of curves.
 
@@ -116,7 +116,7 @@ IHES 的核心对我而言是一座带有大玻璃窗户的建筑，位于树林
 
 与我有时听到的说法相反，他的目标不是追求最大的一般性。理想状态是定理应该被很好地理解，它们的证明结构应该由定义组成，这样每个几何思想都能在远处投下它的光芒。一个关键词是“dévissage”，或者“unscrewing”（拆解）。
 
-有一天，他从一族曲线上的常数层的情况出发，证明了适合态射的基变换定理 $f：g^* Rf_* \stackrel{\sim}{\to} Rf^‘_* g^{'*}$ ，我感到很震惊。
+有一天，他从一族曲线上的常数层的情况出发，证明了适合态射的基变换定理 $f：g^* Rf_* \stackrel{\sim}{\to} Rf^{'}_* g^{'*}$ ，我感到很震惊。
 
 引理一个接一个地出现，不证自明，一个小时结束时，定理的核心被揭示出来。
 
