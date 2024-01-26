@@ -1,5 +1,11 @@
+# 普林斯顿应用数学指南
+
 ## VIII.1 Mathematical Writing
+VIII.1 数学写作
+
 Timothy Gowers
+
+[toc]
 
 ### 1 Introduction
 
@@ -161,17 +167,17 @@ Suppose you wish to present the fact that a sequence of continuous functions tha
 
 假设您希望呈现一个连续函数序列，该序列按点收敛不一定收敛一致的事实。以下是您可能采取的一种方式。
 
-**Theorem**. There exists a sequence of continuous functions $f_n:[0,1]\to[0,1]$ that converges pointwise but not uniformly.
+> **Theorem**. There exists a sequence of continuous functions $f_n:[0,1]\to[0,1]$ that converges pointwise but not uniformly.
 
-**Proof**. For each positive integer $n$ and each $x\in[0,1]$, let $f_n(x)=nx\mathrm{e}^{-nx}$. Then, for $x>0$ we have e$^{-x}<1$, so $n\mathrm{e} ^{- nx}= n( \mathrm{e} ^{- x}) ^n\to 0$ as $n\to \infty.$ It follows that $f_n( x) \to 0$ as $n\to \infty$.Also, when $x= 0$ we have $f_n( x) =  0$ for every $n$ so again $f_n( x) \to 0$ as $n\to \infty.$ Therefore, $f_n(x)\to0$ pointwise.
+> **Proof**. For each positive integer $n$ and each $x\in[0,1]$, let $f_n(x)=nx\mathrm{e}^{-nx}$. Then, for $x>0$ we have e$^{-x}<1$, so $n\mathrm{e} ^{- nx}= n( \mathrm{e} ^{- x}) ^n\to 0$ as $n\to \infty.$ It follows that $f_n( x) \to 0$ as $n\to \infty$.Also, when $x= 0$ we have $f_n( x) =  0$ for every $n$ so again $f_n( x) \to 0$ as $n\to \infty.$ Therefore, $f_n(x)\to0$ pointwise.
 
-However, the convergence is not uniform. To see this, observe that $f_n(n^{-1})=\mathrm{e}^{-1}$ for every $n$. Thus, for every $n$ there exists $x$ such that $|f_n(x)-0|\geqslant\mathrm{e}^{-1}.$   口
+> However, the convergence is not uniform. To see this, observe that $f_n(n^{-1})=\mathrm{e}^{-1}$ for every $n$. Thus, for every $n$ there exists $x$ such that $|f_n(x)-0|\geqslant\mathrm{e}^{-1}.$   口
 
-**定理**。存在一列连续函数 $f_n:[0,1]\to[0,1]$, 它按点收敛但不一致收敛。
+> **定理**。存在一列连续函数 $f_n:[0,1]\to[0,1]$, 它按点收敛但不一致收敛。
 
-**证明**。对于每个正整数 $n$ 和每个 $x\in[0,1]$, 令 $f_n(x)=nx\mathrm{e}^{-nx}$。那么，对于 $x>0$，我们有 $\mathrm{e}^{-x}<1$，所以 $n\mathrm{e}^{-nx}=n(\mathrm{e}^{-x})^n\to 0$ 当 $n\to \infty$。因此，当 $n\to \infty$ 时，$f_n(x)\to 0$。同样，当 $x=0$ 时，对于每个 $n$，我们有 $f_n(x)=0$，所以同样地 $f_n(x)\to 0$ 当 $n\to \infty$。因此，$f_n(x)\to0$ 是按点收敛的。
+> **证明**。对于每个正整数 $n$ 和每个 $x\in[0,1]$, 令 $f_n(x)=nx\mathrm{e}^{-nx}$。那么，对于 $x>0$，我们有 $\mathrm{e}^{-x}<1$，所以 $n\mathrm{e}^{-nx}=n(\mathrm{e}^{-x})^n\to 0$ 当 $n\to \infty$。因此，当 $n\to \infty$ 时，$f_n(x)\to 0$。同样，当 $x=0$ 时，对于每个 $n$，我们有 $f_n(x)=0$，所以同样地 $f_n(x)\to 0$ 当 $n\to \infty$。因此，$f_n(x)\to0$ 是按点收敛的。
 
-然而，这种收敛并不是一致的。要看到这一点，注意到对于每个 $n$，存在 $x$ 使得 $|f_n(x)-0|\geqslant\mathrm{e}^{-1}$，其中 $f_n(n^{-1})=\mathrm{e}^{-1}$。
+> 然而，这种收敛并不是一致的。要看到这一点，注意到对于每个 $n$，存在 $x$ 使得 $|f_n(x)-0|\geqslant\mathrm{e}^{-1}$，其中 $f_n(n^{-1})=\mathrm{e}^{-1}$。
 
 This proof has a feature that is common in mathe- matics: it is easier to follow the steps than it is to see where the steps came from. If you are told to try the functions $f_n(x)=nx\mathrm{e}^{-nx}$, then checking that they satisfy the conditions is a straightforward exercise, but what made anybody think of that particular sequence of functions?
 
@@ -181,34 +187,33 @@ Here is what we might write if we wanted to make the answer to that last questio
 
 如果我们想要让上述问题的答案更加清晰，我们可能会写下以下内容。
 
-**Proof**. If $f_n\to f$ pointwise but not uniformly, then $f_n-f\to0$ pointwise but not uniformly, so we may as well look for functions that converge to zero. In order to ensure that they do not converge uniformly to zero, we need a positive number $\theta$ such that for infinitely many $n$ there exists $x\in[0,1]$ with $|f_n(x)|\geqslant\theta.$ Since infinitely many of these $f_n(x)$ will have the same sign, and since we can multiply all functions by $\theta^{-1}$, we may as well look for a sequence of functions $f_n$ that converges pointwise to 0 such that for every $n$ there exists $x_n$ with $f_n(x_n)\geqslant1.$
+> **Proof**. If $f_n\to f$ pointwise but not uniformly, then $f_n-f\to0$ pointwise but not uniformly, so we may as well look for functions that converge to zero. In order to ensure that they do not converge uniformly to zero, we need a positive number $\theta$ such that for infinitely many $n$ there exists $x\in[0,1]$ with $|f_n(x)|\geqslant\theta.$ Since infinitely many of these $f_n(x)$ will have the same sign, and since we can multiply all functions by $\theta^{-1}$, we may as well look for a sequence of functions $f_n$ that converges pointwise to 0 such that for every $n$ there exists $x_n$ with $f_n(x_n)\geqslant1.$
 
-**证明**: 如果$f_n\to f$逐点但不一致，那么$f_n-f\to0$逐点但不一致，因此我们不妨寻找收敛到零的函数。为了确保它们不一致地收敛到零，我们需要一个正数$\theta$，使得对于无限多个$n$，存在$x\in[0,1]$，
-使得$|f_n(x)\geqslant\theta$。由于这些 $f_n(x)$中有无限多个将具有相同的符号，并且由于我们可以将所有函数乘以$\theta^{-1}$，因此我们不妨寻找一个函数序列$f_n$，它逐点收敛到0，使得对于每个$n$都存在$x_n$，使得$f_n(x_n)\geqslant1$。
+> Now, if $f_n( x_n) \geqslant 1$ and $f_n$ is continuous, then there exists an open interval $I_n=(x_n-\delta_n,x_n+\delta_n)$ around $x_n$ such that $f_n(y)\geqslant\frac12$ for every $y\in I_n.$ We are going to have to make sure that we do not have infinitely many of these intervals overlapping in some point $u$, since then we would have $f_n(u)\geqslant\frac12$ for infinitely many $n$, which would imply that $f_n(u)$ does not tend to zero.
 
+> How can we find infinitely many open intervals without infinitely many of them overlapping? The simplest way of doing it is to take intervals of the form $(a,b_n)$ for a sequence $(b_n)$ that converges to $a$. So, for example, we could take $I_n$ to be the interval $(0,1/n).$
 
-Now, if $f_n( x_n) \geqslant 1$ and $f_n$ is continuous, then there exists an open interval $I_n=(x_n-\delta_n,x_n+\delta_n)$ around $x_n$ such that $f_n(y)\geqslant\frac12$ for every $y\in I_n.$ We are going to have to make sure that we do not have infinitely many of these intervals overlapping in some point $u$, since then we would have $f_n(u)\geqslant\frac12$ for infinitely many $n$, which would imply that $f_n(u)$ does not tend to zero.
+> This suggests that we should let $f_n$ be a continuous function that takes the value 1 somewhere inside the interval $(0,1/n)$ and is small outside that interval. One way of defining a function that reaches 1 for a small value of $x$ and then quickly drops back down again is to take a function that grows rapidly to $1,\operatorname{such}\operatorname{as}g_n(x)=$ $\lambda x$, and multiply it by a function that is roughly 1 for a little while and then decays rapidly, such as e $^{-\mu x}$. The rapid decay of e $^{-\mu x}$ starts when $x$ is around $1/\mu$, which suggests that we should take $\mu$ to be around $n.$ Since we want $g_n(x)$ to reach 1 in the interval $(0,1/n)$, we should probably take $\lambda$ to be around $n$ as well.
 
-现在，如果 $f_n(x_n) \geqslant 1$，且 $f_n$ 连续，则存在一个开区间 $I_n=(x_n-\delta_n,x_n+\delta_n)$ 包围着 $x_n$，使得对于每个 $y\in I_n$，都有 $f_n(y)\geqslant\frac12$。我们必须确保我们没有无限多个这样的区间在某一点 $u$ 重叠，否则我们将会有对无限多个 $n$，$f_n(u)\geqslant\frac12$，这将意味着 $f_n(u)$ 不趋于零。
-
-How can we find infinitely many open intervals without infinitely many of them overlapping? The simplest way of doing it is to take intervals of the form $(a,b_n)$ for a sequence $(b_n)$ that converges to $a$. So, for example, we could take $I_n$ to be the interval $(0,1/n).$
-
-我们如何找到无限多个不重叠的开区间？最简单的方法是取形式为 $(a,b_n)$ 的区间，其中 $(b_n)$ 是收敛到 $a$ 的序列。因此，例如，我们可以取 $I_n$ 为区间 $(0,1/n)$。
-
-This suggests that we should let $f_n$ be a continuous function that takes the value 1 somewhere inside the interval $(0,1/n)$ and is small outside that interval. One way of defining a function that reaches 1 for a small value of $x$ and then quickly drops back down again is to take a function that grows rapidly to $1,\operatorname{such}\operatorname{as}g_n(x)=$ $\lambda x$, and multiply it by a function that is roughly 1 for a little while and then decays rapidly, such as e $^{-\mu x}$. The rapid decay of e $^{-\mu x}$ starts when $x$ is around $1/\mu$, which suggests that we should take $\mu$ to be around $n.$ Since we want $g_n(x)$ to reach 1 in the interval $(0,1/n)$, we should probably take $\lambda$ to be around $n$ as well.
-
-这表明我们应该让 $f_n$ 是一个连续函数，在区间 $(0,1/n)$ 内的某处取值为 1，并且在该区间外部很小。定义一个在 $x$ 的小值处达到 1 然后迅速下降的函数的一种方法是，取一个迅速增长到 $1$ 的函数，例如 $g_n(x)=\lambda x$，并将其乘以一个大约在一段时间内接近 $1$ 然后迅速衰减的函数，例如 $e^{-\mu x}$。$e^{-\mu x}$ 的快速衰减在 $x$ 大约为 $1/\mu$ 时开始，这表明我们应该取 $\mu$ 大约为 $n$。由于我们希望 $g_n(x)$ 在区间 $(0,1/n)$ 内达到 $1$，我们可能也应该取 $\lambda$ 大约为 $n$。
-
-It is now easy to check that the functions $f_n(x)=$ $nx\mathrm{e}^{-nx}$ converge pointwise to zero but not uniformly.
+> It is now easy to check that the functions $f_n(x)=$ $nx\mathrm{e}^{-nx}$ converge pointwise to zero but not uniformly.
 口
 
-现在很容易检查函数 $f_n(x)=nx\mathrm{e}^{-nx}$ 点态收敛于零，但不是一致收敛。
+> **证明**: 如果$f_n\to f$逐点但不一致，那么$f_n-f\to0$逐点但不一致，因此我们不妨寻找收敛到零的函数。为了确保它们不一致地收敛到零，我们需要一个正数$\theta$，使得对于无限多个$n$，存在$x\in[0,1]$，
+使得$|f_n(x)\geqslant\theta$。由于这些 $f_n(x)$中有无限多个将具有相同的符号，并且由于我们可以将所有函数乘以$\theta^{-1}$，因此我们不妨寻找一个函数序列$f_n$，它逐点收敛到0，使得对于每个$n$都存在$x_n$，使得$f_n(x_n)\geqslant1$。
+
+> 现在，如果 $f_n(x_n) \geqslant 1$，且 $f_n$ 连续，则存在一个开区间 $I_n=(x_n-\delta_n,x_n+\delta_n)$ 包围着 $x_n$，使得对于每个 $y\in I_n$，都有 $f_n(y)\geqslant\frac12$。我们必须确保我们没有无限多个这样的区间在某一点 $u$ 重叠，否则我们将会有对无限多个 $n$，$f_n(u)\geqslant\frac12$，这将意味着 $f_n(u)$ 不趋于零。
+
+> 我们如何找到无限多个不重叠的开区间？最简单的方法是取形式为 $(a,b_n)$ 的区间，其中 $(b_n)$ 是收敛到 $a$ 的序列。因此，例如，我们可以取 $I_n$ 为区间 $(0,1/n)$。
+
+> 这表明我们应该让 $f_n$ 是一个连续函数，在区间 $(0,1/n)$ 内的某处取值为 1，并且在该区间外部很小。定义一个在 $x$ 的小值处达到 1 然后迅速下降的函数的一种方法是，取一个迅速增长到 $1$ 的函数，例如 $g_n(x)=\lambda x$，并将其乘以一个大约在一段时间内接近 $1$ 然后迅速衰减的函数，例如 $e^{-\mu x}$。$e^{-\mu x}$ 的快速衰减在 $x$ 大约为 $1/\mu$ 时开始，这表明我们应该取 $\mu$ 大约为 $n$。由于我们希望 $g_n(x)$ 在区间 $(0,1/n)$ 内达到 $1$，我们可能也应该取 $\lambda$ 大约为 $n$。
+
+> 现在很容易检查函数 $f_n(x)=nx\mathrm{e}^{-nx}$ 点态收敛于零，但不是一致收敛。
 
 Of course, one might well give a detailed proof that the functions $nx\mathrm{e}^{-nx}$ do the job.
 
-当然，人们可能会给出详细的证明，说明函数 $nx\mathrm{e}^{-nx}$ 起到了作用。
+As with the other choices, there are advantages and disadvantages that need to be weighed up when deciding how much to explain the origin (or at least a possi- ble origin) of the ideas one presents. If one’s main con- cern is verification of a result—that is, convincing the reader of its truth—then it may not matter too much where the ideas come from as long as they work. But if the aim is to teach the reader how to solve problems of a certain kind, then presenting solutions that appear out of nowhere as if by magic is not helpful. What is more, demonstrating where the ideas come from gives the reader a much clearer idea of which features are essential and which merely incidental. For example, in the argument above it is clear from the second presentation that there is nothing special about the functions $f_n(x)=nx\mathrm{e}^{-nx}$ : for $f_n(x)$ one could take any nonnegative function such that $f_n(0)=0,f_n(1/n)\geqslant c$ (for some fixed constant $c$) ,  and $f_n( x)$ is small for every $x\geqslant2/n.$ For instance, one could take a “witch's hat" that equals $nx$ when $0\leqslant x\leqslant1/n,2-nx$ when $1/n\leqslant x\leqslant 2/n$, and $0$ when $2/n\leqslant x\leqslant 1.$
 
-As with the other choices, there are advantages and disadvantages that need to be weighed up when decid- ing how much to explain the origin (or at least a possi- ble origin) of the ideas one presents. If one’s main con- cern is verification of a result—that is, convincing the reader of its truth—then it may not matter too much where the ideas come from as long as they work. But if the aim is to teach the reader how to solve problems of a certain kind, then presenting solutions that appear out of nowhere as if by magic is not helpful. What is more, demonstrating where the ideas come from gives the reader a much clearer idea of which features are essential and which merely incidental. For example, in the argument above it is clear from the second presentation that there is nothing special about the functions $f_n(x)=nx\mathrm{e}^{-nx}$ : for $f_n(x)$ one could take any nonnegative function such that $f_n(0)=0,f_n(1/n)\geqslant c$ (for some fixed constant $c) , $ and $f_n( x)$ is small for every $x\geqslant2/n.$ For instance, one could take a “witch's hat" that equals $nx$ when $0\leqslant x\leqslant1/n,2-nx$ when $1/n\leqslant x\leqslant 2/n$, and $0$ when $2/n\leqslant x\leqslant 1.$
+当然，人们可能会给出详细的证明，说明函数 $nx\mathrm{e}^{-nx}$ 起到了作用。
 
 与其他选择一样，决定解释所呈现的想法的起源（或至少可能的起源）时，需要权衡利弊。如果主要关注的是结果的验证——也就是说，说服读者结果的真实性——那么想法的来源可能并不太重要，只要它们起作用即可。但是，如果目的是教导读者如何解决某种类型的问题，那么呈现出像魔术一样突然出现的解决方案是没有帮助的。更重要的是，展示想法的来源让读者对哪些特征是必要的、哪些只是附带的有了更清楚的了解。例如，在上面的论证中，从第二个表达中清楚地看出，函数 $f_n(x)=nx\mathrm{e}^{-nx}$ 并没有什么特别之处：对于 $f_n(x)$，可以取任何非负函数，使得 $f_n(0)=0, f_n(1/n)\geqslant c$（对于某个固定的常数 $c$），且对于每个 $x\geqslant 2/n$，$f_n(x)$ 都很小。例如，可以取一个“女巫帽”，当 $0\leqslant x\leqslant 1/n$ 时，它等于 $nx$，当 $1/n\leqslant x\leqslant 2/n$ 时，它等于 $2-nx$，当 $2/n\leqslant x\leqslant 1$ 时，它等于 $0$。
 
@@ -218,7 +223,7 @@ That is not to say that a diligent reader cannot look at a presentation of the f
 
 ### 7 Definitions First versus Examples First
 
-7. 首先定义还是首先举例
+7 首先定义还是首先举例
 
 Suppose that one wanted to write an explanation of what a topological manifold is. An obvious approach would be to start by giving the definition. That could be done as follows.
 
