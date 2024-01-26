@@ -5,7 +5,6 @@ VIII.1 数学写作
 
 Timothy Gowers
 
-[toc]
 
 ### 1 Introduction
 
