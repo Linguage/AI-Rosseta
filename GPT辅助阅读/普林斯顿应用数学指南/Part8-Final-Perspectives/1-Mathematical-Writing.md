@@ -70,7 +70,7 @@ A modern writer would express the same problem more like this.
 
 The main difference between these two ways of describ- ing the problem is that in the second formulation the numbers under discussion have been given names. These names take the form of letters, which allow us to replace wordy expressions such as “the second number” or “the given ratio” by letters such as $b$ and $\rho$.”
 
-在描述问题的这两种方式之间的主要区别在于，在第二种表述中，讨论的数字已经被赋予了名称。这些名称采用字母的形式，使我们能够用字母如$b$和$\rho$代替冗长的表达，比如“第二个数字”或“给定的比率”。
+在描述问题的这两种方式之间的主要区别在于，在第二种表述中，讨论的数字已经被赋予了名称。这些名称采用符号的形式，使我们能够用符号如$b$和$\rho$代替冗长的表达，比如“第二个数字”或“给定的比率”。
 
 The advantage of modern notation is that it is much more concise. This is not just a matter of saving paper; the extra length of “to make the sum in the first case have to the difference in the second case a given ratio” over “such that $a+x=\rho(b-x)$” makes it significantly harder to understand because it is difficult to take in the entire phrase at once.
 
@@ -107,7 +107,7 @@ Marcinkiewicz空间的定义在该领域中也是标准的。最后，集合 $\G
 
 Thus, another way of stating the proposition is as follows.
 
-> **Proposition**. Let $0\leqslant\alpha\leqslant\frac12$,let $1/p= \frac 12- \alpha, $and let $E$ be a Banach space. Then the following two statements are equivalent.
+> **Proposition**. Let $0\leqslant\alpha\leqslant\frac12$,let $1/p= \frac 12- \alpha$, and let $E$ be a Banach space. Then the following two statements are equivalent.
 > - (1) For every Banach space $F$ and every 2-summing
 operator  $T{:}E~\to~F$ , the sequence $(a_n(T))_{n=1}^{\infty}$  of approximation numbers belongs to the Marcinkiewicz space $\ell_{p,\infty}.$
 > - (2) $E$ is a space of weak Hilbert type $\alpha.$
@@ -134,17 +134,32 @@ This may be a delicate balance to strike, but there is one principle that applie
 
 ### 5 Single Long Arguments versus Arguments Broken Up into Modules
 
+5 单一长论证与分解成模块的论证
+
 If you are trying to justify a mathematical statement and the justification is long and complicated, then what you write may well be hard to understand unless you can somehow break the argument up into smaller “modules” that fit together to give you what you want. In pure mathematics, these modules usually take the form of lemmas. If you are proving a theorem and you do not want the proof to become unwieldy, then you try to identify parts of the argument that can be extracted and proved separately. One can then simply quote these results in the main argument. Lemmas play a role in proofs that is similar to the role of subroutines in computer programs.
+
+如果你试图证明一个数学命题，而这个证明又长又复杂，那么你所写的内容很可能难以理解，除非你能够将论证分解成更小的“模块”，这些模块组合在一起形成你想要的结果。在纯数学中，这些模块通常以引理的形式出现。如果你正在证明一个定理，而且你不希望证明变得难以掌控，那么你会尝试识别出可以单独提取并分开证明的论证部分。然后，你可以在主要论证中引用这些结果。引理在证明中的作用类似于计算机程序中子程序的作用。
 
 For breaking up an argument to be a good idea, it greatly helps if the part of the argument you want to extract is not too context dependent. If the statement of a lemma requires a long piece of scene setting, then it is probably better to leave it in the main body of the argu- ment, where the scene has already been set. However, if it can be stated without reference to the particular con- text, which usually means that it is more general than the particular application needed of it in the main argu- ment, then it is more appropriate to extract it. Again, this is a matter of judgment.
 
+将论证分解成模块化的一个好主意，很大程度上取决于你想提取的部分是否与上下文关联不太紧密。如果引理的陈述需要大量的背景设定，那么最好将其留在论证的主体部分，因为背景已经设定完毕。然而，如果引理可以在不涉及特定背景的情况下陈述，通常意味着它比主要论证中所需的应用更为普遍，那么将其提取出来更为合适。再次强调，这是一个判断的问题。
+
 A disadvantage of more modular arguments is that extracting lemmas, or more general modules, forces you to put them somewhere where they do not arise naturally. If you put them before the main argument, so that they will be available when needed, then the reader is presented with statements of no obvious use and is expected to remember them. If they are particu- larly memorable, then that is not a problem, but often they are not; for instance, they may depend on two or three slightly odd conditions that just happen to be satisfied in the later argument. If you put them after the main argument, then the reader keeps being told, “We will prove this claim later” and reaches the end of the argument with the uneasy feeling that the proof is incomplete. A third possibility is to state and prove lemmas within an argument, but nested statements of this kind can be fairly ugly.
+
+模块化论证的一个缺点是提取引理或更一般化的模块会迫使你将它们放置在一个并不自然的位置。如果你将它们放在主要论证之前，以便在需要时可用，那么读者将被呈现出一些毫无明显用途的陈述，并被期望记住它们。如果它们特别容易记住，那就没有问题，但通常情况下并非如此；例如，它们可能依赖于两个或三个略微奇怪的条件，这些条件恰好在后续论证中得到满足。如果你将它们放在主要论证之后，那么读者会一直被告知，“我们稍后会证明这个命题”，并在论证结束时会感到证明不完整的不安。第三种可能性是在论证中陈述和证明引理，但这种嵌套的陈述可能相当丑陋。
 
 With some complicated arguments, there may be no truly satisfactory solution to these problems. In that case, the best thing to do may well be to choose an unsatisfactory solution and mitigate the problems somehow. The default option is probably to state lem- mas before they are used. If you choose that option and the lemmas are somewhat complicated and hard to remember, then you can always add a few words of explanation about the role that the lemma will play. If even that is hard to do, then another option is to advise the reader to read the main argument first and return to the lemma only when the need for it has become clear. (An experienced reader may well do that anyway, but it is still helpful to be told by the author that it is a good approach to understanding the argument.)
 
+对于一些复杂的论证，可能没有真正令人满意的解决方案。在这种情况下，最好的做法可能是选择一个不完美的解决方案，并以某种方式减轻问题。默认选项可能是在使用引理之前陈述引理。如果你选择了这个选项，而引理又有些复杂且难以记忆，那么你可以在引理的作用方面添加一些解释性的文字。如果即使这样做也很困难，那么另一个选择是建议读者先阅读主要论证，只有在需要引理时才返回引理。（有经验的读者可能会这样做，但作者告诉读者这是理解论证的一种好方法仍然是有帮助的。）
+
 ### 6 Logical Order versus Order of Discovery
 
+ 6 逻辑顺序与发现顺序
+
+
 Suppose you wish to present the fact that a sequence of continuous functions that converges pointwise does not have to converge uniformly. Here is one way that you might do it.
+
+假设您希望呈现一个连续函数序列，该序列按点收敛不一定收敛一致的事实。以下是您可能采取的一种方式。
 
 **Theorem**. There exists a sequence of continuous functions $f_n:[0,1]\to[0,1]$ that converges pointwise but not uniformly.
 
@@ -152,10 +167,19 @@ Suppose you wish to present the fact that a sequence of continuous functions tha
 
 However, the convergence is not uniform. To see this, observe that $f_n(n^{-1})=\mathrm{e}^{-1}$ for every $n$. Thus, for every $n$ there exists $x$ such that $|f_n(x)-0|\geqslant\mathrm{e}^{-1}.$   口
 
+**定理**。存在一列连续函数 $f_n:[0,1]\to[0,1]$, 它按点收敛但不一致收敛。
+
+**证明**。对于每个正整数 $n$ 和每个 $x\in[0,1]$, 令 $f_n(x)=nx\mathrm{e}^{-nx}$。那么，对于 $x>0$，我们有 $\mathrm{e}^{-x}<1$，所以 $n\mathrm{e}^{-nx}=n(\mathrm{e}^{-x})^n\to 0$ 当 $n\to \infty$。因此，当 $n\to \infty$ 时，$f_n(x)\to 0$。同样，当 $x=0$ 时，对于每个 $n$，我们有 $f_n(x)=0$，所以同样地 $f_n(x)\to 0$ 当 $n\to \infty$。因此，$f_n(x)\to0$ 是按点收敛的。
+
+然而，这种收敛并不是一致的。要看到这一点，注意到对于每个 $n$，存在 $x$ 使得 $|f_n(x)-0|\geqslant\mathrm{e}^{-1}$，其中 $f_n(n^{-1})=\mathrm{e}^{-1}$。
+
 This proof has a feature that is common in mathe- matics: it is easier to follow the steps than it is to see where the steps came from. If you are told to try the functions $f_n(x)=nx\mathrm{e}^{-nx}$, then checking that they satisfy the conditions is a straightforward exercise, but what made anybody think of that particular sequence of functions?
+
+这个证明具有数学中常见的一个特点：跟随步骤比了解步骤的来源更容易。如果让你尝试函数 $f_n(x)=nx\mathrm{e}^{-nx}$，那么检查它们是否满足条件就是一个简单的练习，但是是什么让任何人想到了那个特定的函数序列呢？
 
 Here is what we might write if we wanted to make the answer to that last question clearer.
 
+如果我们想要让上述问题的答案更加清晰，我们可能会写下以下内容。
 
 **Proof**. If $f_n\to f$ pointwise but not uniformly, then $f_n-f\to0$ pointwise but not uniformly, so we may as well look for functions that converge to zero. In order to ensure that they do not converge uniformly to zero, we need a positive number $\theta$ such that for infinitely many $n$ there exists $x\in[0,1]$ with $|f_n(x)|\geqslant\theta.$ Since infinitely many of these $f_n(x)$ will have the same sign, and since we can multiply all functions by $\theta^{-1}$, we may as well look for a sequence of functions $f_n$ that converges pointwise to 0 such that for every $n$ there exists $x_n$ with $f_n(x_n)\geqslant1.$
 
@@ -165,86 +189,173 @@ Here is what we might write if we wanted to make the answer to that last questio
 
 Now, if $f_n( x_n) \geqslant 1$ and $f_n$ is continuous, then there exists an open interval $I_n=(x_n-\delta_n,x_n+\delta_n)$ around $x_n$ such that $f_n(y)\geqslant\frac12$ for every $y\in I_n.$ We are going to have to make sure that we do not have infinitely many of these intervals overlapping in some point $u$, since then we would have $f_n(u)\geqslant\frac12$ for infinitely many $n$, which would imply that $f_n(u)$ does not tend to zero.
 
+现在，如果 $f_n(x_n) \geqslant 1$，且 $f_n$ 连续，则存在一个开区间 $I_n=(x_n-\delta_n,x_n+\delta_n)$ 包围着 $x_n$，使得对于每个 $y\in I_n$，都有 $f_n(y)\geqslant\frac12$。我们必须确保我们没有无限多个这样的区间在某一点 $u$ 重叠，否则我们将会有对无限多个 $n$，$f_n(u)\geqslant\frac12$，这将意味着 $f_n(u)$ 不趋于零。
+
 How can we find infinitely many open intervals without infinitely many of them overlapping? The simplest way of doing it is to take intervals of the form $(a,b_n)$ for a sequence $(b_n)$ that converges to $a$. So, for example, we could take $I_n$ to be the interval $(0,1/n).$
 
+我们如何找到无限多个不重叠的开区间？最简单的方法是取形式为 $(a,b_n)$ 的区间，其中 $(b_n)$ 是收敛到 $a$ 的序列。因此，例如，我们可以取 $I_n$ 为区间 $(0,1/n)$。
+
 This suggests that we should let $f_n$ be a continuous function that takes the value 1 somewhere inside the interval $(0,1/n)$ and is small outside that interval. One way of defining a function that reaches 1 for a small value of $x$ and then quickly drops back down again is to take a function that grows rapidly to $1,\operatorname{such}\operatorname{as}g_n(x)=$ $\lambda x$, and multiply it by a function that is roughly 1 for a little while and then decays rapidly, such as e $^{-\mu x}$. The rapid decay of e $^{-\mu x}$ starts when $x$ is around $1/\mu$, which suggests that we should take $\mu$ to be around $n.$ Since we want $g_n(x)$ to reach 1 in the interval $(0,1/n)$, we should probably take $\lambda$ to be around $n$ as well.
+
+这表明我们应该让 $f_n$ 是一个连续函数，在区间 $(0,1/n)$ 内的某处取值为 1，并且在该区间外部很小。定义一个在 $x$ 的小值处达到 1 然后迅速下降的函数的一种方法是，取一个迅速增长到 $1$ 的函数，例如 $g_n(x)=\lambda x$，并将其乘以一个大约在一段时间内接近 $1$ 然后迅速衰减的函数，例如 $e^{-\mu x}$。$e^{-\mu x}$ 的快速衰减在 $x$ 大约为 $1/\mu$ 时开始，这表明我们应该取 $\mu$ 大约为 $n$。由于我们希望 $g_n(x)$ 在区间 $(0,1/n)$ 内达到 $1$，我们可能也应该取 $\lambda$ 大约为 $n$。
 
 It is now easy to check that the functions $f_n(x)=$ $nx\mathrm{e}^{-nx}$ converge pointwise to zero but not uniformly.
 口
 
+现在很容易检查函数 $f_n(x)=nx\mathrm{e}^{-nx}$ 点态收敛于零，但不是一致收敛。
+
 Of course, one might well give a detailed proof that the functions $nx\mathrm{e}^{-nx}$ do the job.
+
+当然，人们可能会给出详细的证明，说明函数 $nx\mathrm{e}^{-nx}$ 起到了作用。
 
 As with the other choices, there are advantages and disadvantages that need to be weighed up when decid- ing how much to explain the origin (or at least a possi- ble origin) of the ideas one presents. If one’s main con- cern is verification of a result—that is, convincing the reader of its truth—then it may not matter too much where the ideas come from as long as they work. But if the aim is to teach the reader how to solve problems of a certain kind, then presenting solutions that appear out of nowhere as if by magic is not helpful. What is more, demonstrating where the ideas come from gives the reader a much clearer idea of which features are essential and which merely incidental. For example, in the argument above it is clear from the second presentation that there is nothing special about the functions $f_n(x)=nx\mathrm{e}^{-nx}$ : for $f_n(x)$ one could take any nonnegative function such that $f_n(0)=0,f_n(1/n)\geqslant c$ (for some fixed constant $c) , $ and $f_n( x)$ is small for every $x\geqslant2/n.$ For instance, one could take a “witch's hat" that equals $nx$ when $0\leqslant x\leqslant1/n,2-nx$ when $1/n\leqslant x\leqslant 2/n$, and $0$ when $2/n\leqslant x\leqslant 1.$
 
+与其他选择一样，决定解释所呈现的想法的起源（或至少可能的起源）时，需要权衡利弊。如果主要关注的是结果的验证——也就是说，说服读者结果的真实性——那么想法的来源可能并不太重要，只要它们起作用即可。但是，如果目的是教导读者如何解决某种类型的问题，那么呈现出像魔术一样突然出现的解决方案是没有帮助的。更重要的是，展示想法的来源让读者对哪些特征是必要的、哪些只是附带的有了更清楚的了解。例如，在上面的论证中，从第二个表达中清楚地看出，函数 $f_n(x)=nx\mathrm{e}^{-nx}$ 并没有什么特别之处：对于 $f_n(x)$，可以取任何非负函数，使得 $f_n(0)=0, f_n(1/n)\geqslant c$（对于某个固定的常数 $c$），且对于每个 $x\geqslant 2/n$，$f_n(x)$ 都很小。例如，可以取一个“女巫帽”，当 $0\leqslant x\leqslant 1/n$ 时，它等于 $nx$，当 $1/n\leqslant x\leqslant 2/n$ 时，它等于 $2-nx$，当 $2/n\leqslant x\leqslant 1$ 时，它等于 $0$。
+
 That is not to say that a diligent reader cannot look at a presentation of the first kind and work out for him/herself where the idea might have come from. In this case, if one sketches the graph of $f_n(x)$, one sees that it grows and shrinks rapidly in a small interval near 0 and is small thereafter, and then it becomes clear why these functions are suitable. However, one needs experience to be able to do this with an argument. So the extent to which you should explain where your arguments come from depends largely on the level of experience of your intended reader—both generally and in the specific area you are writing about.
+
+这并不是说一个勤奋的读者不能看到第一种表达方式，并自己推断出想法可能来自何处。在这种情况下，如果人们勾勒出 $f_n(x)$ 的图像，就会发现它在接近 0 的小区间内快速增长和缩小，之后变得很小，然后就清楚了为什么这些函数是合适的。然而，要想在一个论证中做到这一点，就需要经验。因此，你应该解释你的论点来自何处的程度在很大程度上取决于你预期读者的经验水平——无论是在一般情况下还是在你所写的具体领域。
 
 ### 7 Definitions First versus Examples First
 
+7. 首先定义还是首先举例
+
 Suppose that one wanted to write an explanation of what a topological manifold is. An obvious approach would be to start by giving the definition. That could be done as follows.
+
+假设有人想要写一个关于拓扑流形的解释。一个显而易见的方法是从给出定义开始。可以这样做：
 
 **Definition**. A d-dimensional topological manifold is a topological space $X$ such that every point $x$ in $X$ has a neighborhood that is homeomorphic to a connected open subset of $\mathbb{R}^{d}$.
 
+**定义**。一个d维拓扑流形是一个拓扑空间$X$，使得$X$中的每个点$x$都有一个邻域，它与$\mathbb{R}^{d}$中的一个连通开子集同胚。
+
 Having done that, one would give a few examples of topological manifolds, such as spheres and tori, to illuminate the definition.
+
+在给出定义之后，我们会举几个拓扑流形的例子，比如球面和环面，以阐明这个定义。
 
 An alternative approach is to start with a brief discus- sion of the examples. One could point out, for instance, that it is easy to come up with a satisfactory coordinate system for any small region of the world but that it is not possible to find a good coordinate system for the world in its entirety; there will always be annoying prob- lems such as the poles not having well-defined longi- tudes. A discussion of that kind will give the reader the informal concept of a space that is “locally like Rd” and after that the formal definition is motivated: it is the formal expression of an informal idea that the reader already has.
 
+另一种方法是从简要讨论示例开始。例如，可以指出任何世界上的小区域都很容易找到一个满意的坐标系，但是不可能为整个世界找到一个良好的坐标系；总会有令人讨厌的问题，比如极点没有明确定义的经度。这种讨论将使读者对“局部类似于$\mathbb{R}^d$”的空间有一个非正式的概念，之后正式的定义就有了动机：它是读者已经具备的非正式概念的正式表达。
+
 The advantage of the second approach is that an abstract definition is often much easier to understand if one has a good idea of what it is abstracting. One will read the definition with strong expectations of what it will look like, and all one will have to commit to mem- ory is the ways in which the definition does not quite fit those expectations. If the definition is presented first, then one will be expected to hold the whole thing in one’s head, rather than what one might think of as the difference between the definition and one’s prior expectation of it.
 
+第二种方法的优势在于，如果读者对所抽象的内容有很好的了解，那么抽象的定义通常会更容易理解。读者会带着对定义的强烈期待来阅读，而只需记住定义与自己先前期望之间的差异。如果先呈现定义，那么读者将被期望将整个内容记住，而不是将定义与先前对其的期望之间的差异。
+
 Whether or not this advantage makes it worth pre- senting examples before giving a definition depends on how difficult you expect it to be for your reader to grasp the definition. To give an example where it might not be worth giving examples first, suppose that you want to introduce the notion of a commutative ring for a reader who is already familiar with groups and fields. A natural way of doing it would be to list the axioms for a com- mutative ring and make the remark that what you have listed is very similar to the list of axioms for a field but you no longer assume that elements have multiplica- tive inverses, and sometimes you do not even assume that your rings have multiplicative identities.
+
+无论是否值得在给出定义之前先给出示例，这取决于您预计读者对于理解定义会有多困难。举一个可能不值得先给出示例的例子，假设您想向已经熟悉群和域的读者介绍交换环的概念。一个自然的方法是列出交换环的公理，并指出您列出的内容与域的公理列表非常相似，但您不再假设元素具有乘法逆元，有时甚至不假设您的环具有乘法单位元。
 
 Once you have said that, it will still be a very good idea to give some important examples, such as the ring $\mathbb{Z}$ of all integers, the ring $\mathbb{Z}[x]$of all polynomials with
 integer coefficients, and the ring $\mathbb{Z}[\sqrt{2}]$ of all numbers of the form $a+b\sqrt{2}$ where $a$ and $b$ are integers. However, the argument for presenting these examples first
 is weaker than it was for topological manifolds, for two reasons.
 
+一旦您说了这些，给出一些重要的例子仍然是一个很好的主意，比如所有整数的环 $\mathbb{Z}$，所有具有整数系数的多项式的环 $\mathbb{Z}[x]$，以及所有形如 $a+b\sqrt{2}$ 的数的环 $\mathbb{Z}[\sqrt{2}]$，其中 $a$ 和 $b$ 是整数。然而，与拓扑流形的情况相比，首先提出这些例子的论据较弱，原因有两个。
+
 The first reason is that the definition is easy to grasp: rings are like fields but without multiplicative inverses. Therefore, giving the definition straight away does not place a burden on the reader’s memory. Of course, the reader will want reassurance that there are interesting examples, but that can be given immediately after the definition.
 
+第一个原因是定义容易理解：环就像域，但没有乘法逆元。因此，直接给出定义不会给读者的记忆带来负担。当然，读者会希望得到有趣的例子，但这可以在定义之后立即给出。
+
 The second reason is that the necessity for this par- ticular abstraction is less obvious than it is for man- ifolds. Given examples such as spheres and tori, it is natural to think that they are all examples of the same basic “thing” and then to try to work out what that “thing” is. But the benefits of thinking of the integers and the polynomials with integer coefficients as exam- ples of the same underlying algebraic structure are not clear in advance; they become clear only after one has developed a considerable amount of theory. So it is more natural in this case to think of the abstraction as primary, at least in the first instance.
+
+第二个原因是，对于这种特定的抽象的必要性不像对流形那样明显。给出了诸如球面和环面之类的例子，自然会认为它们都是同一基本“东西”的例子，然后尝试弄清楚这个“东西”是什么。但是，将整数和具有整数系数的多项式视为相同底层代数结构的例子的好处并不是事先明显的；只有在发展了大量理论之后才会变得清楚。因此，在这种情况下，将抽象概念视为主要的，至少在最初是更自然的。
+
 As ever, the decision about how to present a new mathematical concept involves a judgment that is sometimes quite delicate. Broadly speaking, the harder a definition is to grasp, the more helpful it will be to the reader to have some examples in mind when read- ing it. But that depends both on the reader and on the intrinsic complexity of the definition. However, one general piece of advice is still possible here, which is at least to consider the possibility of starting with exam- ples. It may not always be appropriate to do so, but many mathematical writers like to start with definitions under all circumstances, and the result is that many expositions are harder to understand than they need to be.
+
+总的来说，如何呈现一个新的数学概念的决定有时是相当微妙的。一般来说，定义越难理解，读者在阅读时脑海中有一些例子会更有帮助。但这取决于读者和定义本身的内在复杂性。然而，这里仍然可能给出一个通用的建议，至少要考虑首先给出例子的可能性。并不总是适用于这样做，但许多数学写作者喜欢在所有情况下都从定义开始，结果导致许多阐述比必要的理解更难。
 
 Let me close this section by pointing out that the examples-first device is quite a general one. Indeed, I have used it in a number of places in this article; see the openings of sections 4 and 6 and of this very section.
 
+让我结束本节时指出，以例子为先的方法是非常通用的。事实上，我在本文的一些地方使用了它；请参见第4节、第6节和本节的开头。
+
 ### 8 Traditional Methods of Dissemination versus New Methods
+
+8 传统的传播方法与新方法
 
 A person who wishes to produce mathematical writing today faces a choice that did not exist twenty years ago. Until recently, almost all mathematical writing took the form of books or journal articles. But now the Internet has given us new methods of dissemination, which have already had an impact and are likely to have a much bigger impact in the future.
 
 In particular, the existence of the Internet affects every single one of the considerations discussed in this article. Let me take them in turn.
 
+如今，希望撰写数学著作的人面临着二十年前不存在的选择。直到最近，几乎所有的数学著作都采用书籍或期刊文章的形式。但现在互联网为我们提供了新的传播方法，这些方法已经产生了影响，未来可能会产生更大的影响。
+
+特别是，互联网的存在影响了本文讨论的每一个方面。让我逐一讨论它们。
+
 #### 8.1 Level of Formality
+
+8.1 正式程度
 
 The main task of each generation of mathematicians is to add to the body of mathematical knowledge. How- ever, there is a second task that is almost as important as the first, and not entirely separate from it, which is to digest this new knowledge and present it in a form that subsequent generations will find as easy as pos- sible to grasp. This process of digestion can of course happen many times to the same piece of mathematics.
 
+每一代数学家的主要任务是为数学知识体系增添内容。然而，还有一个几乎与第一个任务同等重要，且与之密不可分的第二个任务，那就是消化这些新知识，并以尽可能易于后代理解的形式呈现出来。当然，这个消化过程可以对同一段数学内容进行多次。
+
 Sometimes, digesting a piece of mathematics is itself a significant advance in mathematical knowledge. For example, a theory may be developed that yields quite easily a number of already existing and seemingly dis- parate results. The traditional publication system is well suited to this situation; one can just write an arti- cle about the theory and get it published in the normal way.
+
+有时，消化一段数学内容本身就是数学知识的重要进展。例如，可能会发展出一种理论，它相当容易地得出了许多已经存在且看似分散的结果。传统的出版系统非常适合这种情况；可以撰写一篇关于该理论的文章，并按照正常流程发表。
 
 Sometimes, however, digesting a piece of mathemat- ics does not constitute a mathematical advance. It can be something more minor, such as thinking of a way of looking at an argument that makes it clearer where the ideas have come from or drawing an informal anal- ogy between one piece of mathematics and another that is simpler or better known. Insights of this kind can be hard earned and extremely valuable to other mathematicians, but they do not lead to publishable papers.
 
+有时，然而，对一段数学内容进行消化并不构成数学上的进展。它可能是更次要的事情，比如想出一种观点，使得清楚地看出思想的来源，或者在一段数学内容和另一段更简单或更为人所知的数学内容之间进行非正式的类比。这种洞察力可能会很难获得，并且对其他数学家非常有价值，但却不会导致可发表的论文。
+
 With the Internet, there are many ways that more informal mathematical thoughts can be shared. An obvious one is to write a conventional mathematical text and make it available on one’s home page. Another option, which an increasing number of mathematicians have adopted, is to have a blog. The advantage of this is that one obtains feedback from one’s readers, and experience has shown that the quality of much of this feedback is very high.
+
+有了互联网，有许多方式可以分享更非正式的数学思想。一个明显的方式是撰写传统的数学文本，并将其放在个人主页上供他人查阅。另一个选择是拥有一个博客，这是越来越多的数学家采用的方式。这样做的好处是可以从读者那里获得反馈，经验表明，许多反馈的质量都非常高。
 
 There are other forms of mathematical literature that would not be conventionally publishable but that could be extremely valuable. For example, an article about a serious but failed attempt to solve a problem would not be accepted by a journal, and the result is a great deal of duplication of work; if the problem is important and the attempt looks plausible to begin with, then many peo- ple will try it. A database of failed proof attempts would be very useful, and in principle the Internet makes it easy to set up, though so far nobody has done so.
 
+还有其他形式的数学文献，它们在传统意义上可能不适合出版，但却可能非常有价值。例如，一篇关于严肃但未能解决问题的尝试的文章可能不会被期刊接受，其结果是工作的大量重复；如果问题很重要，而且一开始的尝试看起来是合理的，那么许多人都会尝试解决它。一个记录失败证明尝试的数据库将非常有用，原则上互联网使其易于建立，尽管到目前为止还没有人这样做。
+
 In general, the Internet allows us much greater free- dom in choosing the level of formality at which we wish to write and allows us to publish documents that do not fit the mould of a standard journal article.
+
+总的来说，互联网使我们在选择写作形式的正式程度方面拥有更大的自由，并且允许我们发表不符合标准期刊文章模式的文档。
 
 #### 8.2 Level of Detail
 
+8.2 细节的度
+
 Suppose that you use a mathematical result or defini- tion that will be familiar to some readers but not to oth- ers. In a print document you have to decide whether to explain it and, if so, how elaborate an explanation to give.
+
+假设您使用了一个对某些读者来说很熟悉但对其他人来说不熟悉的数学结果或定义。在印刷文档中，您必须决定是否解释它，如果解释，要给出多么详尽的解释。
+
 In a hyperlinked document on the web, one is no longer forced to make this choice. One can write a version for experts, but with certain key words and phrases underlined, so that readers who need these words and phrases explained further can click on them and read explanations. This kind of writing has become very common on Wikipedia and other wikis.
+
+在网络上的超链接文档中，您不再被迫做出这种选择。您可以为专家写一个版本，但将某些关键词和短语下划线标出，以便那些需要进一步解释这些词语和短语的读者可以点击它们并阅读解释。这种写作方式在维基百科和其他维基上已经非常普遍。
 
 It also introduces a new balance that needs to be struck. Sometimes wiki articles are hard to read because the writers use the existence of links to other wiki pages as a license not to explain terms that they might otherwise have explained. The result is that unless one is familiar with most of the definitions in the original article, one can get lost in a complicated graph of linked wiki pages as one finds that the page that explains an unfamiliar concept itself requires one to click through to several other pages. So if you are going to exploit hyperlinks, you need to think carefully about what the experience of following those links will be like for your intended readers.
 Another inconvenience of hyperlinks is that they require you to visit an entirely new page, which makes it easy to forget where you were before (especially if you backtrack and then follow some other sequence of links). However, there is plenty of software that gets round this problem. For example, on some sites one can incorporate “sliders,” pieces of text that insert them- selves into what you are reading when you click on an appropriate box and disappear when you click on it again. So if, for example, one wrote, “by the second isomorphism theorem,” one could have a box with the words “What does that say?” on it, so that readers who needed it could click on the box and have a short para- graph about the second isomorphism theorem inserted into the text. One can have sliders within sliders, so perhaps within that slider one could have the option of bringing up a proof of the theorem as well.
 
+这也引入了一个需要平衡的新问题。有时，维基百科文章很难阅读，因为撰写者利用链接到其他维基页面的存在来放任不解释本应解释的术语。结果是，除非读者熟悉原始文章中的大部分定义，否则在复杂的链接维基页面图中会迷失方向，因为解释陌生概念的页面本身需要点击到其他几个页面。因此，如果要利用超链接，就需要仔细考虑对于预期读者来说跟随这些链接的体验会是怎样的。
+超链接的另一个不便之处在于，它们要求你访问一个全新的页面，这很容易让你忘记之前所在的位置（尤其是如果你回退然后跟随其他一些链接序列）。然而，有很多软件可以解决这个问题。例如，在某些网站上，你可以加入“滑块”，这些文本片段会在你点击适当的框时插入到你正在阅读的内容中，当你再次点击时则会消失。因此，例如，如果你写道“通过第二同构定理”，你可以在一个框中加入“这是什么？”的文字，这样需要的读者就可以点击该框，将第二同构定理的简短段落插入到文本中。你可以在滑块内部放置其他滑块，因此在那个滑块中，你可以选择显示该定理的证明。
+
 The main point is that the Internet has made it pos- sible to write new kinds of documents where one is no longer forced to make choices such as of how much detail to give. One can leave that decision to the reader. Such documents have a huge potential to improve the way mathematics is presented, and this potential will only increase as technology improves.
+
+主要观点是，互联网使得编写新类型的文档成为可能，我们不再被迫做出诸如给出多少细节等选择。这些决定可以留给读者。这样的文档有巨大的潜力来改善数学的呈现方式，随着技术的进步，这种潜力只会增加。
 
 #### 8.3 Letters versus Words
 
+8.3 符号vs词语
+
 I will not say much about this, since most of what I have to say is very similar to what I have already said about the level of detail in which a document is written. With the kinds of electronic documents that are now possi- ble, one can save the reader the trouble of searching through a paper to find out what a letter stands for by incorporating a reminder that appears when you click on the letter. Perhaps better still, it could appear in a little box when you hover over the letter. One could also have condensed statements involving lots of let- ters with the option of converting them into equivalent wordier statements. Again, the point is that there are many more options now.
+
+我不会多说，因为我要说的大部分内容与我已经讨论过的关于文档写作的细节水平非常相似。借助现在可能的电子文档类型，我们可以通过在点击符号时出现的提醒来帮助读者省去在论文中寻找符号含义的麻烦。或许更好的做法是，当你悬停在符号上时，它会出现在一个小框中。我们还可以将涉及许多符号的简洁陈述转换为等效的更冗长的陈述。再次强调的是，现在有更多的选择。
 
 #### 8.4 Modularity
 
+8.4 模块化
+
 The kinds of electronic documents I have been dis- cussing make possible a form of top-down mathemat- ical writing that would be far less convenient in a print document. One could write a high-level account of some piece of mathematics, giving the reader the option of expanding any part of that high-level account into a lower-level account that justifies it in more detail. And there could be many levels of this, so that if you clicked on everything you would end up with a presentation of the entire argument in full gory detail.
+
+我所讨论的这种电子文档形式使得一种自顶向下的数学写作成为可能，在印刷文档中会不太方便。可以编写一份关于某个数学部分的高层次说明，让读者有选择地将高层次说明中的任何部分扩展为更详细的低层次说明，以更详细地证明它。而且这可以有多个层次，这样如果你点击所有内容，最终会得到整个论证的完整细节呈现。
 
 A less ambitious possibility is one that solves the problem discussed earlier about where to place a lemma. The difficulty was that in a print document you will either put it before the proof where it is used, in which case it is not adequately motivated, or during the proof, in which case it looks ugly, or after the proof, in which case the proof itself leaves you with awkward promises to fill in gaps later. But with an electronic doc- ument, putting a lemma exactly where it is needed is no longer ugly. During the proof, one can say, “We are now going to make use of the following statement,” and give the reader a button to click on that will bring up a proof of that statement.
 
+一个较少雄心勃勃的可能性是解决前面讨论过的关于引理放置位置的问题。困难在于，在印刷文档中，要么将其放在使用证明之前，这样它就没有得到充分的解释，要么在证明过程中，这样看起来很丑陋，要么在证明之后，这样证明本身会让你留下尴尬的承诺，以后填补空白。但是，在电子文档中，将引理放在需要的地方就不再难看。在证明过程中，可以说：“我们现在要利用以下陈述”，并给读者一个按钮可以点击，以查看该陈述的证明。
+
 #### 8.5 Order of Presentation
+
+8.5 展示顺序
 
 If you do not want to decide whether to give an abstract definition first or start with motivating examples, then you can give the reader the choice. Just start with a page of headings and invite the reader to decide whether to click on “Motivating examples” first or “The formal definition” first.
 
+如果你不想决定是先给出抽象定义还是从启发性例子开始，那么你可以给读者选择权。只需从一张标题页开始，邀请读者决定先点击“启发性例子”还是“正式定义”。
+
 To some extent, the same goes for the decision about whether to present arguments in their logical order or in a way that brings out how they were discovered. If at some point the logical order requires you to draw a rabbit out of a hat, you could at the very least introduce a slider that explains where that rabbit actually came from.
+
+在某种程度上，对于是否按逻辑顺序呈现论证，还是以揭示它们的发现方式呈现，也是如此。如果在某个时刻，逻辑顺序需要你从帽子里掏出一只兔子，你至少可以引入一个滑块，解释那只兔子实际来自何处。
