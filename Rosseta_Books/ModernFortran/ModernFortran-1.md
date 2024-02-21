@@ -329,6 +329,7 @@ array on proc 1 after copy: 1 2 3 4 5
 
 以下程序显示了我们数组复制示例的共数组版本。
 
+> **程序 1.3** 使用共数组将数组从一个进程复制到另一个进程
 ```fortran
 program array_copy_caf
     implicit none
