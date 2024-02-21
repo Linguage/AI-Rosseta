@@ -68,3 +68,4 @@ Fortran标准并不规定数据交换在底层是如何实现的；它仅仅规�
   – Fortran 2018（ISO/IEC，2018年）  
 Fortran在编译器的开发和实现方面得到了工业界的大力支持：IBM、Cray、Intel、NAG、NVIDIA等等。还有相当多的开源开发，其中最著名的是自由编译器gfortran[(https://gcc.gnu.org/wiki/GFortran）](https://gcc.gnu.org/wiki/GFortran)、Flang[https://github.com/flangcompiler/flang）](https://github.com/flangcompiler/flang)（和LFortran[（https://lfortran.org）](https://lfortran.org)，以及其他社区项目[（https://fortran-lang.org/community）](https://fortran-lang.org/community)。由于Fortran在计算机科学的早期占据主导地位，今天我们拥有了庞大而成熟的库，这些库是许多应用程序的计算基础。凭借成熟的编译器和庞大的遗留代码库，Fortran仍然是许多新软件项目的首选语言，特别是对于那些计算效率和并行执行至关重要的项目。
 - ***易于学习*** --- 信不信由你，Fortran 实际上相当容易学习。这是我和许多同事的经验。Fortran易学部分归功于其严格的类型系统，这使得编译器能够在编译时检查程序员并在他们犯错时发出警告。虽然冗长，但语法清晰易读。然而，就像其他编程语言或一般技能一样，掌握Fortran是困难的。这也是我选择写这本书的原因之一。
+
