@@ -314,10 +314,10 @@ end program array_copy_mpi
 
 在两个处理器上运行此程序将输出如下内容：
 ```bash
-处理器 0 复制前数组：1 2 3 4 5
-处理器 1 复制前数组：0 0 0 0 0
-处理器 0 复制后数组：1 2 3 4 5
-处理器 1 复制后数组：1 2 3 4 5
+array on proc 0 before copy: 1 2 3 4 5 
+array on proc 1 before copy: 0 0 0 0 0 
+array on proc 0 after copy: 1 2 3 4 5 
+array on proc 1 after copy: 1 2 3 4 5 
 ```
 这证实了我们的程序达到了我们想要的效果：将数组从进程 0 复制到进程 1。
 
