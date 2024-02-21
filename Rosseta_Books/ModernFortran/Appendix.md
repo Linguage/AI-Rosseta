@@ -835,15 +835,15 @@ end module mod_parallel
 
 ## C.4 在线资源
 
-- Fortran语言及其社区开发的标准库和包管理器的主页：https://fortran-lang.org  。
-- GFortran在线文档：https://gcc.gnu.org/onlinedocs/gfortran  。
+- Fortran语言及其社区开发的标准库和包管理器的主页：https://fortran-lang.org 。
+- GFortran在线文档：https://gcc.gnu.org/onlinedocs/gfortran 。
 - 一个由社区策划的维基，包含教程、代码示例、库等：http://fortranwiki.org
-- 现代Fortran最佳实践的综合在线资源：https://www.fortran90.org  。
-- Awesome Fortran，一个精选的Fortran库列表：https://github.com/rabbiabram/awesome-fortran  。
-- Doctor Fortran，由Steve Lionel撰写的博客：https://stevelionel.com/drfortran  。（Steve是Intel公司的退休高级工程师，从编译器开发人员和Fortran标准委员会的角度提供见解。）
-- Degenerate Conic，Jacob Williams关于算法、现代Fortran编程和轨道力学的博客：https://degenerateconic.com  。
-- Bob Apthorpe关于现代化传统FORTRAN项目的博客：http://mng.bz/QywR  。
-- 最后但同样重要的是，本书的伴随博客：https://medium.com/modern-fortran  。
+- 现代Fortran最佳实践的综合在线资源：https://www.fortran90.org 。
+- Awesome Fortran，一个精选的Fortran库列表：https://github.com/rabbiabram/awesome-fortran 。
+- Doctor Fortran，由Steve Lionel撰写的博客：https://stevelionel.com/drfortran 。（Steve是Intel公司的退休高级工程师，从编译器开发人员和Fortran标准委员会的角度提供见解。）
+- Degenerate Conic，Jacob Williams关于算法、现代Fortran编程和轨道力学的博客：https://degenerateconic.com 。
+- Bob Apthorpe关于现代化传统FORTRAN项目的博客：http://mng.bz/QywR 。
+- 最后但同样重要的是，本书的伴随博客：https://medium.com/modern-fortran 。
 
 ## C.5 编译器
 
