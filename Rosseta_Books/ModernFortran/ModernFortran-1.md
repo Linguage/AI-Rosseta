@@ -33,12 +33,10 @@ Fortran 是一种通用的、并行的编程语言，在科学和工程应用中
 最强大的 Fortran 应用程序在数百或数千个 CPU 上并行运行。Fortran 语言及其库的开发在很大程度上是由于解决物理学、工程学和生物医学中极大规模计算问题的需求。为了获得比当时最强大的单台计算机更多的计算能力，在 20 世纪末，我们开始用高带宽网络连接多台计算机，让它们各自处理问题的一部分。结果就是超级计算机，一台由数千个普通 CPU 组成的庞大计算机（图 1.2）。超级计算机类似于由 Google 或 Amazon 托管的现代服务器农场，只是超级计算机的网络基础设施旨在最大化服务器之间的带宽，最小化延迟，而不是与外部世界之间的通信延迟。因此，超级计算机中的 CPU 就像一个由分布式内存访问组成的巨大处理器，其速度几乎与本地内存访问一样快。直到今天，Fortran 仍然是用于这种大规模并行计算的主要语言。
 
 ![图1.1 ](./Figures_1/Figure_1_1.png)
-
-**图 1.1** 2017年9月10日飓风艾尔玛的预报，由用Fortran编写的操作性天气预报模型计算得出。阴影和风羽显示的是米每秒的地表风速，等高线是海平面气压等线。典型的天气预报是使用数百或数千个 CPU 并行计算得出的。（数据由美国国家环境预报中心（NCEP）提供）
+> **图 1.1** 2017年9月10日飓风艾尔玛的预报，由用Fortran编写的操作性天气预报模型计算得出。阴影和风羽显示的是米每秒的地表风速，等高线是海平面气压等线。典型的天气预报是使用数百或数千个 CPU 并行计算得出的。（数据由美国国家环境预报中心（NCEP）提供）
 
 ![图1.2](./Figures_1/Figure_1_2.png)
-
-**图 1.2** 巴塞罗那超级计算中心的 MareNostrum 4 超级计算机。该计算机位于西班牙加泰罗尼亚巴塞罗那的托雷吉罗纳教堂内。高速网络将所有机柜连接在一起。MareNostrum 4 拥有 153,216 个英特尔至强处理器核心，截至 2020 年 6 月，是西班牙最快的超级计算机，全球排名第 37。（来源：[https://www.top500.org/lists/2020/06](https://www.top500.org/lists/2020/06)）。它被用于许多科学应用领域，从天体物理学和材料物理学，到气候和大气扬尘传输预测，再到生物医学。（图片来源：[https://www.bsc.es/marenostrum/marenostrum](https://www.bsc.es/marenostrum/marenostrum)）
+> **图 1.2** 巴塞罗那超级计算中心的 MareNostrum 4 超级计算机。该计算机位于西班牙加泰罗尼亚巴塞罗那的托雷吉罗纳教堂内。高速网络将所有机柜连接在一起。MareNostrum 4 拥有 153,216 个英特尔至强处理器核心，截至 2020 年 6 月，是西班牙最快的超级计算机，全球排名第 37。（来源：[https://www.top500.org/lists/2020/06](https://www.top500.org/lists/2020/06)）。它被用于许多科学应用领域，从天体物理学和材料物理学，到气候和大气扬尘传输预测，再到生物医学。（图片来源：[https://www.bsc.es/marenostrum/marenostrum](https://www.bsc.es/marenostrum/marenostrum)）
 
 
 ## 1.2 Fortran特性
@@ -90,7 +88,7 @@ Fortran 是一种通用的、并行的编程语言，在科学和工程应用中
   – Fortran 2003（ISO/IEC，2004年）  
   – Fortran 2008（ISO/IEC，2010年）  
   – Fortran 2018（ISO/IEC，2018年）  
-Fortran在编译器的开发和实现方面得到了工业界的大力支持：IBM、Cray、Intel、NAG、NVIDIA等等。还有相当多的开源开发，其中最著名的是自由编译器gfortran[(https://gcc.gnu.org/wiki/GFortran）](https://gcc.gnu.org/wiki/GFortran)、Flang[https://github.com/flangcompiler/flang）](https://github.com/flangcompiler/flang)（和LFortran[（https://lfortran.org）](https://lfortran.org)，以及其他社区项目[（https://fortran-lang.org/community）](https://fortran-lang.org/community)。由于Fortran在计算机科学的早期占据主导地位，今天我们拥有了庞大而成熟的库，这些库是许多应用程序的计算基础。凭借成熟的编译器和庞大的遗留代码库，Fortran仍然是许多新软件项目的首选语言，特别是对于那些计算效率和并行执行至关重要的项目。
+Fortran在编译器的开发和实现方面得到了工业界的大力支持：IBM、Cray、Intel、NAG、NVIDIA等等。还有相当多的开源开发，其中最著名的是自由编译器gfortran( https://gcc.gnu.org/wiki/GFortran )、Flang ( https://github.com/flangcompiler/flang )和LFortran ( https://lfortran.org )，以及其他社区项目（ https://fortran-lang.org/community ）。由于Fortran在计算机科学的早期占据主导地位，今天我们拥有了庞大而成熟的库，这些库是许多应用程序的计算基础。凭借成熟的编译器和庞大的遗留代码库，Fortran仍然是许多新软件项目的首选语言，特别是对于那些计算效率和并行执行至关重要的项目。
 - ***易于学习*** --- 信不信由你，Fortran 实际上相当容易学习。这是我和许多同事的经验。Fortran易学部分归功于其严格的类型系统，这使得编译器能够在编译时检查程序员并在他们犯错时发出警告。虽然冗长，但语法清晰易读。然而，就像其他编程语言或一般技能一样，掌握Fortran是困难的。这也是我选择写这本书的原因之一。
 
 ## 1.3 为什么学习Fortran？
