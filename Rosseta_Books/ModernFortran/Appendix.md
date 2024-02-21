@@ -205,7 +205,7 @@ $\frac{\partial{u}}{\partial{t}}$ 与$\frac{\partial{u}}{\partial{x}}$是所谓�
 ![](./Figures_A/Figure_B_3.png)
 > **图 B.3**  使用有限差分近似平流方程中的偏导数。顶部方程近似了时间上 $u$ 的变化（趋势），底部方程近似了空间上 $u$ 的变化（梯度）。最右侧的所有项都可以用计算机程序中的变量表示。离散的时间和空间指数分别表示为 $n$ 和 $i$。
 
-在这里，我们用有限差分法离散化了每个导数（时间和空间）。首先，我们说明时间上 $u$ 的变化率（趋势）可以近似为时间上 $u$ 的差异除以时间步长（$\Delta u/\Delta t$）。类似地，空间上 $u$ 的变化率（梯度）可以近似为空间上 $u$ 的差异除以网格间距（$\Delta u/\Delta x$）。在每个方程的最右边，我们有 $u$ 的时间和空间导数的有限差分形式。按照惯例，上标 $n$ 和 $n+ 1$ 分别指代当前和未来的时间步长。下标 $i$ 指代空间网格上的位置，这将映射到我们Fortran数组中的元素。
+在这里，我们用有限差分法离散化了每个导数（时间和空间）。首先，我们说明时间上 $u$ 的变化率（趋势）可以近似为时间上 $u$ 的差异除以时间步长（$\Delta u/ \Delta t$）。类似地，空间上 $u$ 的变化率（梯度）可以近似为空间上 $u$ 的差异除以网格间距（$\Delta u/\Delta x$）。在每个方程的最右边，我们有 $u$ 的时间和空间导数的有限差分形式。按照惯例，上标 $n$ 和 $n+ 1$ 分别指代当前和未来的时间步长。下标 $i$ 指代空间网格上的位置，这将映射到我们Fortran数组中的元素。
 
 > **差分的顺序**
 > 
@@ -252,7 +252,7 @@ $\frac{\partial{u}}{\partial{t}}$ 与$\frac{\partial{u}}{\partial{x}}$是所谓�
 - *tsunami.f90* — 模拟波浪的主程序
 - *mod_field.f90* — 定义了 Field 派生类型的模块，这是模拟器使用的关键数据结构
 - *mod_diff.f90* — 定义了有限差分函数的模块，在 mod_field.f90 中导入和使用
-- *mod_io.f90 *— 定义了将数据写入二进制文件的子程序的模块，在 mod_field.f90 中使用
+- *mod_io.f90* — 定义了将数据写入二进制文件的子程序的模块，在 mod_field.f90 中使用
 - *mod_parallel.f90* — 定义了用于并行执行的实用程序的模块
 
 接下来的小节将逐个介绍每个源文件。这一次，代码中的注释描述了程序的高层次功能 —— 它们不像之前那样深入细节。如果您需要了解这里的任何 Fortran 代码是如何工作的，请随时参考特定章节进行复习。
@@ -567,3 +567,297 @@ contains
 
 end module mod_field
 ```
+
+大部分代码在这个模块中用于定义Field派生类型及其方法。最重要的方法是允许内置算术运算符+、-、*和/与此派生类型的实例一起工作的方法。这些方法被称为field_add_field、field_add_real、field_sub_field等。另一个重要的方法是sync_edges方法，它帮助我们在每次赋值时自动将数据与每个图像的邻居图像同步。最后，我们使用在mod_diff.f90中定义的diffx和diffy函数来计算我们的物理量——水位和速度的梯度。让我们看看它们是什么样子。
+
+### 有限差分模块: mod_diff.f90 
+
+mod_diff.f90模块定义了有限差分函数diffx和diffy。这些函数的结果告诉我们水位和速度在空间中变化的程度，也就是它们变化的速率。如果想快速回顾梯度和有限差分，请查阅附录B。以下是该模块的代码清单。
+
+```fortran
+module mod_diff
+    use iso_fortran_env, only: int32, real32
+    implicit none
+    private
+
+    public :: diffx, diffy
+
+contains
+
+    pure function diffx(x) result(dx)
+        real(real32), intent(in) :: x(:,:)
+        real(real32) :: dx(size(x, dim=1), size(x, dim=2))
+        integer(int32) :: i, im
+
+        im = size(x, dim=1)
+        dx = 0
+        dx(2:im-1,:) = 0.5 * (x(3:im,:) - x(1:im-2,:))
+    end function diffx
+
+    pure function diffy(x) result(dx)
+        real(real32), intent(in) :: x(:,:)
+        real(real32) :: dx(size(x, dim=1), size(x, dim=2))
+        integer(int32) :: j, jm
+
+        jm = size(x, dim=2)
+        dx = 0
+        dx(:,2:jm-1) = 0.5 * (x(:,3:jm) - x(:,1:jm-2))
+    end function diffy
+
+end module mod_diff
+```
+diffx 和 diffy 相似度较高。前者计算二维实数组的第一维度上的差异，而后者则在第二维度上进行计算。这些函数的核心思想早在第2章就出现过；然而，我们在第8章中才将它们写成了最终形式。
+
+### C.1.3 I/O 模块：mod_io.f90
+
+mod_io.f90 文件包含一个小模块，导出一个名为 write_field 的子程序，如下所示的代码清单所示。
+
+```fortran
+module mod_io
+    use iso_fortran_env, only: int32, real32
+    implicit none
+    private
+    public :: write_field
+
+    contains
+
+    subroutine write_field(field, fieldname, time)
+        real(real32), intent(in) :: field(:,:)
+        character(*), intent(in) :: fieldname
+        integer(int32), intent(in) :: time
+        integer(int32) :: fileunit, record_length
+        character(100) :: filename, timestr
+
+        write(timestr, '(i4.4)') time
+        filename = 'tsunami_' // fieldname // '_' // trim(timestr) // '.dat'
+        record_length = storage_size(field) / 8 * size(field)
+
+        open(newunit=fileunit, file=filename, access='direct', recl=record_length)
+        write(unit=fileunit, rec=1) field
+        close(fileunit)
+    end subroutine write_field
+
+end module mod_io
+```
+
+Subroutine `write_field` 将一个二维实数数组写入一个二进制文件中。它接受三个输入参数：
+- field(:,:)：一个包含要写入文件的数据的实数二维数组
+- fieldname：一个包含字段名称的字符串
+- time：一个整数时间步数
+fieldname和time用于构建要写入文件的名称。一旦评估了文件名，子程序就会用该名称打开一个新的二进制文件，将字段数组写入其中，然后关闭文件。
+
+这个子程序是从mod_field.f90中定义的类型绑定方法Field % write中使用的。
+
+## C.1.4 并行模块：mod_parallel.f90
+
+mod_parallel.f90模块提供了用于我们并行计算需求的函数，主要用于在并行图像之间均匀分配计算域，并获得相邻图像的索引。完整的模块如下清单所示。
+
+```fortran
+module mod_parallel
+    use iso_fortran_env, only: int32, real32
+    implicit none
+    
+    private
+    public :: num_tiles, tile_indices, tile_neighbors_1d, tile_neighbors_2d
+    
+    interface tile_indices
+        module procedure :: tile_indices_1d, tile_indices_2d
+    end interface tile_indices
+
+contains
+
+    pure function denominators(n)
+        integer(int32), intent(in) :: n
+        integer(int32), allocatable :: denominators(:)
+        integer(int32) :: i
+        
+        denominators = [integer(int32) ::]
+        do i = 1, n
+            if (mod(n, i) == 0) then
+                denominators = [denominators, i]
+            end if
+        end do
+    end function denominators
+
+    pure function num_tiles(n)
+        integer(int32), intent(in) :: n
+        integer(int32) :: num_tiles(2)
+        integer(int32), allocatable :: denoms(:), dim1(:), dim2(:)
+        integer(int32) :: i, j, n1, n2
+        
+        denoms = denominators(n)
+        dim1 = [integer(int32) ::]
+        dim2 = [integer(int32) ::]
+        do j = 1, size(denoms)
+            do i = 1, size(denoms)
+                if (denoms(i) * denoms(j) == n) then
+                    dim1 = [dim1, denoms(i)]
+                    dim2 = [dim2, denoms(j)]
+                end if
+            end do
+        end do
+        
+        num_tiles = [dim1(1), dim2(1)]
+        do i = 2, size(dim1)
+            n1 = norm2([dim1(i), dim2(i)] - sqrt(real(n)))
+            n2 = norm2(num_tiles - sqrt(real(n)))
+            if (n1 < n2) then
+                num_tiles = [dim1(i), dim2(i)]
+            end if
+        end do
+    end function num_tiles
+
+    pure function tile_indices_1d(dims, i, n) result(indices)
+        integer(int32), intent(in) :: dims, i, n
+        integer(int32) :: indices(2)
+        integer(int32) :: offset, tile_size
+        
+        tile_size = dims / n
+        indices(1) = (i - 1) * tile_size + 1
+        indices(2) = indices(1) + tile_size - 1
+        offset = n - mod(dims, n)
+        if (i > offset) then
+            indices(1) = indices(1) + i - offset - 1
+            indices(2) = indices(2) + i - offset
+        end if
+    end function tile_indices_1d
+
+    pure function tile_indices_2d(dims) result(indices)
+        integer(int32), intent(in) :: dims(2)
+        integer(int32) :: indices(4)
+        integer(int32) :: tiles(2), tiles_ij(2)
+        
+        tiles = num_tiles(num_images())
+        tiles_ij = tile_n2ij(this_image())
+        indices(1:2) = tile_indices_1d(dims(1), tiles_ij(1), tiles(1))
+        indices(3:4) = tile_indices_1d(dims(2), tiles_ij(2), tiles(2))
+    end function tile_indices_2d
+
+    pure function tile_neighbors_1d() result(neighbors)
+        integer(int32) :: neighbors(2)
+        integer(int32) :: left, right
+        
+        if (num_images() > 1) then
+            left = this_image() - 1
+            right = this_image() + 1
+            if (this_image() == 1) then
+                left = num_images()
+            else if (this_image() == num_images()) then
+                right = 1
+            end if
+        else
+            left = 1
+            right = 1
+        end if
+        neighbors = [left, right]
+    end function tile_neighbors_1d
+
+    pure function tile_n2ij(n) result(ij)
+        integer(int32), intent(in) :: n
+        integer(int32) :: ij(2), i, j, tiles(2)
+        
+        if (n == 0) then
+            ij = 0
+        else
+            tiles = num_tiles(num_images())
+            j = (n - 1) / tiles(1) + 1
+            i = n - (j - 1) * tiles(1)
+            ij = [i, j]
+        end if
+    end function tile_n2ij
+
+    pure function tile_ij2n(ij) result(n)
+        integer(int32), intent(in) :: ij(2)
+        integer(int32) :: n, tiles(2)
+        
+        if (any(ij == 0)) then
+            n = 0
+        else
+            tiles = num_tiles(num_images())
+            n = (ij(2) - 1) * tiles(1) + ij(1)
+        end if
+    end function tile_ij2n
+
+    pure function tile_neighbors_2d(periodic) result(neighbors)
+        logical, intent(in) :: periodic
+        integer(int32) :: neighbors(4)
+        integer(int32) :: tiles(2), tiles_ij(2),
+
+ itile, jtile
+        integer(int32) :: left, right, down, up
+        integer(int32) :: ij_left(2), ij_right(2), ij_down(2), ij_up(2)
+        
+        tiles = num_tiles(num_images())
+        tiles_ij = tile_n2ij(this_image())
+        itile = tiles_ij(1)
+        jtile = tiles_ij(2)
+        ij_left = [itile - 1, jtile]
+        ij_right = [itile + 1, jtile]
+        ij_down = [itile, jtile - 1]
+        ij_up = [itile, jtile + 1]
+        
+        if (periodic) then
+            if (ij_left(1) < 1) ij_left(1) = tiles(1)
+            if (ij_right(1) > tiles(1)) ij_right(1) = 1
+            if (ij_down(2) < 1) ij_down(2) = tiles(2)
+            if (ij_up(2) > tiles(2)) ij_up(2) = 1
+        else
+            if (ij_left(1) < 1) ij_left = 0
+            if (ij_right(1) > tiles(1)) ij_right = 0
+            if (ij_down(2) < 1) ij_down = 0
+            if (ij_up(2) > tiles(2)) ij_up = 0
+        end if
+        
+        left = tile_ij2n(ij_left)
+        right = tile_ij2n(ij_right)
+        down = tile_ij2n(ij_down)
+        up = tile_ij2n(ij_up)
+        
+        neighbors = [left, right, down, up]
+    end function tile_neighbors_2d
+
+end module mod_parallel
+```
+
+这些代码的大部分是在第7章中开发的，以支持我们对1-D海啸模拟器的并行化工作。其余部分是在第8章中开发的，当时我们过渡到了模拟器的2-D实现。为了简洁起见，不是所有的代码都能在那里涵盖，所以当时我指向了 GitHub 存储库。这完成了海啸模拟器项目。这是一个漫长的旅程，但我们成功了。我希望您能在当前或未来的项目中使用这个项目的部分或全部。
+
+## C.2 海啸模拟器的未来发展
+
+尽管我们开发的海啸模拟器已经相当强大，但在功能方面也相对较少。以下是一些您可以解决的挑战，以进一步磨练您的Fortran编程技能：
+- 将模拟参数（网格大小和间距、时间步数或波浪的初始形状）作为命令行参数启用。
+- 启用非均匀的海底地形（底部形状），更好的是，从外部数据源实现真实世界的海底地形。
+- 添加其他物理项，如风应力或底部摩擦。（这需要Fortran编程和独立研究技能。）
+- 使用netcdffortran库（ https://github.com/Unidata/netcdf-fortran ）将输出字段写入自描述的NetCDF文件中。
+
+## C.3 神经网络和深度学习
+
+您知道吗，我从零开始重写了第8章关于派生类型的内容吗？该章节的第一稿有些繁忙，长度也太长了，因此我的编辑将其删掉了。然而，这给我们带来了一个Fortran神经网络和深度学习库。它叫做 neuralfortran，您可以在 https://github.com/modern-fortran/neural-fortran 找到它。我甚至写了一篇关于它的论文，请参考“进一步阅读”。如果您对如何在现代Fortran中实现并行神经网络感兴趣，可以研究一下这个库。
+
+## C.4 在线资源
+
+- Fortran语言及其社区开发的标准库和包管理器的主页：https://fortran-lang.org。
+- GFortran在线文档：https://gcc.gnu.org/onlinedocs/gfortran。
+- 一个由社区策划的维基，包含教程、代码示例、库等：http://fortranwiki.org
+- 现代Fortran最佳实践的综合在线资源：https://www.fortran90.org。
+- Awesome Fortran，一个精选的Fortran库列表：https://github.com/rabbiabram/awesome-fortran。
+- Doctor Fortran，由Steve Lionel撰写的博客：https://stevelionel.com/drfortran。（Steve是Intel公司的退休高级工程师，从编译器开发人员和Fortran标准委员会的角度提供见解。）
+- Degenerate Conic，Jacob Williams关于算法、现代Fortran编程和轨道力学的博客：https://degenerateconic.com。
+- Bob Apthorpe关于现代化传统FORTRAN项目的博客：http://mng.bz/QywR。
+- 最后但同样重要的是，本书的伴随博客：https://medium.com/modern-fortran。
+
+## C.5 编译器
+
+- GNU Fortran编译器: GNU Fortran Compiler (  https://gcc.gnu.org/fortran  )—任何Fortran开发者必备的工具。可以通过大多数操作系统的包管理器进行安装。
+- 基于LLVM的交互式LFortran编译器：LFortran Compiler(  https://lfortran.org  )。
+- Flang，另一个基于LLVM的开源编译器：Flang Compiler(  https://github.com/flangcompiler/flang  )。
+- Intel Fortran编译器和性能库：Intel Fortran Compiler ( https://software.intel.com/en-us/fortran-compilers )。
+  
+虽然是商业编译器，但如果你是学生、教师或开源贡献者，可以获得免费许可证用于非商业用途。
+
+## C.6 书籍
+
+你想了解更多，并且喜欢书籍。接下来该去哪里呢？
+- 《现代Fortran解析：整合Fortran 2018》，Michael Metcalf、John Reid和Malcolm Cohen著，牛津大学出版社，2018年（Modern Fortran Explained: Incorporating Fortran 2018）。被许多Fortran程序员认为是Fortran的“圣经”，包括我在内。虽然相当枯燥，但它是关于最新版Fortran的最全面和完整的参考资料。
+- 《实践中的现代Fortran》，Arjen Markus著，剑桥大学出版社，2012年（Modern Fortran in Practice）。一本实用的、动手操作的书籍，包含各种有趣的练习。如果你喜欢这本书，这是我最推荐的。
+- 《使用Co-arrays进行并行编程》，Robert W. Numrich著，Chapman and Hall/CRC出版社，2018年（Parallel Programming with Co-arrays）。本书着重介绍了带有共数组的并行算法。
+- 《并行与高性能计算》，Robert Robey和Yuliana Zamora著，Manning出版社，2021年（Parallel and High Performance Computing）。虽然不专注于Fortran，但如果你对高性能计算和并行可扩展性感兴趣，这是必不可少的。
