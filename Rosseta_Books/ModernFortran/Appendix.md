@@ -64,7 +64,7 @@ apt install gfortran
 
 在第 1 章中，我使用了一个处理器之间的数据复制示例来演示使用 MPI 进行并行编程。虽然在本书中我们将专注于使用 Coarray Fortran（CAF）进行并行算法，但我们仍然需要安装 MPI 库，因为它是 GNU 编译器在使用 coarrays 时的一个依赖项（请参阅“设置 OpenCoarrays”部分）。
 
-我推荐使用 OpenMPI（https://www.open-mpi.org）或 MPICH（https://www.mpich.org）作为流行、高质量且易于使用的 MPI 实现。它们可以通过 Linux 包管理器安装。例如，如果您使用 Ubuntu 或其他基于 Debian 的发行版，您可以使用以下命令安装 OpenMPI：
+我推荐使用 OpenMPI（ https://www.open-mpi.org ）或 MPICH（ https://www.mpich.org ）作为流行、高质量且易于使用的 MPI 实现。它们可以通过 Linux 包管理器安装。例如，如果您使用 Ubuntu 或其他基于 Debian 的发行版，您可以使用以下命令安装 OpenMPI：
 
 ```bash
 apt install openmpi-bin libopenmpi-dev 
