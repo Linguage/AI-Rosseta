@@ -60,11 +60,11 @@ apt install gfortran
 ```
 否则，有些人成功地在 Windows 上使用 Cygwin（[https://www.cygwin.com](https://www.cygwin.com)）来开发 Fortran。
 
-### A.3 设置 MPI 库（消息传递接口）
+## A.3 设置 MPI 库（消息传递接口）
 
 在第 1 章中，我使用了一个处理器之间的数据复制示例来演示使用 MPI 进行并行编程。虽然在本书中我们将专注于使用 Coarray Fortran（CAF）进行并行算法，但我们仍然需要安装 MPI 库，因为它是 GNU 编译器在使用 coarrays 时的一个依赖项（请参阅“设置 OpenCoarrays”部分）。
 
-我推荐使用 OpenMPI（ https://www.open-mpi.org ）或 MPICH（ https://www.mpich.org ）作为流行、高质量且易于使用的 MPI 实现。它们可以通过 Linux 包管理器安装。例如，如果您使用 Ubuntu 或其他基于 Debian 的发行版，您可以使用以下命令安装 OpenMPI：
+我推荐使用 OpenMPI（<https://www.open-mpi.org>）或 MPICH（<https://www.mpich.org>）作为流行、高质量且易于使用的 MPI 实现。它们可以通过 Linux 包管理器安装。例如，如果您使用 Ubuntu 或其他基于 Debian 的发行版，您可以使用以下命令安装 OpenMPI：
 
 ```bash
 apt install openmpi-bin libopenmpi-dev 
@@ -213,15 +213,15 @@ $\frac{\partial{u}}{\partial{t}}$ 与$\frac{\partial{u}}{\partial{x}}$是所谓�
 
 ### B.1.2 将导数转化为代码
 
-现在我们已经将所有的项都以离散形式写出，那么我们如何编写代码来求解下一个时间步长的 $u$ ，即 u(i,n+1)？尝试重新排列我们已经写出的离散项，使得 u(i,n+1) 在左边，而所有其他项都在右边。你能将这个表达式转化为代码吗？图 B.4 展示了我的尝试。
+现在我们已经将所有的项都以离散形式写出，那么我们如何编写代码来求解下一个时间步长的 $u$ ，即 `u(i,n+1)`？尝试重新排列我们已经写出的离散项，使得 `u(i,n+1)` 在左边，而所有其他项都在右边。你能将这个表达式转化为代码吗？图 B.4 展示了我的尝试。
 
 ![](./Figures_A/Figure_B_4.png)
-> **图 B.4** 我们平流求解器的代码原型。为了计算预测值 u(i,n+1)，我们取空间上的差 u(i,n) - u(i-1,n)，除以网格间距 dx，乘以平流速度 c 和时间步长 dt，最后从当前值 u(i,n) 中减去。
+> **图 B.4** 我们平流求解器的代码原型。为了计算预测值 `u(i,n+1)`，我们取空间上的差 `u(i,n) - u(i-1,n)`，除以网格间距 `dx`，乘以平流速度 `c` 和时间步长 `dt`，最后从当前值 `u(i,n)` 中减去。
 
 对我来说，阅读这个方程式最简单的方式是：
-1. 取空间上的差，u(i,n) - u(i-1,n)。类似于第二章中的冷锋练习，这相当于问：“迈阿密和亚特兰大的温差是多少？”
-2. 将差除以网格间距 dx。这给出了梯度 (u(i,n) - u(i-1,n)) / dx；即，空间上的变化率。
-3. 将梯度乘以传播速度 c。这给出了倾向 c * (u(i,n) - u(i-1,n)) / dx；即，时间上的变化率。
+1. 取空间上的差，`u(i,n) - u(i-1,n)`。类似于第二章中的冷锋练习，这相当于问：“迈阿密和亚特兰大的温差是多少？”
+2. 将差除以网格间距 `dx`。这给出了梯度 `(u(i,n) - u(i-1,n)) / dx`；即，空间上的变化率。
+3. 将梯度乘以传播速度 `c`。这给出了倾向 `c * (u(i,n) - u(i-1,n)) / dx`；即，时间上的变化率。
 4. 最后，我们将倾向乘以时间步长并加到当前值上。
 
 > **仅保留当前时间级别在内存中**
@@ -568,11 +568,11 @@ contains
 end module mod_field
 ```
 
-大部分代码在这个模块中用于定义Field派生类型及其方法。最重要的方法是允许内置算术运算符+、-、*和/与此派生类型的实例一起工作的方法。这些方法被称为field_add_field、field_add_real、field_sub_field等。另一个重要的方法是sync_edges方法，它帮助我们在每次赋值时自动将数据与每个图像的邻居图像同步。最后，我们使用在mod_diff.f90中定义的diffx和diffy函数来计算我们的物理量——水位和速度的梯度。让我们看看它们是什么样子。
+大部分代码在这个模块中用于定义Field派生类型及其方法。最重要的方法是允许内置算术运算符+、-、*和/与此派生类型的实例一起工作的方法。这些方法被称为`field_add_field`、`field_add_real`、`field_sub_field`等。另一个重要的方法是sync_edges方法，它帮助我们在每次赋值时自动将数据与每个图像的邻居图像同步。最后，我们使用在mod_diff.f90中定义的`diffx`和`diffy`函数来计算我们的物理量——水位和速度的梯度。让我们看看它们是什么样子。
 
 ### 有限差分模块: mod_diff.f90 
 
-mod_diff.f90模块定义了有限差分函数diffx和diffy。这些函数的结果告诉我们水位和速度在空间中变化的程度，也就是它们变化的速率。如果想快速回顾梯度和有限差分，请查阅附录B。以下是该模块的代码清单。
+mod_diff.f90模块定义了有限差分函数`diffx`和`diffy`。这些函数的结果告诉我们水位和速度在空间中变化的程度，也就是它们变化的速率。如果想快速回顾梯度和有限差分，请查阅附录B。以下是该模块的代码清单。
 
 ```fortran
 module mod_diff
@@ -606,7 +606,7 @@ contains
 
 end module mod_diff
 ```
-diffx 和 diffy 相似度较高。前者计算二维实数组的第一维度上的差异，而后者则在第二维度上进行计算。这些函数的核心思想早在第2章就出现过；然而，我们在第8章中才将它们写成了最终形式。
+`diffx` 和`diffy` 相似度较高。前者计算二维实数组的第一维度上的差异，而后者则在第二维度上进行计算。这些函数的核心思想早在第2章就出现过；然而，我们在第8章中才将它们写成了最终形式。
 
 ### C.1.3 I/O 模块：mod_io.f90
 
@@ -646,7 +646,7 @@ Subroutine `write_field` 将一个二维实数数组写入一个二进制文件�
 - time：一个整数时间步数
 fieldname和time用于构建要写入文件的名称。一旦评估了文件名，子程序就会用该名称打开一个新的二进制文件，将字段数组写入其中，然后关闭文件。
 
-这个子程序是从mod_field.f90中定义的类型绑定方法Field % write中使用的。
+这个子程序是从mod_field.f90中定义的类型绑定方法`Field % write`中使用的。
 
 ## C.1.4 并行模块：mod_parallel.f90
 
@@ -824,39 +824,41 @@ end module mod_parallel
 ## C.2 海啸模拟器的未来发展
 
 尽管我们开发的海啸模拟器已经相当强大，但在功能方面也相对较少。以下是一些您可以解决的挑战，以进一步磨练您的Fortran编程技能：
+
 - 将模拟参数（网格大小和间距、时间步数或波浪的初始形状）作为命令行参数启用。
 - 启用非均匀的海底地形（底部形状），更好的是，从外部数据源实现真实世界的海底地形。
 - 添加其他物理项，如风应力或底部摩擦。（这需要Fortran编程和独立研究技能。）
-- 使用netcdffortran库（ https://github.com/Unidata/netcdf-fortran ）将输出字段写入自描述的NetCDF文件中。
+- 使用netcdffortran库（<https://github.com/Unidata/netcdf-fortran>）将输出字段写入自描述的NetCDF文件中。
 
 ## C.3 神经网络和深度学习
 
-您知道吗，我从零开始重写了第8章关于派生类型的内容吗？该章节的第一稿有些繁忙，长度也太长了，因此我的编辑将其删掉了。然而，这给我们带来了一个Fortran神经网络和深度学习库。它叫做 neuralfortran，您可以在 https://github.com/modern-fortran/neural-fortran 找到它。我甚至写了一篇关于它的论文，请参考“进一步阅读”。如果您对如何在现代Fortran中实现并行神经网络感兴趣，可以研究一下这个库。
+您知道吗，我从零开始重写了第8章关于派生类型的内容吗？该章节的第一稿有些繁忙，长度也太长了，因此我的编辑将其删掉了。然而，这给我们带来了一个Fortran神经网络和深度学习库。它叫做 neuralfortran，您可以在 <https://github.com/modern-fortran/neural-fortran> 找到它。我甚至写了一篇关于它的论文，请参考“进一步阅读”。如果您对如何在现代Fortran中实现并行神经网络感兴趣，可以研究一下这个库。
 
 ## C.4 在线资源
 
-- Fortran语言及其社区开发的标准库和包管理器的主页：https://fortran-lang.org 。
-- GFortran在线文档：https://gcc.gnu.org/onlinedocs/gfortran 。
-- 一个由社区策划的维基，包含教程、代码示例、库等：http://fortranwiki.org
-- 现代Fortran最佳实践的综合在线资源：https://www.fortran90.org 。
-- Awesome Fortran，一个精选的Fortran库列表：https://github.com/rabbiabram/awesome-fortran 。
-- Doctor Fortran，由Steve Lionel撰写的博客：https://stevelionel.com/drfortran 。（Steve是Intel公司的退休高级工程师，从编译器开发人员和Fortran标准委员会的角度提供见解。）
-- Degenerate Conic，Jacob Williams关于算法、现代Fortran编程和轨道力学的博客：https://degenerateconic.com 。
-- Bob Apthorpe关于现代化传统FORTRAN项目的博客：http://mng.bz/QywR 。
-- 最后但同样重要的是，本书的伴随博客：https://medium.com/modern-fortran 。
+- Fortran语言及其社区开发的标准库和包管理器的主页：<https://fortran-lang.org> 。
+- GFortran在线文档：<https://gcc.gnu.org/onlinedocs/gfortran> 。
+- 一个由社区策划的维基，包含教程、代码示例、库等：<http://fortranwiki.org>
+- 现代Fortran最佳实践的综合在线资源：<https://www.fortran90.org> 。
+- Awesome Fortran，一个精选的Fortran库列表：<https://github.com/rabbiabram/awesome-fortran> 。
+- Doctor Fortran，由Steve Lionel撰写的博客：<https://stevelionel.com/drfortran> 。（Steve是Intel公司的退休高级工程师，从编译器开发人员和Fortran标准委员会的角度提供见解。）
+- Degenerate Conic，Jacob Williams关于算法、现代Fortran编程和轨道力学的博客：<https://degenerateconic.com> 。
+- Bob Apthorpe关于现代化传统FORTRAN项目的博客：<http://mng.bz/QywR> 。
+- 最后但同样重要的是，本书的伴随博客：<https://medium.com/modern-fortran> 。
 
 ## C.5 编译器
 
-- GNU Fortran编译器: GNU Fortran Compiler (  https://gcc.gnu.org/fortran  )—任何Fortran开发者必备的工具。可以通过大多数操作系统的包管理器进行安装。
-- 基于LLVM的交互式LFortran编译器：LFortran Compiler(  https://lfortran.org  )。
-- Flang，另一个基于LLVM的开源编译器：Flang Compiler(  https://github.com/flangcompiler/flang  )。
-- Intel Fortran编译器和性能库：Intel Fortran Compiler ( https://software.intel.com/en-us/fortran-compilers )。
+- GNU Fortran编译器: GNU Fortran Compiler ( <https://gcc.gnu.org/fortran> )—任何Fortran开发者必备的工具。可以通过大多数操作系统的包管理器进行安装。
+- 基于LLVM的交互式LFortran编译器：LFortran Compiler(<https://lfortran.org>)。
+- Flang，另一个基于LLVM的开源编译器：Flang Compiler(<https://github.com/flangcompiler/flang>)。
+- Intel Fortran编译器和性能库：Intel Fortran Compiler (<https://software.intel.com/en-us/fortran-compilers>)。
   
 虽然是商业编译器，但如果你是学生、教师或开源贡献者，可以获得免费许可证用于非商业用途。
 
 ## C.6 书籍
 
 你想了解更多，并且喜欢书籍。接下来该去哪里呢？
+
 - 《现代Fortran解析：整合Fortran 2018》，Michael Metcalf、John Reid和Malcolm Cohen著，牛津大学出版社，2018年（Modern Fortran Explained: Incorporating Fortran 2018）。被许多Fortran程序员认为是Fortran的“圣经”，包括我在内。虽然相当枯燥，但它是关于最新版Fortran的最全面和完整的参考资料。
 - 《实践中的现代Fortran》，Arjen Markus著，剑桥大学出版社，2012年（Modern Fortran in Practice）。一本实用的、动手操作的书籍，包含各种有趣的练习。如果你喜欢这本书，这是我最推荐的。
 - 《使用Co-arrays进行并行编程》，Robert W. Numrich著，Chapman and Hall/CRC出版社，2018年（Parallel Programming with Co-arrays）。本书着重介绍了带有共数组的并行算法。
