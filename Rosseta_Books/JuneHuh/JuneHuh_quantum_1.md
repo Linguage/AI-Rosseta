@@ -1,6 +1,6 @@
 ![Image](images/image_0_0.jpg) 
  
-# 他曾决定辍学以成为诗人, 现在他获得了菲尔兹奖
+# 他曾决定辍学以成为诗人, 现在获得了菲尔兹奖
  
 
 > 作者：JORDANA CEPELEWICZ 
