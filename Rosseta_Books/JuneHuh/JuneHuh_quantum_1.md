@@ -1,6 +1,6 @@
 ![Image](images/image_0_0.jpg) 
  
-# 他曾决定辍学以成为诗人, 现在获得了菲尔兹奖
+# 他曾决定辍学以成为诗人, 现在获得了菲尔兹奖[^1]
  
 
 > 作者：JORDANA CEPELEWICZ 
@@ -370,7 +370,7 @@ Huh 和 Wang 借鉴了 Huh 关于 Rota 猜想的工作思路，但在此过程�
 当被问及是否会回到自己先前的艺术家身份，重新尝试写诗时，他耸了耸
 肩。“也许。但我不知道，”他说。“我对其他事情非常感兴趣。” 
 
-[1]: 翻译自 Quantum Magazine. 愿标题 He Dropped Out to Become a Poet. Now He’s Won a Fields Medal. 
+[^1]: 翻译自 Quantum Magazine. 愿标题 He Dropped Out to Become a Poet. Now He’s Won a Fields Medal. 
 网址： https://www.quantamagazine.org/june-huh-high-school-dropout-wins-the-fields-medal-20220705/ 
 
 
