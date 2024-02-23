@@ -20,4 +20,4 @@ Grothendieck是一位具有传奇色彩的数学家，在中文世界中，他�
 ## Rosseta_Books: 图书的阅读与翻译
 
 - [Modern Fortran](./Rosseta_Books/ModernFortran/)
-
+- [计算探险家的冒险（Adventure of a computational explorer）](./Rosseta_Books/Wolfram/Adventure_of_a_computational_explorer.md)
