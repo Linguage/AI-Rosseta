@@ -466,11 +466,9 @@ end do outer_loop   ! 关闭外部循环。
 最后，do 循环的一般语法形式如图 2.5 所示。
 
 ![](./Figures_2/Figure_2_5.png)
-> 图2.5 General syntax of a Fortran do loop. Optional syntax elements are in square brackets.
+> 图2.5 Fortran do 循环的总体语法。 中括号里为可选的语法元素。
 
 在图中，expr1、expr2 和 expr3 分别是开始和结束索引（包含）和增量。name 可以是任何给定的名称。
-
-
 
 ### 2.3.8 设置初始水位值
 
@@ -478,7 +476,7 @@ end do outer_loop   ! 关闭外部循环。
 
 ![](./Figures_2/Figure_2_6.png)
 
-> Figure 2.6 Initial values of water height
+> **图2.6** 水位的初始值
 
 这是一个定义良好的平滑函数，我们可以使用指数函数来计算，如下面的清单所示。
 
