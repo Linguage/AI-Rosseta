@@ -11,6 +11,9 @@
 
 最先做的一个访谈为第62期，Lex对图灵奖得主，TAOCP的作者，Donald Knuth(高德纳)。
 
+## Quantum Magazine 文章系列
+
+
 ## Grothendieck系列
 
 主要为一些Grothendieck相关的传记、评论和故事合集。
