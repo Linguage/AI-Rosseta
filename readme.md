@@ -12,7 +12,7 @@
 最先做的一个访谈为第62期，Lex对图灵奖得主，TAOCP的作者，Donald Knuth(高德纳)。
 
 ## Quantum Magazine 文章系列
-
+[什么是“好的”数学？](./Rosseta_Quantum_Magazine/Terence_Tao_Good_Math.md)
 
 ## Grothendieck系列
 
