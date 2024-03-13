@@ -1,29 +1,39 @@
 ## Introduction
+
 **Yann LeCun**
+
 (00:00:00) I see the danger of this concentration of power through proprietary AI systems as a much bigger danger than everything else. What works against this is people who think that for reasons of security, we should keep AI systems under lock and key because it’s too dangerous to put it in the hands of everybody. That would lead to a very bad future in which all of our information diet is controlled by a small number of companies who proprietary systems.
-## 简介
-**杨立昆**
+
 (00:00:00) 我认为通过专有人工智能系统集中权力的危险远比其他任何事情都要大。抵制这种情况的方法是那些认为基于安全原因，我们应该将人工智能系统置于锁和钥匙之下的人，因为将其交给每个人使用太危险了。这将导致一个非常糟糕的未来，我们所有的信息都受到少数公司专有系统的控制。
+
 **Lex Fridman**
+
 (00:00:32) I believe that people are fundamentally good, and so if AI, especially open source AI can make them smarter, it just empowers the goodness in humans.
-**Lex Fridman**
+
 (00:00:32) 我相信人们基本上是善良的，因此，如果人工智能，特别是开源人工智能可以让他们变得更聪明，那么它只会增强人类内在的善良。
 **Yann LeCun**
+
 (00:00:44) So I share that feeling. Okay. I think people are fundamentally good and in fact, a lot of doomers are doomers because they don’t think that people are fundamentally good.
-**Yann LeCun**
+
 (00:00:44) 所以我有同感。好的。我认为人们基本上是善良的，实际上，许多悲观主义者之所以成为悲观主义者，是因为他们认为人们基本上不是善良的。
 **Lex Fridman**
+
 (00:00:57) The following is a conversation with **Yann LeCun**, his third time on this podcast. He is the chief AI scientist at Meta, professor at NYU, Turing Award winner and one of the seminal figures in the history of artificial intelligence. He and Meta AI have been big proponents of open sourcing, AI development and have been walking the walk by open sourcing many of their biggest models, including Llama 2 and eventually Llama 3. Also, Yann has been an outspoken critic of those people in the AI community who warn about the looming danger and existential threat of AGI. He believes the AGI will be created one day, but it will be good. It will not escape human control, nor will it dominate and kill all humans.
-**Lex Fridman**
+
 (00:00:57) 以下是与**Yann LeCun**的对话，这是他第三次出现在这个播客上。他是Meta的首席人工智能科学家，纽约大学的教授，图灵奖获得者，也是人工智能历史上的重要人物之一。他和Meta AI一直是开源人工智能发展的主要倡导者，通过开源许多他们最重要的模型，包括Llama 2和最终的Llama 3，他们言行一致。此外，Yann一直是人工智能界那些警告人工智能通用人工智能潜在危险和存在威胁的人的坚决批评者。他相信通用人工智能总有一天会被创造出来，但它将是善良的。它不会逃脱人类的控制，也不会主宰和杀死所有人类。
 
 ## Limits of LLMs（LLMs的限制）
+
 (00:01:52) At this moment of rapid AI development, this happens to be somewhat a controversial position, and so it’s been fun seeing Yann get into a lot of intense and fascinating discussions online as we do in this very conversation. This is the **Lex Fridman** podcast. To support it, please check out our sponsors in the description. And now, dear friends, here’s **Yann LeCun**. You’ve had some strong statements, technical statements about the future of artificial intelligence throughout your career actually, but recently as well, you’ve said that autoregressive LLMs are not the way we’re going to make progress towards superhuman intelligence. These are the large language models like GPT-4, like Llama 2 and 3 soon and so on. How do they work and why are they not going to take us all the way?
 
 (00:01:52) 在这个快速发展的人工智能时刻，这恰好是一个有些具有争议性的立场，所以看到Yann在网上参与了许多激烈而引人入胜的讨论是一件有趣的事情，就像我们在这次对话中所做的一样。这是**Lex Fridman**的播客。要支持它，请查看我们在描述中的赞助商。亲爱的朋友们，现在，请欢迎**Yann LeCun**。在你的职业生涯中，你对人工智能未来有过一些强烈的技术性声明，但最近你也表示，自回归LLMs不是我们将向超人类智能迈进的方式。这些是像GPT-4、Llama 2和即将推出的Llama 3等大型语言模型。它们是如何工作的，为什么它们不能带领我们走向成功的全程？
+
 **Yann LeCun**
+
 (00:02:47) For a number of reasons. The first is that there is a number of characteristics of intelligent behavior. For example, the capacity to understand the world, understand the physical world, the ability to remember and retrieve things, persistent memory, the ability to reason, and the ability to plan. Those are four essential characteristics of intelligent systems or entities, humans, animals. LLMs can do none of those or they can only do them in a very primitive way and they don’t really understand the physical world. They don’t really have persistent memory. They can’t really reason and they certainly can’t plan. And so if you expect the system to become intelligent just without having the possibility of doing those things, you’re making a mistake. That is not to say that autoregressive LLMs are not useful. They’re certainly useful, that they’re not interesting, that we can’t build a whole ecosystem of applications around them. Of course we can, but as a pass towards human-level intelligence, they’re missing essential components.
+
 (00:04:08) And then there is another tidbit or fact that I think is very interesting. Those LLMs are trained on enormous amounts of texts, basically, the entirety of all publicly available texts on the internet, right? That’s typically on the order of 10 to the 13 tokens. Each token is typically two bytes, so that’s two 10 to the 13 bytes as training data. It would take you or me 170,000 years to just read through this at eight hours a day. So it seems like an enormous amount of knowledge that those systems can accumulate, but then you realize it’s really not that much data. If you talk to developmental psychologists and they tell you a four-year-old has been awake for 16,000 hours in his or her life, and the amount of information that has reached the visual cortex of that child in four years is about 10 to 15 bytes.
+
 (00:05:12) And you can compute this by estimating that the optical nerve carry about 20 megabytes per second roughly, and so 10 to the 15 bytes for a four-year-old versus two times 10 to the 13 bytes for 170,000 years worth of reading. What that tells you is that through sensory input, we see a lot more information than we do through language, and that despite our intuition, most of what we learn and most of our knowledge is through our observation and interaction with the real world, not through language. Everything that we learn in the first few years of life, and certainly everything that animals learn has nothing to do with language.
 
 (00:02:47) 有许多原因。首先，智能行为有许多特征。例如，理解世界的能力，理解物理世界的能力，记忆和检索事物的能力，持久的记忆，推理能力和规划能力。这些是智能系统或实体，人类，动物的四个基本特征。LLMs既不能做到这些，也只能以非常原始的方式做到，它们并不真正理解物理世界。它们并没有持久的记忆。它们无法真正推理，当然也无法规划。因此，如果你期望系统变得智能，而又没有可能做到这些事情，那么你就犯了一个错误。这并不是说自回归LLMs没有用处。它们肯定有用，它们也很有趣，我们可以围绕它们构建整个应用生态系统。当然可以，但作为通向人类水平智能的途径，它们缺少基本组成部分。
@@ -33,13 +43,17 @@
 (00:05:12) 通过估算，光神经大约每秒传输大约20兆字节，所以对于一个四岁的孩子来说，信息量是10的15次方字节，而对于读170,000年所需的两次10的13次方字节来说，这告诉你，通过感官输入，我们看到的信息要比语言传达的更多，尽管我们的直觉认为，我们学到的大部分知识都是通过观察和与现实世界的互动，而不是通过语言。我们在生命的最初几年学到的一切，当然动物学到的一切都与语言无关。
 
 **Lex Fridman**
+
 (00:05:57) So it would be good to maybe push against some of the intuition behind what you’re saying. So it is true there’s several orders of magnitude more data coming into the human mind much faster, and the human mind is able to learn very quickly from that, filter the data very quickly. Somebody might argue your comparison between sensory data versus language, that language is already very compressed. It already contains a lot more information than the bytes it takes to store them if you compare it to visual data. So there’s a lot of wisdom and language. There’s words, and the way we stitch them together, it already contains a lot of information. So is it possible that language alone already has enough wisdom and knowledge in there to be able to, from that language, construct a world model and understanding of the world, an understanding of the physical world that you’re saying LLMs lack?
 
 (00:05:57) 因此，也许有必要对你所说的一些直觉进行反驳。的确，人类大脑接收到的数据量要多几个数量级，并且传输速度要快得多，人类大脑能够从中快速学习，并迅速过滤数据。有人可能会争辩说，你对感官数据与语言之间的比较，语言已经非常压缩了。与视觉数据相比，它已经包含了更多的信息，而且语言中蕴含着许多智慧。有单词，以及我们将它们组合在一起的方式，它已经包含了许多信息。因此，单单语言就已经包含了足够的智慧和知识，可以从中构建一个世界模型和对世界的理解，以及你所说的LLMs所缺乏的对物理世界的理解，这种可能性是否存在？
 
 **Yann LeCun**
+
 (00:06:56) So it’s a big debate among philosophers and also cognitive scientists, like whether intelligence needs to be grounded in reality. I’m clearly in the camp that yes, intelligence cannot appear without some grounding in some reality. It doesn’t need to be physical reality. It could be simulated, but the environment is just much richer than what you can express in language. Language is a very approximate representation or percepts and/or mental models. I mean, there’s a lot of tasks that we accomplish where we manipulate a mental model of the situation at hand, and that has nothing to do with language. Everything that’s physical, mechanical, whatever, when we build something, when we accomplish a task, model task of grabbing something, et cetera, we plan or action sequences, and we do this by essentially imagining the result of the outcome of a sequence of actions that we might imagine and that requires mental models that don’t have much to do with language, and I would argue most of our knowledge is derived from that interaction with the physical world.
+
 (00:08:13) So a lot of my colleagues who are more interested in things like computer vision are really on that camp that AI needs to be embodied essentially. And then other people coming from the NLP side or maybe some other motivation don’t necessarily agree with that, and philosophers are split as well, and the complexity of the world is hard to imagine. It’s hard to represent all the complexities that we take completely for granted in the real world that we don’t even imagine require intelligence, right?
+
 (00:08:55) This is the old Moravec paradox, from the pioneer of robotics, hence Moravec, who said, how is it that with computers, it seems to be easy to do high-level complex tasks like playing chess and solving integrals and doing things like that, whereas the thing we take for granted that we do every day, like, I don’t know, learning to drive a car or grabbing an object, we can’t do with computers, and we have LLMs that can pass the bar exam, so they must be smart, but then they can’t learn to drive in 20 hours like any 17-year old, they can’t learn to clear out the dinner table and fill up the dishwasher like any 10-year old can learn in one shot. Why is that? What are we missing? What type of learning or reasoning architecture or whatever are we missing that basically prevent us from having level five sort of in cars and domestic robots?
 
 (00:06:56) 这是哲学家和认知科学家之间的一场激烈辩论，即智能是否需要基于现实。我明显属于认为是的一派，智能不能在没有一定现实基础的情况下出现。它不一定需要是物理现实，可以是模拟的，但环境比你能用语言表达的要丰富得多。语言只是感知或者心智模型的一种非常近似的表达。我的意思是，我们完成的许多任务都涉及到操纵手头情况的心智模型，这与语言无关。所有的物理、机械等等，当我们建造某物，完成任务，模拟抓取某物等等，我们规划或者操作序列，我们通过基本上想象我们可能想象到的行动序列的结果来完成这些，这需要的心智模型与语言关系不大，我认为我们大部分的知识都来自于与物理世界的互动。
@@ -49,12 +63,15 @@
 (00:08:55) 这就是著名的莫拉维克悖论，来自机器人学先驱莫拉维克的观点，他说，为什么用计算机似乎很容易做到高级复杂任务，比如下棋、解积分等等，而我们每天都理所当然做的事情，比如，学习开车或者抓取一个物体，我们无法用计算机完成，我们有可以通过法学考试的LLMs，所以它们一定很聪明，但它们却无法像任何17岁的人那样在20小时内学会开车，它们也无法像任何10岁的孩子一次学就会清理餐桌并把碗放入洗碗机。这是为什么？我们缺少了什么？我们缺少了什么类型的学习或推理结构，或者其他什么东西，以至于我们无法拥有5级汽车和家用机器人？
 
 **Lex Fridman**
+
 (00:10:00) Can a large language model construct a world model that does know how to drive and does know how to fill a dishwasher, but just doesn’t know how to deal with visual data at this time, so it can operate in a space of concepts?
 
 (00:10:00) 一个大型语言模型能否构建一个世界模型，它知道如何驾驶汽车，知道如何装满洗碗机，但目前只是不知道如何处理视觉数据，因此它可以在概念空间中运作？
 
 **Yann LeCun**
+
 (00:10:17) So yeah, that’s what a lot of people are working on. So the short answer is no, and the more complex answer is you can use all kinds of tricks to get an LLM to basically digest visual representations of images or video or audio for that matter. And a classical way of doing this is you train a vision system in some way, and we have a number of ways to train vision systems either supervised, semi-supervised, self-supervised, all kinds of different ways, that will turn any image into a high-level representation. Basically a list of tokens that are really similar to the kind of tokens that typical LLM takes as an input.
+
 (00:11:10) And then you just feed that to the LLM in addition to the text, and you just expect the LLM, during training, to be able to use those representations to help make decisions. I mean, there’s been work along those lines for quite a long time and now, you see those systems. I mean there are LLMs that have some vision extension, but they’re basically hacks in the sense that those things are not trained to really understand the world. They’re not trained with video, for example. They don’t really understand intuitive physics, at least not at the moment.
 
 (00:10:17) 所以，是的，很多人正在研究这个问题。简短的答案是否定的，更复杂的答案是，你可以使用各种技巧让LLM基本上消化图像、视频或音频的视觉表示。一个经典的做法是以某种方式训练一个视觉系统，我们有许多方法来训练视觉系统，包括监督式、半监督式、自监督式等各种不同的方式，这些方式将任何图像转换成高级表示。基本上是一系列与典型LLM输入非常相似的标记。
@@ -91,27 +108,48 @@
 **Lex Fridman**
 (00:14:33) Is that obvious that we don’t… You’re saying your thinking is same in French as it is in English?
 (00:14:33) 你在暗示我们不会…… 你是在说你用法语思考的方式和用英语思考的方式是相同的吗？
+
 **Yann LeCun**
+
 (00:14:40) Yeah, pretty much.
+
 (00:14:40) 是的，大体上是相同的。
+
 **Lex Fridman**
+
 (00:14:42) Pretty much or how flexible are you if there’s a probability distribution?
+
 (00:14:42) 大体上是相同的，但如果有一个概率分布，你有多灵活？
+
 **Yann LeCun**
+
 (00:14:49) Well, it depends what kind of thinking, right? If it’s producing puns, I get much better in French than English about that, or much worse.
+
 (00:14:49) 嗯，这取决于是什么类型的思考，对吧？如果是产生双关语，用法语比英语要好得多，或者要差得多。
+
 **Lex Fridman**
+
 (00:14:58) Is there an abstract representation of puns? Is your humor an abstract… When you tweet and your tweets are sometimes a little bit spicy, is there an abstract representation in your brain of a tweet before it maps onto English?
+
 (00:14:58) 双关语有一个抽象的表示吗？你的幽默是否是一个抽象的……当你发推文时，有时推文会有点辛辣，你的大脑中在将推文映射到英语之前，是否有一个推文的抽象表示？
 **Yann LeCun**
+
 (00:15:11) There is an abstract representation of imagining the reaction of a reader to that text.
+
 (00:15:11) 有一个抽象的表示，想象读者对那段文字的反应。
+
 **Lex Fridman**
+
 (00:15:18) Or you start with laughter and then figure out how to make that happen?
+
 (00:15:18) 或者你是先笑了，然后再想办法让这种情况发生？
+
 **Yann LeCun**
+
 (00:15:23) Or figure out like a reaction you want to cause and then figure out how to say it so that it causes that reaction. But that’s really close to language. But think about a mathematical concept or imagining something you want to build out of wood or something like this. The kind of thinking you’re doing has absolutely nothing to do with language really. It’s not like you have necessarily an internal monologue in any particular language. You are imagining mental models of the thing. I mean, if I ask you to imagine what this water bottle will look like if I rotate it 90 degrees, that has nothing to do with language. And so clearly, there is a more abstract level of representation in which we do most of our thinking, and we plan what we’re going to say if the output is uttered words as opposed to an output being muscle actions, we plan our answer before we produce it.
+
 (00:16:29) LLMs don’t do that. They just produce one word after the other instinctively if you want. It’s a bit like the subconscious actions where you’re distracted, you’re doing something, you’re completely concentrated, and someone comes to you and asks you a question and you kind of answer the question. You don’t have time to think about the answer, but the answer is easy. So you don’t need to pay attention. You sort of respond automatically. That’s kind of what an LLM does. It doesn’t think about its answer really. It retrieves it because it’s accumulated a lot of knowledge. So it can retrieve some things, but it’s going to just spit out one token after the other without planning the answer.
+
 这有点像你想引起某种反应，然后想出如何表达以引起那种反应。但这与语言非常接近。但是想想数学概念或者想象你想用木头建造的东西之类的东西。你所做的思考与语言实际上毫无关系。并不是说你在任何特定语言中一定会有内心的独白。你在想象这件事物的心智模型。我的意思是，如果我让你想象一下，如果我将这个水瓶旋转90度会是什么样子，那与语言无关。因此，显然，我们大部分的思考都在更抽象的层面上进行，我们计划要说的话，如果输出是说出的话而不是肌肉动作，我们在产生之前计划我们的答案。
 
 LLMs不会这样做。它们只是本能地一个接着一个地产生单词。这有点像潜意识行为，当你分心，你正在做某事，你完全专注，然后有人来问你一个问题，你会回答这个问题。你没有时间去考虑答案，但答案很容易。所以你不需要注意。你会自动地回答。LLMs就是这样做的。它们并不真正考虑自己的回答。它们检索回答，因为它们积累了很多知识。所以它们可以检索一些东西，但它们只是会不加计划地一个接一个地吐出标记。
@@ -261,60 +299,109 @@ LVMs。
 
 **Lex Fridman**
 (00:37:39) So what kind of data are we talking about here?
+那我们在这里谈论的是什么样的数据呢？
 **Yann LeCun**
 (00:37:41) So there’s several scenario, one scenario is you take an image, you corrupt it by changing the cropping, for example, changing the size a little bit, maybe changing the orientation, blurring it, changing the colors, doing all kinds of horrible things to it.
+有几种情景。一种情景是你拿到一张图片，通过改变裁剪、改变大小、也许改变方向、模糊处理、改变颜色等等，对它进行各种糟糕的处理。
 **Lex Fridman**
 (00:38:00) But basic horrible things?
+但是基本的糟糕处理？
 **Yann LeCun**
 (00:38:01) Basic horrible things that sort of degrade the quality a little bit and change the framing, crop the image. And in some cases, in the case of I-JEPA, you don’t need to do any of this, you just mask some parts of it. You just basically remove some regions, like a big block essentially, and then run through the encoders and train the entire system, encoder and predictor, to predict the representation of the good one from the representation of the corrupted one.
+ 就是那种会稍微降低质量并改变构图的基本的糟糕处理。在某些情况下，比如在I-JEPA的情况下，你不需要做任何这些处理，你只需遮盖一些部分。你基本上是移除一些区域，像一个大的块，然后通过编码器运行，并训练整个系统，编码器和预测器，以从被破坏的输入的表示中预测好的输入的表示。
 
 ## V-JEPA
 
 (00:38:33) So that’s the I-JEPA. It doesn’t need to know that it’s an image for example, because the only thing it needs to know is how to do this masking. Whereas with DINO, you need to know it’s an image because you need to do things like geometry transformation and blurring and things like that, that are really image specific. A more recent version of this that we have is called V-JEPA. So it’s basically the same idea as I-JEPA except it’s applied to video. So now you take a whole video and you mask a whole chunk of it. And what we mask is actually kind of a temporal tube, so a whole segment of each frame in the video over the entire video.
+
+(00:38:33) 那就是 I-JEPA。例如，它不需要知道它是一张图像，因为它唯一需要知道的是如何进行这种遮盖。而对于 DINO 来说，你需要知道它是一张图像，因为你需要做的事情比如几何变换和模糊等，这些都是与图像相关的。我们最近推出的一种版本称为 V-JEPA。所以它的基本思想与 I-JEPA 相同，只是应用到了视频上。现在你拿到一个完整的视频，并遮盖整个视频的一个大块。我们遮盖的实际上是一种时间管道，即整个视频中每一帧的一个完整段落。
 **Lex Fridman**
 (00:39:10) And that tube was statically positioned throughout the frames, just literally it’s a straight tube.
+那个管道在整个帧中是静态位置的，简单地说就是一个直通管道。
 **Yann LeCun**
 (00:39:16) The tube, yeah, typically is 16 frames or something, and we mask the same region over the entire 16 frames. It’s a different one for every video obviously. And then again, train that system so as to predict the representation of the full video from the partially masked video. And that works really well. It’s the first system that we have that learns good representations of video so that when you feed those representations to a supervised classifier head, it can tell you what action is taking place in the video with pretty good accuracy. So that’s the first time we get something of that quality.
+这个管道，通常是 16 帧左右，我们在整个 16 帧中遮盖相同的区域。显然，对于每个视频，都是不同的。然后，再次训练这个系统，以便从部分遮盖的视频中预测出完整视频的表示。这个方法非常有效。这是我们第一次得到这种质量的系统，它能够学习到视频的良好表示，因此，当你将这些表示馈送给监督分类器头部时，它能够以相当高的准确率告诉你视频中正在发生的动作。所以这是我们第一次得到这种质量的系统
 **Lex Fridman**
 (00:39:56) That’s a good test that a good representation is formed. That means there’s something to this.
+这是形成一个良好表示的一个很好的测试。这意味着这里有一些东西。
 **Yann LeCun**
 (00:40:00) Yeah. We also preliminary result that seem to indicate that the representation allow our system to tell whether the video is physically possible or completely impossible, because some object disappeared or an object suddenly jumped from one location to another or changed shape or something.
+是的。我们还有一些初步的结果，似乎表明这种表示可以让我们的系统判断视频是物理上可能的，还是完全不可能的，因为一些物体消失了，或者一个物体突然从一个位置跳到另一个位置，或者改变了形状等。
 **Lex Fridman**
 (00:40:21) So it’s able to capture some physics based constraints about the reality represented in the video, about the appearance and the disappearance of objects.
+所以它能够捕捉到关于视频中所代表的现实的一些基于物理的约束，关于物体的出现和消失。
 **Yann LeCun**
 (00:40:33) Yeah, that’s really new.
+是的，这是非常新的。
 **Lex Fridman**
 (00:40:35) Okay, but can this actually get us to this kind of world model that understands enough about the world to be able to drive a car?
+好的，但是这真的能让我们达到足以理解世界以驾驶汽车的世界模型吗？
 **Yann LeCun**
 (00:40:49) Possibly, this is going to take a while before we get to that point. And there are systems already robotic systems, that are based on this idea. And what you need for this is a slightly modified version of this, where imagine that you have a complete video and what you’re doing to this video is that you are either translating it in time towards the future. So you only see the beginning of the video, but you don’t see the latter part of it that is in the original one, or you just mask the second half of the video, for example. And then you train a JEPA system or the type I described, to predict the representation of the full video from the shifted one. But you also feed the predictor with an action. For example, the wheel is turned 10 degrees to the right or something, right?
 (00:41:45) So if it’s a dash cam in a car and you know the angle of the wheel, you should be able to predict to some extent what’s going to happen to what you see. You’re not going to be able to predict all the details of objects that appear in the view obviously, but at a abstract representation level, you can probably predict what’s going to happen. So now what you have is a internal model that says, “Here is my idea of the state of the world at time T. Here is an action I’m taking. Here is a prediction of the state of the world at time T plus one, T plus delta T, T plus two seconds,” whatever it is. If you have a model of this type, you can use it for planning. So now you can do what LMS cannot do, which is planning what you’re going to do. So as you arrive at a particular outcome or satisfy a particular objective.
 (00:42:40) So you can have a number of objectives. I can predict that if I have an object like this and I open my hand, it’s going to fall. And if I push it with a particular force on the table, it’s going to move. If I push the table itself, it’s probably not going to move with the same force. So we have this internal model of the world in our mind, which allows us to plan sequences of actions to arrive at a particular goal. And so now if you have this world model, we can imagine a sequence of actions, predict what the outcome of the sequence of action is going to be, measure to what extent the final state satisfies a particular objective, like moving the bottle to the left of the table and then plan a sequence of actions that will minimize this objective, at runtime.
 (00:43:41) We’re not talking about learning, we’re talking about inference time, so this is planning, really. And in optimal control, this is a very classical thing. It’s called model predictive control. You have a model of the system you want to control that can predict the sequence of states corresponding to a sequence of commands. And you’re planning a sequence of commands so that according to your role model, the end state of the system will satisfy an objectives that you fix. This is the way rocket trajectories have been planned since computers have been around, so since the early ’60s essentially.
-Hierarchical planning
+
+(00:40:49) 可能会需要一段时间才能达到那个程度。已经有基于这个想法的机器人系统了。你需要的是这个的一个稍微修改版，想象一下，你有一个完整的视频，你对这个视频所做的是，要么将其时间向未来平移。因此，你只看到视频的开头，但你不看原始视频中的后半部分，要么你只是遮盖视频的后半部分，例如。然后，你训练一个 JEPA 系统或我描述的类型，以预测从平移后的视频到完整视频的表示。但你还要将预测器与一个动作配对。例如，方向盘向右转了 10 度之类的，对吧？
+(00:41:45) 如果这是汽车上的行车记录仪，而且你知道方向盘的角度，你应该能够在某种程度上预测你所看到的东西会发生什么。显然，你不会能够预测到视野中出现的所有物体的所有细节，但在一个抽象的表示水平上，你可能能够预测到会发生什么。所以现在你有了一个内部模型，它说，“这是我对时间 T 的世界状态的想法。这是我正在采取的一个动作。这是我对时间 T 加一、T 加 delta T、T 加两秒的世界状态的预测，无论是什么。” 如果你有这种类型的模型，你可以用它进行规划。所以现在你可以做 LLM 无法做到的事情，那就是规划你要做什么。当你达到特定的结果或满足特定的目标时。
+(00:42:40) 你可以有许多目标。我可以预测，如果我有一个像这样的物体，并且我张开手，它会掉下来。如果我用一定的力量推它到桌子上，它会移动。如果我推动桌子本身，它可能不会以相同的力量移动。所以我们头脑中有这个世界的内部模型，它可以让我们规划一系列的动作来达到特定的目标。因此，现在如果你有了这个世界模型，我们可以想象一系列的动作，预测一系列动作的结果将会是什么，衡量最终状态在多大程度上满足特定的目标，例如，将瓶子移动到桌子的左侧，然后在运行时规划一系列的动作，以最小化这个目标。
+(00:43:41) 我们现在不是在谈论学习，我们是在谈论推理时间，所以这是规划，真的。在最优控制中，这是一个非常经典的东西。它被称为模型预测控制。你有一个你想要控制的系统的模型，可以预测与一系列命令相对应的状态序列。然后，你规划一系列命令，使得根据你的模型，系统的最终状态将满足你设定的目标。这是自从计算机出现以来，火箭轨迹的规划方式，基本上是从 60 年代初开始的。 Hierarchical planning
 
 ## Hierarchical planning
 
 **Lex Fridman**
 (00:44:20) So yes, for a model predictive control, but you also often talk about hierarchical planning. Can hierarchical planning emerge from this somehow?
+
+所以是的，对于模型预测控制来说，但你也经常谈到分层规划。分层规划是否可以从中某种程度上出现？
+
 **Yann LeCun**
 (00:44:28) Well, so no, you will have to build a specific architecture to allow for hierarchical planning. So hierarchical planning is absolutely necessary if you want to plan complex actions. If I want to go from, let’s say from New York to Paris, it’s the example I use all the time, and I’m sitting in my office at NYU, my objective that I need to minimize is my distance to Paris. At a high level, a very abstract representation of my location, I would have to decompose this into two sub goals. First one is go to the airport, second one is catch a plane to Paris. Okay, so my sub goal is now going to the airport. My objective function is my distance to the airport. How do I go to the airport where I have to go in the street and hail a taxi, which you can do in New York.
 (00:45:21) Okay, now I have another sub goal go down on the street. Well that means going to the elevator, going down the elevator, walk out the street. How do I go to the elevator? I have to stand up from my chair, open the door in my office, go to the elevator, push the button. How do I get up for my chair? You can imagine going down, all the way down, to basically what amounts to millisecond by millisecond muscle control. And obviously you’re not going plan your entire trip from New York to Paris in terms of millisecond by millisecond muscle control. First, that would be incredibly expensive, but it will also be completely impossible because you don’t know all the conditions of what’s going to happen, how long it’s going to take to catch a taxi or to go to the airport with traffic. I mean, you would have to know exactly the condition of everything to be able to do this planning and you don’t have the information. So you have to do this hierarchical planning so that you can start acting and then sort of replanning as you go. And nobody really knows how to do this in AI. Nobody knows how to train a system to learn the appropriate multiple levels of representation so that hierarchical planning works.
+
+ (00:44:28) 嗯，不，你将不得不构建一个特定的架构来允许分层规划。所以如果你想规划复杂的动作，分层规划是绝对必要的。比如我想从纽约到巴黎，这是我经常使用的例子，而我坐在纽约大学的办公室里，我需要最小化的目标是我到巴黎的距离。在一个高层次上，对我的位置的一个非常抽象的表示，我必须将其分解为两个子目标。第一个是去机场，第二个是乘坐飞机去巴黎。好的，现在我的子目标是去机场。我的目标函数是我到机场的距离。我要怎么去机场，我得去街上拦一辆出租车，这在纽约是可以做到的。
+
+(00:45:21) 好的，现在我有另一个子目标，去街上。那意味着去电梯，下电梯，走到街上。我要怎么去电梯呢？我必须从椅子上站起来，打开办公室的门，走到电梯，按按钮。我怎么从椅子上站起来？你可以想象一下，一直下去，基本上到了毫秒级的肌肉控制。显然，你不会打算以毫秒级的肌肉控制来规划你从纽约到巴黎的整个旅程。首先，那将是非常昂贵的，但也完全不可能，因为你不知道所有事情的情况，比如打车或者在交通中去机场需要多长时间。我是说，你必须确切地知道每件事情的情况才能进行这种规划，而你并没有这些信息。所以你必须进行分层规划，这样你就可以开始行动，然后随着你的行动而重新规划。但是没有人真正知道如何在 AI 中做到这一点。没有人知道如何训练一个系统来学习适当的多层次表示，以使分层规划起作用。
+
 **Lex Fridman**
 (00:46:41) Does something like that already emerge? So can you use an LLM, state-of-the-art LLM, to get you from New York to Paris by doing exactly the kind of detailed set of questions that you just did, which is, can you give me a list of 10 steps I need to do, to get from New York to Paris? And then for each of those steps, can you give me a list of 10 steps, how I make that step happen? And for each of those steps, can you give me a list of 10 steps to make each one of those, until you’re moving your individual muscles, maybe not, whatever you can actually act upon using your own mind.
+
+ 那么，类似的东西已经出现了吗？所以你是否可以使用最先进的LLM，通过刚才你提出的那种详细的问题，来帮助你从纽约到巴黎？也就是说，你能给我列出10个步骤，我需要做什么，才能从纽约到巴黎？然后对于每个步骤，你能否给出10个步骤，我如何实现这一步？对于每个步骤，你能否给出10个步骤，直到你动用你的个人肌肉，也许不是，无论你真的可以用自己的思维来行动的是什么。
+
 **Yann LeCun**
 (00:47:21) Right. So there’s a lot of questions that are also implied by this, right? So the first thing is LLMs will be able to answer some of those questions down to some level of abstraction, under the condition that they’ve been trained with similar scenarios in their training set.
+
+对。因此，这也隐含了许多问题，对吧？首先，LLM将能够回答其中一些问题，直到某种抽象水平为止，条件是它们在训练集中已经接触过类似的情景。
+
 **Lex Fridman**
 (00:47:37) They would be able to answer all of those questions, but some of them may be hallucinated meaning non-factual.
+
+它们将能够回答所有这些问题，但其中一些可能是幻想的，即非事实的。
+
 **Yann LeCun**
 (00:47:44) Yeah, true. I mean they’ll probably produce some answer except they’re not going to be able to really produce millisecond by millisecond muscle control of how you stand up from your chair. But down to some level of abstraction where you can describe things by words, they might be able to give you a plan, but only under the condition that they’ve been trained to produce those kinds of plans. They’re not going to be able to plan for situations where that they never encountered before. They basically are going to have to regurgitate the template that they’ve been trained on.
+
+是的，确实。我是说，它们可能会给出一些答案，除非它们真的能够产生毫秒级别的肌肉控制，从椅子上站起来。但在某种程度上，你可以用词语描述事物，它们也许能够给出一个计划，但前提是它们已经被训练来产生这些类型的计划。它们不会为它们以前从未遇到过的情况做计划。它们基本上只会复述它们接受过的模板。
+
 **Lex Fridman**
 (00:48:14) Just for the example of New York to Paris, is it going to start getting into trouble? Which layer of abstraction do you think you’ll start? I can imagine almost every single part of that, an LLM would be able to answer somewhat accurately, especially when you’re talking about New York and Paris, major cities.
+
+就以纽约到巴黎为例，你认为它会开始陷入麻烦吗？你认为你将从哪一层抽象开始？我可以想象，几乎关于那个的每一个部分，LLM都可以相当准确地回答，特别是当你谈论到纽约和巴黎，这两个大城市时。
+
 **Yann LeCun**
 (00:48:31) I mean certainly LLM would be able to solve that problem if you fine tune it for it. And so I can’t say that an LLM cannot do this, it can do this if you train it for it, there’s no question down to a certain level where things can be formulated in terms of words. But if you want to go down to how you climb down the stairs or just stand up from your chair in terms of words, you can’t do it. That’s one of the reasons you need experience of the physical world, which is much higher bandwidth than what you can express in words, in human language.
+
+我的意思是，当然，LLM将能够解决这个问题，如果你为它进行微调的话。所以我不能说LLM不能做到这一点，如果你为它进行了训练，它可以做到，毫无疑问，直到某种程度上，事情可以用词语来表达。但是如果你想降低到如何爬楼梯或者从椅子上站起来的程度，你就做不到。这就是为什么你需要有对物理世界的经验，它的带宽比你可以用人类语言表达的要高得多。
+
 **Lex Fridman**
 (00:49:11) So everything we’ve been talking about on the joint embedding space, is it possible that that’s what we need for the interaction with physical reality on the robotics front, and then just the LLMs are the thing that sits on top of it for the bigger reasoning, about the fact that I need to book a plane ticket and I need to know how to go to the websites and so on.
+
+所以我们一直在谈论的关于联合嵌入空间的一切，可能是我们在机器人学领域与物理现实互动所需要的，然后LLM只是位于其顶端的东西，用于更大范围的推理，例如我需要订机票，我需要知道如何去网站上等等。
+
 **Yann LeCun**
 (00:49:33) Sure. And a lot of plans that people know about that are relatively high level are actually learned. Most people don’t invent the plans by themselves. We have some ability to do this of course, obviously, but most plans that people use are plans that have been trained on, they’ve seen other people use those plans or they’ve been told how to do things, right? That you can’t invent how you take a person who’s never heard of airplanes and tell them how do you go from New York to Paris? And they’re probably not going to be able to deconstruct the whole plan unless they’ve seen examples of that before. So certainly LLMs are going to be able to do this, but then how you link this from the low level of actions, that needs to be done with things like JEPA that basically lift the abstraction level of the representation without attempting to reconstruct the detail of the situation, that’s why we need JEPAs for.
+
+ 当然。人们已经知道的许多计划实际上都是通过学习得到的。大多数人不是自己发明计划的。当然，我们当然有能力做到这一点，但大多数人使用的计划都是他们见过其他人使用的计划，或者他们已经被告知如何做事情。你不能发明一个从未听说过飞机的人怎么从纽约到巴黎的计划。他们可能不会完全拆解整个计划，除非他们以前见过这种情况的例子。因此，LLM肯定可以做到这一点，但是如何将其从行动的低层链接起来，这就需要像JEPA这样的东西，它基本上提高了表示的抽象水平，而不试图重构情况的细节，这就是我们需要JEPA的原因。
+
 
 ## Autoregressive LLMs
 
