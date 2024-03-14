@@ -1,6 +1,5 @@
 对于一些外文资料，通过GPT阅读过程中留下的记录。
 
-
 当前计划开展的工作：
 
 ## Lex Fridman 访谈录
@@ -11,7 +10,19 @@
 
 最先做的一个访谈为第62期，Lex对图灵奖得主，TAOCP的作者，Donald Knuth(高德纳)。
 
+
+
+## Align2Thinkers
+
+任务访谈的对话稿或内容概要
+
+### AI 相关人物
+
+- [Jeff Dean 访谈](./Gutenberg-Align2Thinkers/Interview2zhihu.md)
+- [黄仁勋访谈](./Gutenberg-Align2Thinkers/Jensen_Huang_Stanford.md)
+
 ## Quantum Magazine 文章系列
+
 [什么是“好的”数学？](./Rosseta_Quantum_Magazine/Terence_Tao_Good_Math.md)
 
 ## Grothendieck系列
