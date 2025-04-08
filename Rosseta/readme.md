@@ -33,7 +33,7 @@
 
 ## 课程系列
 
-- [哈佛大学CS50](./CS50/readme.md)
+- [哈佛大学CS50](Courses/CS50/readme.md)
 
 ## Grothendieck系列
 
