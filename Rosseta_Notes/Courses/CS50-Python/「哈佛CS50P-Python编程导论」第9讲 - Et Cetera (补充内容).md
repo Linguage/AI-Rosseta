@@ -1,13 +1,11 @@
 
-
-
 # 「哈佛CS50P-Python编程导论」第9讲 - Et Cetera (补充内容)
 
 - 视频链接：[CS50P - Lecture 9 - Et Cetera](https://www.youtube.com/watch?v=6pgodt1mezg&list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V&index=11)
 - 官方频道：[CS50](https://www.youtube.com/@cs50)
 - 课程官网：[https://cs50.harvard.edu/python/2022/](https://cs50.harvard.edu/python/2022/) 提供有详细的学习资料，包括课程视频、讲稿、程序代码等。
 - 注意：本文内容由视频脚本生成，仅供辅助参考，具体的学习应以官方内容为准。
-
+---
 ### 内容介绍
 
 欢迎阅读 CS50 Python 编程入门课程第九讲的演讲实录。在本讲座中，主讲人 David Malan 将引导我们探索 Python 语言中一系列补充性的、但同样实用和强大的特性，这些内容在前几周的核心主题之外，被统称为“Et Cetera”。讲座的目标是拓宽学习者的视野，展示 Python 在基础概念之外所能提供的更多功能和编程范式。

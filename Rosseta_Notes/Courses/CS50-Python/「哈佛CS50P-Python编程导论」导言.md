@@ -4,7 +4,7 @@
 - 官方频道：[CS50](https://www.youtube.com/@cs50)
 - 课程官网：[https://cs50.harvard.edu/python/2022/](https://cs50.harvard.edu/python/2022/) 提供有详细的学习资料，包括课程视频、讲稿、程序代码等。
 - 注意：本文内容由视频脚本生成，仅供辅助参考，具体的学习应以官方内容为准。
-
+---
 
 **大卫·马兰（David Malan)** ：大家好。我叫大卫·马兰，这是 CS50 的 Python 编程入门课程。CS50 本身是计算机科学的知识体系和编程艺术的入门介绍，而这门课程则特别专注于 Python 编程本身。
 

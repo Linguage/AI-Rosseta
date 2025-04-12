@@ -4,6 +4,7 @@
 - 官方频道：[CS50](https://www.youtube.com/@cs50)
 - 课程官网：[https://cs50.harvard.edu/python/2022/](https://cs50.harvard.edu/python/2022/) 提供有详细的学习资料，包括课程视频、讲稿、程序代码等。
 - 注意：本文内容由视频脚本生成，仅供辅助参考，具体的学习应以官方内容为准。
+---
 
 ### 内容介绍
 
