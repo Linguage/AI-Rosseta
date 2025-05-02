@@ -10,14 +10,14 @@
 
 最先做的一个访谈为第62期，Lex对图灵奖得主，TAOCP的作者，Donald Knuth(高德纳)。
 
-- [Lex456-泽连斯基（Zelenskyy） 访谈录](LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
-- [Lex62-高德纳（Donald Knuth）访谈1](LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
-- [Lex219-高德纳（Donald Knuth）访谈2](LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
-- [Lex416-杨立昆（Yann Lecun）访谈3](LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
-- [Lex333-Andrej Karpathy](LexFridman/Lex333-Andrej%20Karpathy.md)
-- [Lex309 - 约翰·卡马克（John Carmack）](LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
-- [Lex70-Jim Keller访谈1 - 摩尔定律、微处理器与第一性原理](LexFridman/Lex70-Jim%20Keller访谈1%20-%20摩尔定律、微处理器与第一性原理.md)
-- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
+- [Lex456-泽连斯基（Zelenskyy） 访谈录](../油管笔记/LexFridman/Lex456-泽连斯基（Zelenskyy）%20访谈录.md)
+- [Lex62-高德纳（Donald Knuth）访谈1](../油管笔记/LexFridman/Lex62-高德纳（Donald%20Knuth）访谈1.md)
+- [Lex219-高德纳（Donald Knuth）访谈2](../油管笔记/LexFridman/Lex219-高德纳（Donald%20Knuth）访谈2.md)
+- [Lex416-杨立昆（Yann Lecun）访谈3](../油管笔记/LexFridman/Lex416-杨立昆（Yann%20Lecun）访谈3.md)
+- [Lex333-Andrej Karpathy](../油管笔记/LexFridman/Lex333-Andrej%20Karpathy.md)
+- [Lex309 - 约翰·卡马克（John Carmack）](../油管笔记/LexFridman/Lex309%20-%20约翰·卡马克（John%20Carmack）.md)
+- [Lex70-Jim Keller访谈1 - 摩尔定律、微处理器与第一性原理](../油管笔记/LexFridman/Lex70-Jim%20Keller访谈1%20-%20摩尔定律、微处理器与第一性原理.md)
+- [Lex162-Jim Keller访谈2 - 计算、人工智能、生命和意识的未来](../油管笔记/LexFridman/Lex162-Jim%20Keller访谈2%20-%20计算、人工智能、生命和意识的未来.md)
 
 
 ## Align2Thinkers
@@ -33,7 +33,7 @@
 
 ## 课程系列
 
-- [哈佛大学CS50](Courses/CS50/readme.md)
+- [哈佛大学CS50](../油管笔记/Courses/CS50/readme.md)
 
 ## Grothendieck系列
 
